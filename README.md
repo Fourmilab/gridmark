@@ -30,4 +30,4 @@ Attribution-ShareAlike license.  Please see LICENSE.md in this
 repository for details.
 
 Please see the
-[Fourmilab Gridmark User Guide](notecards/gridmark.nc) for details.
+[Fourmilab Gridmark User Guide](notecards/user_guide.nc) for details.
