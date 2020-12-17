@@ -3,6 +3,9 @@
 ![Fourmilab Gridmark](marketplace/images/gridmark_1.png)
 
 [Fourmilab Gridmark](https://marketplace.secondlife.com/p/Fourmilab-Gridmark/20970342)
+is a performance benchmark for the Second Life virtual world.
+It includes a variety of tests, a scripting facility to automate
+test suites, and the ability to add new tests.
 
 This repository contains all of the software and resources,
 including programs in Linden Scripting Language, textures,
