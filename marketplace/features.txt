@@ -1,0 +1,9 @@
+Performance benchmark for Second Life script execution
+
+Measure compute speed: floating point, lists, strings, prim properties, texture
+
+Measure delay from rez object (llRezObject) to object script start
+
+Measure rate and bandwidth of link and region messages
+
+Scripted teleport to automatically run tests in multiple regions

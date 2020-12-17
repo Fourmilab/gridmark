@@ -1,0 +1,33 @@
+Developers of scripts for Second Life must be acutely aware of the limitations of the script execution engine.  Not only is the total memory available to an individual script limited to 64 Kb, the compute time available for a script to execute is also limited and may vary depending on the amount of traffic and other scripts present in the region where it is running.  Fourmilab Gridmark (“A Benchmark for the Second Life Grid”) is a tool, wearable as an avatar attachment, which allows measuring several aspects of script performance through a variety of tests and reporting the results in a form easy to analyse by other program.  A scripting interface controlled by user-defined notecards allows running a programmed series of tests in multiple regions, automatically teleporting the avatar wearing the attachment from region to region.
+
+Benchmark tests provided with Fourmilab Gridmark include:
+
+    •  Script execution speed
+        •  Floating point computation
+        •  String manipulation
+        •  List operations
+        •  Prim property manipulation
+        •  Texture changes
+    •  Message transmission by llMessageLinked(), llRegionSay(), and llRegionSayTo()
+    •  Delay between rezzing new object and script running in it
+    •  A template for adding your own tests
+
+The results of tests are written to local chat in a simple comma-separated form which can be cut and pasted for analysis by other program.  Sample analysis programs written in Perl are included.
+
+Land Impact and Permissions
+
+Fourmilab Gridmark is an attachment you add to your avatar.  Avatar attachments do not count against land impact, nor do you need land in order to attach them from your inventory.  Hence, there are no land impact or permission issues in using this product.  You can also rez the object on land where you are permitted to do so (land you own or a public sandbox, for example): if you do so, it has a land impact of 2.  The benchmark for object rez to script start does require land on which you can create objects and has an additional land impact of 1 while the test is running.
+
+Development Kit
+
+Fourmilab Gridmark is delivered including a development kit containing all of the object components, models, scripts, and documents used in the objects.  All items including scripts, have “full permissions” (copy, modify, and transfer), so that you can use them as the basis for your own development projects and/or share them with other users in Second Life.
+
+Source code for this project is maintained on and available from the GitHub repository:
+    https://github.com/Fourmilab/gridmark
+
+License
+
+This product (software, documents, images, and original models) is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+    http://creativecommons.org/licenses/by-sa/4.0/
+    https://creativecommons.org/licenses/by-sa/4.0/legalcode
+You are free to copy and redistribute this material in any medium or format, and to remix, transform, and build upon the material for any purpose, including commercially.  You must give credit, provide a link to the license, and indicate if changes were made.  If you remix, transform, or build upon this material, you must distribute your contributions under the same license as the original.
