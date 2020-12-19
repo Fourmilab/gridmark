@@ -22,6 +22,7 @@
     integer ncLine = 0;             // Current line in notecard
     integer ncBusy = FALSE;         // Are we reading a notecard ?
     float pauseExpiry = -1;         // Time [llGetTime()] when current pause expires
+    integer pauseManual = FALSE;    // In manual pause ?
     list ncQueue = [ ];             // Stack of pending notecards to read
     list ncQline = [ ];             // Stack of pending notecard positions
     list ncLoops = [ ];             // Loop stack
@@ -129,40 +130,48 @@
                     ncLoops = llDeleteSubList(ncLoops, 0, 1);
                 }
 
-            //  Script pause [ n ]          -- Wait n seconds, default 1
+            //  Script pause [ n/touch ]    -- Wait n seconds, default 1, or for touch
 
             } else if (abbrP(command, "pa")) {
                 float howlong = 1;
 
                 if (argn >= 3) {
-                    howlong = llList2Float(args, 2);
+                    string parg = llList2String(args, 2);
+
+                    if (abbrP(parg, "to")) {
+                        pauseManual = TRUE;
+                    } else {
+                        howlong = (float) parg;
+                    }
                 }
 
-                /*  Naively, you might ask why we don't just use llSleep()
-                    here rather than going to all this trouble.  Well,
-                    you see, even though each script is logically its own
-                    process, in a dynamic, multi-script environment, with
-                    lots of link messages flying about, scripts must cope
-                    with the fact that the event queue is limited to only
-                    64 items, after which events are silently discarded.
-                    If an event goes dark for a while, as llSleep() would
-                    cause it to do, it ceases to receive events and before
-                    long its inbound event queue will overflow, resulting
-                    in lost messages and all kinds of mayhem (usually
-                    manifesting as just going to sleep for no apparent reason).
+                if (!pauseManual) {
+                    /*  Naively, you might ask why we don't just use llSleep()
+                        here rather than going to all this trouble.  Well,
+                        you see, even though each script is logically its own
+                        process, in a dynamic, multi-script environment, with
+                        lots of link messages flying about, scripts must cope
+                        with the fact that the event queue is limited to only
+                        64 items, after which events are silently discarded.
+                        If an event goes dark for a while, as llSleep() would
+                        cause it to do, it ceases to receive events and before
+                        long its inbound event queue will overflow, resulting
+                        in lost messages and all kinds of mayhem (usually
+                        manifesting as just going to sleep for no apparent reason).
 
-                    Note that this happens even if the link messages are not
-                    directed to us, as there is no way to direct a link
-                    message to a particular script.
+                        Note that this happens even if the link messages are not
+                        directed to us, as there is no way to direct a link
+                        message to a particular script.
 
-                    Instead, we set the global variable pauseExpiry to the
-                    llGetTime() value at which we wish the script to resume
-                    and then rely upon the timer to get things going again
-                    when that time arrives.  This leaves us able to receive
-                    (and in all likelihood, ignore) the myriad messages that
-                    may drop in the in-box while the pause is in effect.  */
+                        Instead, we set the global variable pauseExpiry to the
+                        llGetTime() value at which we wish the script to resume
+                        and then rely upon the timer to get things going again
+                        when that time arrives.  This leaves us able to receive
+                        (and in all likelihood, ignore) the myriad messages that
+                        may drop in the in-box while the pause is in effect.  */
 
-                pauseExpiry = llGetTime() + howlong;
+                    pauseExpiry = llGetTime() + howlong;
+                }
             } else {
                 return FALSE;               // It's not one of our "Script"s
             }
@@ -229,7 +238,9 @@
         //  Script                      Script commands
 
         if (abbrP(command, "sc") && (argn >= 2)) {
+
             //  Script list
+
             if (abbrP(sparam, "li")) {
                 integer n = llGetInventoryNumber(INVENTORY_NOTECARD);
                 integer i;
@@ -240,7 +251,19 @@
                         tawk("  " + (string) (++j) + ". " + llGetSubString(s, 8, -1));
                     }
                 }
+
+            //  Script resume               -- Resume after pause
+
+            } else if (abbrP(sparam, "re")) {
+                if (ncBusy && ((pauseExpiry > 0) || pauseManual)) {
+                    pauseExpiry = -1;
+                    pauseManual = FALSE;
+                    ncQuery = llGetNotecardLine(ncSource, ncLine);
+                    ncLine++;
+                }
+
             //  Script run script name
+
             } else if (abbrP(sparam, "ru")) {
                 if (argn == 2) {
                     llResetScript();
@@ -292,6 +315,7 @@
                 ncSource = "";                  // No current notecard
                 ncBusy = FALSE;                 // Mark no notecard being read
                 pauseExpiry = -1;               // Mark not paused
+                pauseManual = FALSE;            // Not in manual pause
                 llSetTimerEvent(0);             // Cancel pause timer, if running
                 ncQueue = [ ];                  // Queue of pending notecards
                 ncQline = [ ];                  // Clear queue of return line numbers
@@ -376,7 +400,7 @@
                                     event to fetch the next line from the script
                                     when the pause is complete.  */
                                 llSetTimerEvent(pauseExpiry - llGetTime());
-                            } else {
+                            } else if (!pauseManual) {
                                 //  Fetch next line from script
                                 ncQuery = llGetNotecardLine(ncSource, ncLine);
                                 ncLine++;
@@ -415,5 +439,15 @@
             llSetTimerEvent(0);             // Cancel event timer
             ncQuery = llGetNotecardLine(ncSource, ncLine);
             ncLine++;
+        }
+
+        //  If we're in a manual pause, resume upon touch
+
+        touch_start(integer n) {
+            if (pauseManual) {
+                pauseManual = FALSE;
+                ncQuery = llGetNotecardLine(ncSource, ncLine);
+                ncLine++;
+            }
         }
     }
