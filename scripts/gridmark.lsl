@@ -65,6 +65,7 @@
     integer LM_TE_PASS = 82;        // Test passed
     integer LM_TE_FAIL = 83;        // Test failed
     integer LM_TE_BEAM = 84;        // Notify tests we've teleported
+    integer LM_TE_STAT = 85;        // Print status
 
     //  Command processor messages
 
@@ -436,6 +437,7 @@
                     (string) ((integer) llRound((mUsed * 100.0) / (mUsed + mFree))) + "%)"
                 );
             llMessageLinked(LINK_THIS, LM_SP_STAT, "", whoDat);
+            llMessageLinked(LINK_THIS, LM_TE_STAT, "", whoDat);
 
         //  Test                    Run test from script in inventory
 
