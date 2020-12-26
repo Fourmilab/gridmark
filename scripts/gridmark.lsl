@@ -9,12 +9,22 @@
 
     string version = "1.0";         // Version number
     key owner;                      // Owner / wearer key
+    string userName;                // Username of owner
     integer commandChannel = 76;    // Command channel in chat
     integer commandH = 0;           // Handle for command channel
     key whoDat = NULL_KEY;          // Avatar who sent command
     integer echo = TRUE;            // Echo chat and script commands ?
     integer trace = FALSE;          // Trace operation
+    float glow = 0.25;              // Glow while running tests ?
     string helpFileName = "Fourmilab Gridmark User Guide";  // Help file
+
+    //  Log destination settings
+
+    integer logChannel = PUBLIC_CHANNEL;    // Channel on which to report results
+    integer imessage = FALSE;       // Report tests via instant messages ?
+    string httpURL = "";            // HTTP request URL
+    string httpAPI = "";            // HTTP request API key, if any
+    key httpKey;                    // HTTP key for pending request
 
     //  Script processing
 
@@ -51,7 +61,7 @@
     integer LM_SP_INIT = 50;        // Initialise
     integer LM_SP_RESET = 51;       // Reset script
     integer LM_SP_STAT = 52;        // Print status
-    integer LM_SP_RUN = 53;         // Enqueue script as input source
+//  integer LM_SP_RUN = 53;         // Enqueue script as input source
     integer LM_SP_GET = 54;         // Request next line from script
     integer LM_SP_INPUT = 55;       // Input line from script
     integer LM_SP_EOF = 56;         // Script input at end of file
@@ -66,6 +76,7 @@
     integer LM_TE_FAIL = 83;        // Test failed
     integer LM_TE_BEAM = 84;        // Notify tests we've teleported
     integer LM_TE_STAT = 85;        // Print status
+    integer LM_TE_LOG = 86;         // Log results from test
 
     //  Command processor messages
 
@@ -87,6 +98,33 @@
             } else {
                 llRegionSayTo(whoDat, PUBLIC_CHANNEL, msg);
             }
+        }
+    }
+
+    //  logMessage  --  Send a message to the designated logging facilities
+
+    logMessage(string msg) {
+        if (logChannel == PUBLIC_CHANNEL) {
+            tawk(msg);
+        } else if (logChannel != -1) {
+            llRegionSay(logChannel, msg);
+        }
+        if (imessage) {
+            llInstantMessage(owner, msg);
+        }
+httpURL = "http://www.fourmilab.ch/cgi-bin/Gridmark";
+httpAPI = "FlyingBaboons";
+        if (httpURL != "") {
+            /*  Prefix the record from the test with:
+                    User name
+                    Version  */
+            string req = httpURL + "?l=" +
+                llEscapeURL("\"" + userName + "\"," + version + "," + msg);
+            if (httpAPI != "") {
+                req += "&k=" + llEscapeURL(httpAPI);
+            }
+            httpKey = llHTTPRequest(req, [ ], "");
+//tawk("req (" + req + ")  httpKey " + (string) httpKey);
         }
     }
 
@@ -341,13 +379,13 @@
         } else if (abbrP(command, "se")) {
             string param = llList2String(args, 1);
             string svalue = llList2String(args, 2);
-            float value = (float) svalue;
+            argn = llGetListLength(args);
 
             /*  Set Channel n                   Change command channel.  Note that
                                                 the channel change is lost on a
                                                 script reset.  */
 
-            if (abbrP(param, "cha")) {
+            if (abbrP(param, "ch")) {
                 integer newch = (integer) svalue;
                 if ((newch < 2)) {
                     tawk("Invalid channel number.  Must be 2 or greater.");
@@ -362,6 +400,56 @@
 
             } else if (abbrP(param, "ec")) {
                 echo = onOff(svalue);
+
+            //  Set Glow intensity          Set glow while running tests
+
+            } else if (abbrP(param, "gl")) {
+                glow = (float) svalue;
+
+            //  Set Log                     Set log messages options
+
+            } else if (abbrP(param, "lo")) {
+                string tparam = llList2String(args, 3);
+
+                //  Set log channel n       Set local chat channel for log messages
+
+                if (abbrP(svalue, "ch")) {
+                    logChannel = (integer) tparam;
+
+                //  Set log Email collect/send/clear    Control E-mail delivery of logs
+
+                } else if (abbrP(svalue, "em")) {
+                    llMessageLinked(LINK_THIS, LM_CP_COMMAND,
+                        llList2Json(JSON_ARRAY, [ message, lmessage ] + args), whoDat);
+
+                //  Set log IM on/off       Control logging via instant messages to owner
+
+                } else if (abbrP(svalue, "im")) {
+                    imessage = onOff(tparam);
+
+                //  Set log HTTP [ URL [ API_key ] ]
+
+                } else if (abbrP(svalue, "ht")) {
+                    if (argn > 3) {
+                        httpURL = inventoryName("ht", lmessage, message);
+                        httpAPI = "";
+                        integer ls = 0;
+                        integer es = -1;
+                        integer is;
+
+                        while ((is = llSubStringIndex(llGetSubString(httpURL, ls, -1), " ")) >= 0) {
+                            es = ls + is;
+                            ls += is + 1;
+                        }
+                        if (es >= 0) {
+                            httpAPI = llGetSubString(httpURL, es + 1, -1);
+                            httpURL = llGetSubString(httpURL, 0, es - 1);
+                        }
+                    } else {
+                        httpURL = "";
+                        httpAPI = "";
+                    }
+                }
 
             //  Mark at <name> <destination>
             //       clear [<name>]  (default all)
@@ -430,7 +518,17 @@
         } else if (abbrP(command, "st")) {
             integer mFree = llGetFreeMemory();
             integer mUsed = llGetUsedMemory();
+            string http = "off";
+            if (httpURL != "") {
+                http = "URL " + httpURL;
+                if (httpAPI != "") {
+                    http += " API key set";
+                }
+            }
             tawk(llGetScriptName() + " version " + version + " status:\n" +
+                 "    Echo: " + (string) echo + " Trace: " + (string) trace + "\n" +
+                 "    Log:  Channel " + (string) logChannel + " IM: " + (string) imessage +
+                    " HTTP: " + http + "\n" +
                  "    Region cache: " + llList2CSV(regionCache) + "\n" +
                  "    Script memory.  Free: " + (string) mFree +
                  "    Used: " + (string) mUsed + " (" +
@@ -445,6 +543,10 @@
             if (argn > 1) {
                 string testName = "Test: " + sparam;
                 if (llGetInventoryType(testName) == INVENTORY_SCRIPT) {
+                    if (glow > 0) {
+                        llSetLinkPrimitiveParamsFast(LINK_THIS,
+                            [ PRIM_GLOW, ALL_SIDES, glow ]);
+                    }
                     llMessageLinked(LINK_THIS, LM_TE_RUN,
                         llList2Json(JSON_ARRAY, [ message, lmessage ] + args), whoDat);
                     //  Suspend script until test complete
@@ -453,6 +555,7 @@
                     tawk("No test script named \"Test: " + sparam + "\".");
                 }
             } else {
+                //  No argument: list tests in inventory
                 integer n = llGetInventoryNumber(INVENTORY_SCRIPT);
                 integer i;
                 integer j = 0;
@@ -463,6 +566,24 @@
                     }
                 }
             }
+
+        //  Time                    Log current time (UTC)
+
+        } else if (abbrP(command, "ti")) {
+            /*  Obtain the time to as to minimise time parallax
+                between the two API calls.  If we're right on the
+                boundary of second, the second in the timestamp may
+                be before that in the Unix time, but it's unlikely.
+                If data processing reduction programs care about
+                this, they can re-generate the Unix time from the
+                timestamp.  */
+            string ts = llGetTimestamp();
+            integer ut = llGetUnixTime();
+            /*  Write the output in the form of a log item from a
+                built-in test called "time".  */
+            llMessageLinked(LINK_THIS, LM_TE_LOG, "Gm,1,time,\"" +
+                llGetRegionName() + "\"," + ts + "," + (string) ut, whoDat);
+
         } else {
             tawk("Unknown command.  Use /" + (string) commandChannel +
                  " help for documentation.");
@@ -478,6 +599,9 @@
 
         state_entry() {
             whoDat = owner = llGetOwner();
+            /*  Get the username while we're guaranteed the
+                owner is in the region.  */
+            userName = llGetUsername(owner);
             if (commandH == 0) {
                 commandH = llListen(commandChannel, "", whoDat, "");
                 tawk("Listening on /" + (string) commandChannel);
@@ -547,9 +671,10 @@
                     tawk("Teleported from " + srcRegion + " " + (string) srcRegc +
                          " to " + destRegion + " " + (string) destRegc);
                 }
-                tawk("1,\"teleport\",\"" + destRegion + "\"," +
-                     (string) destRegc + ",\"" + srcRegion + "\"," +
-                     (string) srcRegc);
+                llMessageLinked(LINK_THIS, LM_TE_LOG, "Gm,1,teleport,\"" +
+                    destRegion + "\"," + "\"" + (string) destRegc +
+                    "\",\"" + srcRegion + "\",\"" +
+                    (string) srcRegc + "\"", whoDat);
                 scriptResume();
             }
         }
@@ -603,20 +728,27 @@
             //  Test messages
 
             //  LM_TE_PASS (82): Test passed
-
-            } else if (num == LM_TE_PASS) {
-                if (trace) {
-                    tawk("Test passed.");
-                }
-                scriptResume();
-
             //  LM_TE_FAIL (83): Test failed
 
-            } else if (num == LM_TE_FAIL) {
+            } else if ((num == LM_TE_PASS) ||
+                       (num == LM_TE_FAIL)) {
                 if (trace) {
-                    tawk("Test failed.");
+                    if (num == LM_TE_PASS) {
+                        tawk("Test passed.");
+                    } else {
+                        tawk("Test failed.");
+                    }
+                }
+                if (glow > 0) {
+                    llSetLinkPrimitiveParamsFast(LINK_THIS,
+                        [ PRIM_GLOW, ALL_SIDES, 0 ]);
                 }
                 scriptResume();
+
+            //  LM_TE_LOG (86): Log result from test
+
+            } else if (num == LM_TE_LOG) {
+                logMessage(str);
 
             }
         }
@@ -656,6 +788,21 @@
                     } else {
                         beamMe();           // Already have permission to teleport
                     }
+                }
+            }
+        }
+
+        http_response(key query, integer status, list data, string body) {
+            if (query == httpKey) {
+//                tawk("HTTP response status " + (string) status + " body " + body);
+                if (status == 200) {
+                    list st = llCSV2List(body);
+                    if (llList2Integer(st, 0) != 200) {
+                        tawk("HTTP log update rejected: status " +
+                            llGetSubString(body, 0, 80) + ".");
+                    }
+                } else {
+                    tawk("HTTP log update failed: status " + (string) status + ".");
                 }
             }
         }
