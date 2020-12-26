@@ -29,8 +29,9 @@
     integer LM_TE_RUN = 81;         // Run test
     integer LM_TE_PASS = 82;        // Test passed
     integer LM_TE_FAIL = 83;        // Test failed
-    integer LM_TE_BEAM = 84;        // Notify tests we've teleported
+//  integer LM_TE_BEAM = 84;        // Notify tests we've teleported
     integer LM_TE_STAT = 85;        // Print status
+    integer LM_TE_LOG = 86;         // Log results from test
 
     string testStatus = "";         // Extended status (if any) from test
 
@@ -63,7 +64,7 @@
         } else if (taskName == "texture") {
             taskID = 5;
         } else {
-            testLogMessage(FALSE, "Unknown task: " + taskName);
+            testLogMessage(FALSE, "\"Unknown task: " + taskName + "\"");
             return LM_TE_FAIL;
         }
         itero = 0;
@@ -76,10 +77,11 @@
 
     //  testLogMessage  --  Standard test log message
 
-    testLogMessage(integer passed, string remarks) {
-        tawk((string) passed + ",\"" + testName +
-             "\",\"" + llGetRegionName() +
-             "\",\"" + remarks + "\"");
+    testLogMessage(integer passed, string results) {
+        llMessageLinked(LINK_THIS, LM_TE_LOG,
+             "Gm," + (string) passed + "," + testName +
+             ",\"" + llGetRegionName() +
+              "\"," + results, whoDat);
     }
 
     //  tawk  --  Send a message to the interacting user in chat
@@ -200,7 +202,7 @@
                 titer += niter;
             } else if (taskID == 4) {
                 //  Task "prim": manipulate prim
-                integer niter = 3;
+                niter = 3;
                 integer n = 120;
                 rotation rio = llList2Rot(llGetLinkPrimitiveParams(LINK_THIS, [ PRIM_ROT_LOCAL ]), 0);
                 rotation ri = rio;
@@ -215,9 +217,9 @@
                 }
                 llSetLinkPrimitiveParamsFast(LINK_THIS, [ PRIM_ROT_LOCAL, rio ]);
                 titer += niter * n;
-            } else if (taskID = 5) {
+            } else if (taskID == 5) {
                 //  Task "texture": change texture
-                integer niter = 315;
+                niter = 315;
                 for (iter = 0; iter < niter; iter++) {
                     llSetLinkPrimitiveParamsFast(LINK_THIS, aTex);
                     llSetLinkPrimitiveParamsFast(LINK_THIS, iTex);
@@ -232,9 +234,9 @@
                 float finish = llGetTime();
                 float elapsed = finish - starting;
                 integer ips = llRound(titer / elapsed);
-                testLogMessage(TRUE, "task " + taskName +
-                    " ips " + (string) ips + " iter " +
-                    (string) titer + " time " + (string) elapsed);
+                testLogMessage(TRUE, "task," + taskName +
+                    ",ips," + (string) ips + ",iter," +
+                    (string) titer + ",time," + (string) elapsed);
                 testStatus = "";
                 llMessageLinked(LINK_THIS, LM_TE_PASS, testStatus, whoDat);
             }

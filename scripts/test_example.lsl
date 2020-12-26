@@ -20,6 +20,9 @@
     integer LM_TE_RUN = 81;         // Run test
     integer LM_TE_PASS = 82;        // Test passed
     integer LM_TE_FAIL = 83;        // Test failed
+    integer LM_TE_BEAM = 84;        // Notify tests we've teleported
+    integer LM_TE_STAT = 85;        // Print status
+    integer LM_TE_LOG = 86;         // Log results from test
 
     string testStatus = "";         // Extended status (if any) from test
 
@@ -29,16 +32,17 @@
         integer n = (integer) llList2String(args, 2);
         float start = llGetTime();
         while (n-- > 0) ;
-        testLogMessage(TRUE, "Time " + (string) (llGetTime() - start));
+        testLogMessage(TRUE, "time," + (string) (llGetTime() - start));
         return LM_TE_PASS;
     }
 
     //  testLogMessage  --  Standard test log message
 
-    testLogMessage(integer passed, string remarks) {
-        tawk((string) passed + ",\"" + testName  +
-             "\",\"" + llGetRegionName() +
-             "\",\"" + remarks + "\"");
+    testLogMessage(integer passed, string results) {
+        llMessageLinked(LINK_THIS, LM_TE_LOG,
+             "Gm," + (string) passed + "," + testName +
+             ",\"" + llGetRegionName() +
+              "\"," + results, whoDat);
     }
 
     //  tawk  --  Send a message to the interacting user in chat
@@ -96,6 +100,17 @@
                     result = runTest(message, lmessage, args);
                     llMessageLinked(LINK_THIS, result, testStatus, whoDat);
                 }
+
+            //  LM_TE_STAT (85): Print status
+
+            } else if (num == LM_TE_STAT) {
+                string stat = llGetScriptName() + " status:\n";
+                integer mFree = llGetFreeMemory();
+                integer mUsed = llGetUsedMemory();
+                stat += "    Script memory.  Free: " + (string) mFree +
+                        "  Used: " + (string) mUsed + " (" +
+                        (string) ((integer) llRound((mUsed * 100.0) / (mUsed + mFree))) + "%)";
+                tawk(stat);
             }
         }
     }

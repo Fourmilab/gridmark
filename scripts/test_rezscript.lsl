@@ -25,8 +25,9 @@
     integer LM_TE_RUN = 81;         // Run test
     integer LM_TE_PASS = 82;        // Test passed
     integer LM_TE_FAIL = 83;        // Test failed
-    integer LM_TE_BEAM = 84;        // Notify tests we've teleported
+//  integer LM_TE_BEAM = 84;        // Notify tests we've teleported
     integer LM_TE_STAT = 85;        // Print status
+    integer LM_TE_LOG = 86;         // Log results from test
 
     string testStatus = "";         // Extended status (if any) from test
 
@@ -47,22 +48,28 @@
     integer projAbort;              // Have we aborted the test ?
 
     integer runTest(string message, string lmessage, list args) {
-        gmHandle = llListen(gridmarkChan, "", "", ""); // Listen for rez confirmations
-        projN = (integer) llList2String(args, 2);
-        if (projN < 1) {
-            projN = 1;
+        if (rezPermitted(llGetPos())) {
+            gmHandle = llListen(gridmarkChan, "", "", ""); // Listen for rez confirmations
+            projN = (integer) llList2String(args, 2);
+            if (projN < 1) {
+                projN = 1;
+            }
+
+            projRot = llGetRot();
+            projVel = llRot2Fwd(projRot);
+            projPos = llGetPos();
+            projPos = projPos + projVel;
+            projPos.z += 0.75;
+            projPosB = projPos;
+
+            projI = 0;
+            projAbort = FALSE;
+            return runNext();
         }
-
-        rotation projRot = llGetRot();
-        projVel = llRot2Fwd(projRot);
-        projPos = llGetPos();
-        projPos = projPos + projVel;
-        projPos.z += 0.75;
-        projPosB = projPos;
-
-        projI = 0;
-        projAbort = FALSE;
-        return runNext();
+        testStatus = "You are not permitted to create objects on this parcel";
+        testLogMessage(FALSE, "\"" + testStatus + "\"");
+        llMessageLinked(LINK_THIS, LM_TE_FAIL, testStatus, whoDat);
+        return FALSE;
     }
 
     /*  runNext  --  Run next of a series of tests.  Returns LM_TE_PASS
@@ -86,12 +93,46 @@
         return LM_TE_PASS;
     }
 
+    /*  rezPermitted  --  Test whether we're allowed to create
+                          objects here.  Returns FALSE (0) if we
+                          can't use llRezObject() on this parcel
+                          and a positive value if we are permitted
+                          for the following reasons:
+                            1   Anybody can create objects here
+                            2   User is owner of this parcel
+                            4   User is in the same group as this
+                                parcel and the parcel permits
+                                group members to create objects
+                          The status codes are returned in the order
+                          listed, but are defined to permit them to
+                          be bit-coded (at the cost of a little speed)
+                          should that be desired in the future.  */
+
+    integer rezPermitted(vector here) {
+        integer pflags = llGetParcelFlags(here);
+        if (pflags & PARCEL_FLAG_ALLOW_CREATE_OBJECTS) {
+            return 1;       // Anybody can create objects here
+        }
+        list pdet = llGetParcelDetails(here,
+            [ PARCEL_DETAILS_OWNER, PARCEL_DETAILS_GROUP ]);
+        if (llList2Key(pdet, 0) == whoDat) {
+            return 2;       // User is owner of the parcel
+        }
+        if (llSameGroup(llList2Key(pdet, 1))) {
+            if (pflags && PARCEL_FLAG_ALLOW_CREATE_GROUP_OBJECTS) {
+                return 4;   // User is in group, parcel allows create
+            }
+        }
+        return FALSE;
+    }
+
     //  testLogMessage  --  Standard test log message
 
-    testLogMessage(integer passed, string remarks) {
-        tawk((string) passed + ",\"" + testName  +
-             "\",\"" + llGetRegionName() +
-             "\",\"" + remarks + "\"");
+    testLogMessage(integer passed, string results) {
+        llMessageLinked(LINK_THIS, LM_TE_LOG,
+             "Gm," + (string) passed + "," + testName +
+             ",\"" + llGetRegionName() +
+              "\"," + results, whoDat);
     }
 
     //  tawk  --  Send a message to the interacting user in chat
@@ -174,9 +215,10 @@
                     if (secEnd < secStart) {
                         secEnd += 60;           //  Crossed minute boundary
                     }
-                    testLogMessage(TRUE, (string) projI + " of " +
-                        (string) projN + ": delay " +
-                        (string) (secEnd - secStart) + " sec");
+                    testLogMessage(TRUE,
+                        "test," + (string) projI + "," +
+                        "ntests," + (string) projN + "," +
+                        "delay," + (string) (secEnd - secStart));
                     integer result;
                     if ((result = runNext()) != 0) {
                         llListenRemove(gmHandle);
@@ -195,9 +237,10 @@
             llListenRemove(gmHandle);
             projAbort = TRUE;
             gmHandle = 0;
-            testLogMessage(FALSE,  (string) projI + " of " +
-                                   (string) projN + "timeout " +
-                                   (string) rezFailTimeout + " sec");
+            testLogMessage(FALSE,
+                "test," + (string) projI + "," +
+                "ntests," + (string) projN + "," +
+                "timeout");
             llMessageLinked(LINK_THIS, LM_TE_FAIL, testStatus, whoDat);
         }
     }

@@ -29,8 +29,9 @@
     integer LM_TE_RUN = 81;         // Run test
     integer LM_TE_PASS = 82;        // Test passed
     integer LM_TE_FAIL = 83;        // Test failed
-    integer LM_TE_BEAM = 84;        // Notify tests we've teleported
+//  integer LM_TE_BEAM = 84;        // Notify tests we've teleported
     integer LM_TE_STAT = 85;        // Print status
+    integer LM_TE_LOG = 86;         // Log results from test
 
     //  Transponder messages
 
@@ -73,7 +74,7 @@
         } else if (taskName == "link") {
             taskID = 5;
         } else {
-            testLogMessage(FALSE, "Unknown message type: " + taskName);
+            testLogMessage(FALSE, "\"Unknown message type: " + taskName + "\"");
             return LM_TE_FAIL;
         }
 
@@ -170,13 +171,13 @@
         tmsg = "";
 
         integer nmessages = nitero * 2;         // Because 2 messages per ping
-        testLogMessage(TRUE, "type " + taskName +
-            " messages " + (string) nmessages +
-            " length " + (string) tmsgl +
-            " bytes " + (string) (tmsgl * nmessages) +
-            " time " + (string) elapsed +
-            " msg/sec " + (string) (nmessages / elapsed) +
-            " bytes/sec " + (string) ((tmsgl * nmessages) / elapsed));
+        testLogMessage(TRUE, "type," + taskName + "," +
+            "messages," + (string) nmessages + "," +
+            "length," + (string) tmsgl + "," +
+            "bytes," + (string) (tmsgl * nmessages) + "," +
+            "time," + (string) elapsed + "," +
+            "\"msg/sec\"," + (string) (nmessages / elapsed) + "," +
+            "\"bytes/sec\"," + (string) ((tmsgl * nmessages) / elapsed));
 
         testStatus = "";
         llMessageLinked(LINK_THIS, LM_TE_PASS, testStatus, whoDat);
@@ -185,10 +186,11 @@
 
     //  testLogMessage  --  Standard test log message
 
-    testLogMessage(integer passed, string remarks) {
-        tawk((string) passed + ",\"" + testName +
-             "\",\"" + llGetRegionName() +
-             "\",\"" + remarks + "\"");
+    testLogMessage(integer passed, string results) {
+        llMessageLinked(LINK_THIS, LM_TE_LOG,
+             "Gm," + (string) passed + "," + testName +
+             ",\"" + llGetRegionName() +
+              "\"," + results, whoDat);
     }
 
     //  tawk  --  Send a message to the interacting user in chat

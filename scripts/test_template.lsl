@@ -21,6 +21,7 @@
     integer LM_TE_FAIL = 83;        // Test failed
     integer LM_TE_BEAM = 84;        // Notify tests we've teleported
     integer LM_TE_STAT = 85;        // Print status
+    integer LM_TE_LOG = 86;         // Log results from test
 
     string testStatus = "";         // Extended status (if any) from test
 
@@ -33,10 +34,11 @@
 
     //  testLogMessage  --  Standard test log message
 
-    testLogMessage(integer passed, string remarks) {
-        tawk((string) passed + ",\"" + testName  +
-             "\",\"" + llGetRegionName() +
-             "\",\"" + remarks + "\"");
+    testLogMessage(integer passed, string results) {
+        llMessageLinked(LINK_THIS, LM_TE_LOG,
+             "Gm," + (string) passed + "," + testName +
+             ",\"" + llGetRegionName() +
+              "\"," + results, whoDat);
     }
 
     //  tawk  --  Send a message to the interacting user in chat
