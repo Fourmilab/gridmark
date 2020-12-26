@@ -82,7 +82,8 @@
     /*  processScriptCommand  --  Handle commands local to script processor.
                                   Returns TRUE if the command was processed
                                   locally, FALSE if it should be returned to
-                                  the client.  */
+                                  the client.  These commands may be used
+                                  only within scripts.  */
 
     integer processScriptCommand(string message) {
         integer echoCmd = TRUE;
@@ -92,7 +93,7 @@
         }
 
         string lmessage = llToLower(llStringTrim(message, STRING_TRIM));
-        list args = llParseString2List(lmessage, [" "], []);    // Command and arguments
+        list args = llParseString2List(lmessage, [" "], [ ]);   // Command and arguments
         integer argn = llGetListLength(args);
 
         if ((argn >= 2) &&
@@ -172,6 +173,47 @@
 
                     pauseExpiry = llGetTime() + howlong;
                 }
+
+            //  Script wait [ n [ unit ] ]  -- Wait until the next even n units
+
+            } else if (abbrP(command, "wa")) {
+                float interval = 60;        // Default interval 1 minute
+
+                if (argn >= 3) {
+                    interval = (float) llList2String(args, 2);
+                    if (argn >= 4) {
+                        string unit = llToLower(llGetSubString(llList2String(args, 3), 0, 0));
+
+                        //  Note that seconds are implicit
+                        if (unit == "m") {
+                            interval *= 60;
+                        } else if (unit == "h") {
+                            interval *= 60 * 60;
+                        } else if (unit == "d") {
+                            interval *= 60 * 60 * 24;
+                        }
+
+                        /*  Note that we use llGetUnixTime() here because we
+                            wish to synchronise to even intervals on the wall
+                            clock.  For example, if the user sets a wait for
+                            every 10 minutes, we want to run at the top of
+                            the next even 10 minutes, not 10 minutes from now.
+                            If we used llGetTime(), we'd be syncing to
+                            whenever the script started keeping its own
+                            time, whatever that may be.  Now llGetUnixTime()
+                            doesn't provide precision better than a second, but
+                            the only way around that would be to use timestanps
+                            which, being strings, would probably be so costly
+                            to process we'd lose comparable precision anyway.  */
+
+
+                        integer t = llGetUnixTime();
+                        pauseExpiry = llGetTime() +
+                            (interval - (t % llRound(interval)));
+//tawk("Interval: " + (string) interval + " sec, waiting " + (string) (pauseExpiry - llGetTime()) +
+//"  intoinv " + (string) (t % llRound(interval)));
+                    }
+                }
             } else {
                 return FALSE;               // It's not one of our "Script"s
             }
@@ -222,7 +264,11 @@
         return llStringTrim(llGetSubString(message, dindex, -1), STRING_TRIM);
     }
 
-    //  processAuxCommand  --  Process a command
+    /*  processAuxCommand  --  Process a command.  These commands
+                               are used by the client to control
+                               scripts.  They may appear either
+                               in the client's interactive input or
+                               in scripts.  */
 
     integer processAuxCommand(key id, list args) {
 
