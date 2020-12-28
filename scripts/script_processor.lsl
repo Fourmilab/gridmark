@@ -79,6 +79,31 @@
         return abbr == llGetSubString(str, 0, llStringLength(abbr) - 1);
     }
 
+    //  pinterval  --  Parse an interval specification
+
+    float pinterval(list args, integer n) {
+        string ints = llList2String(args, n);
+        string unit = llGetSubString(ints, -1, -1);
+
+        if (llSubStringIndex("smhd", unit) >= 0) {
+            ints = llGetSubString(ints, 0, -1);
+        } else {
+            unit = "s";
+        }
+
+        float interval = (float) ints;
+
+        //  Note that seconds are implicit
+        if (unit == "m") {
+            interval *= 60;
+        } else if (unit == "h") {
+            interval *= 60 * 60;
+        } else if (unit == "d") {
+            interval *= 60 * 60 * 24;
+        }
+        return interval;
+    }
+
     /*  processScriptCommand  --  Handle commands local to script processor.
                                   Returns TRUE if the command was processed
                                   locally, FALSE if it should be returned to
@@ -174,46 +199,45 @@
                     pauseExpiry = llGetTime() + howlong;
                 }
 
-            //  Script wait [ n [ unit ] ]  -- Wait until the next even n units
+            //  Script wait [ n[unit] ] [ offset[unit] ] -- Wait until the next even n units + offset
 
             } else if (abbrP(command, "wa")) {
                 float interval = 60;        // Default interval 1 minute
+                float offset = 0;           // Default offset zero
 
                 if (argn >= 3) {
-                    interval = (float) llList2String(args, 2);
+                    interval = pinterval(args, 2);
                     if (argn >= 4) {
-                        string unit = llToLower(llGetSubString(llList2String(args, 3), 0, 0));
-
-                        //  Note that seconds are implicit
-                        if (unit == "m") {
-                            interval *= 60;
-                        } else if (unit == "h") {
-                            interval *= 60 * 60;
-                        } else if (unit == "d") {
-                            interval *= 60 * 60 * 24;
-                        }
-
-                        /*  Note that we use llGetUnixTime() here because we
-                            wish to synchronise to even intervals on the wall
-                            clock.  For example, if the user sets a wait for
-                            every 10 minutes, we want to run at the top of
-                            the next even 10 minutes, not 10 minutes from now.
-                            If we used llGetTime(), we'd be syncing to
-                            whenever the script started keeping its own
-                            time, whatever that may be.  Now llGetUnixTime()
-                            doesn't provide precision better than a second, but
-                            the only way around that would be to use timestanps
-                            which, being strings, would probably be so costly
-                            to process we'd lose comparable precision anyway.  */
-
-
-                        integer t = llGetUnixTime();
-                        pauseExpiry = llGetTime() +
-                            (interval - (t % llRound(interval)));
-//tawk("Interval: " + (string) interval + " sec, waiting " + (string) (pauseExpiry - llGetTime()) +
-//"  intoinv " + (string) (t % llRound(interval)));
+                        offset = pinterval(args, 3);
                     }
                 }
+
+                /*  Note that we use llGetUnixTime() here because we
+                    wish to synchronise to even intervals on the wall
+                    clock.  For example, if the user sets a wait for
+                    every 10 minutes, we want to run at the top of
+                    the next even 10 minutes, not 10 minutes from now.
+                    If we used llGetTime(), we'd be syncing to
+                    whenever the script started keeping its own
+                    time, whatever that may be.  Now llGetUnixTime()
+                    doesn't provide precision better than a second, but
+                    the only way around that would be to use timestanps
+                    which, being strings, would probably be so costly
+                    to process we'd lose comparable precision anyway.  */
+
+                integer t = llGetUnixTime();
+                float st = llGetTime();
+                pauseExpiry = st +
+                    (interval - (t % llRound(interval)));
+                if (offset > 0) {
+                    pauseExpiry += offset;
+                    while ((pauseExpiry - st) > interval) {
+//tawk("Adjust pauseExpiry from " + (string) pauseExpiry + " to " + (string) (pauseExpiry - interval));
+                        pauseExpiry -= interval;
+                    }
+                }
+//tawk("Interval: " + (string) interval + " sec, offset: " +
+//(string) offset + ", waiting " + (string) (pauseExpiry - st));
             } else {
                 return FALSE;               // It's not one of our "Script"s
             }
