@@ -112,8 +112,6 @@
         if (imessage) {
             llInstantMessage(owner, msg);
         }
-httpURL = "http://www.fourmilab.ch/cgi-bin/Gridmark";
-httpAPI = "FlyingBaboons";
         if (httpURL != "") {
             /*  Prefix the record from the test with:
                     User name
@@ -124,7 +122,6 @@ httpAPI = "FlyingBaboons";
                 req += "&k=" + llEscapeURL(httpAPI);
             }
             httpKey = llHTTPRequest(req, [ ], "");
-//tawk("req (" + req + ")  httpKey " + (string) httpKey);
         }
     }
 
@@ -264,7 +261,6 @@ httpAPI = "FlyingBaboons";
                           command completes.  */
 
     scriptResume() {
-//tawk("scriptResume active " + (string) scriptActive + " suspend " + (string) scriptSuspend);
         if (scriptActive) {
             if (scriptSuspend) {
                 scriptSuspend = FALSE;
@@ -309,7 +305,6 @@ httpAPI = "FlyingBaboons";
         if (abbrP(command, "be")) {
             string des = inventoryName("be", lmessage, message);
             list dl = parseDestination(des);
-//tawk("Beam: " + llList2CSV(dl));
             if (dl == []) {
                 tawk("Invalid destination " + des);
                 return FALSE;
@@ -794,7 +789,6 @@ httpAPI = "FlyingBaboons";
 
         http_response(key query, integer status, list data, string body) {
             if (query == httpKey) {
-//                tawk("HTTP response status " + (string) status + " body " + body);
                 if (status == 200) {
                     list st = llCSV2List(body);
                     if (llList2Integer(st, 0) != 200) {

@@ -29,7 +29,7 @@
 
     /*  tawk  --  Send a message to the interacting user in chat.
                   The recipient of the message is defined as
-                  follows.  If an agent is on the pilot's seat,
+                  follows.  If an agent has provoked the message,
                   that avatar receives the message.  Otherwise,
                   the message goes to the owner of the object.
                   In either case, if the message is being sent to
@@ -53,6 +53,7 @@
             }
         }
     }
+
     //  abbrP  --  Test if string matches abbreviation
 
     integer abbrP(string str, string abbr) {

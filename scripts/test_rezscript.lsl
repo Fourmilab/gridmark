@@ -7,11 +7,11 @@
             test rezscript <object_count>
 
         This test measures the time elapsed between instantiating an
-        object from the inventory with llRezObject() and when a
-        script within the object gets control and can send a
-        message back to its creator.  The rez to script delay is
-        particularly significant in cases such as scripted
-        projectiles launched by other objects.
+        object from the inventory with llRezObject() and when a script
+        within the object gets control and can send a message back to
+        its creator.  The rez to script delay is particularly
+        significant in cases such as scripted projectiles launched by
+        other objects.
 
     */
 
@@ -75,7 +75,7 @@
     /*  runNext  --  Run next of a series of tests.  Returns LM_TE_PASS
                      when we've performed the last iteration.  Note that
                      each successive iteration is triggered by receipt of
-                     the RES message indicating completion of the
+                     the REZ message indicating completion of the
                      previous.  */
 
     integer runNext() {

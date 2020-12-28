@@ -5,7 +5,7 @@
             test info region/parcel
 
         This test queries information about the environment in which
-        the test is being run aand displays it as log items.
+        the test is being run and displays it as log items.
 
     */
 
@@ -252,7 +252,7 @@
                     /*  What the heck is this, you ask?  Well, in LSL, API calls and
                         anything affecting a string which may get the garbage collector
                         into the act can be terribly costly in time, so you try to do
-                        as much as possible with a few calls, of this is an extreme
+                        as much as possible with a few calls, of which this is an extreme
                         example.  What we're trying to determine is whether we need to
                         quote a string field in the CSV file because it contains a
                         metacharacter or a character which we need to escape.  In a
@@ -362,7 +362,7 @@ else { s += "!BLOOIE!"; }
 
         /*  We don't use a traditional while loop, and instead opt for
             a do-while, because it's faster since we may have to do about
-            128 iteration, this savings is important.  The exponent needs
+            128 iterations, this savings is important.  The exponent needs
             one final adjustment because of the shift, so we do it here to
             save memory and it's faster.
 
@@ -373,7 +373,7 @@ else { s += "!BLOOIE!"; }
             has enough precision.
 
             We recycle position for these loops as a temporary buffer.
-            This is so we can save a few operations. If we didn't, then
+            This is so we can save a few operations.  If we didn't, then
             we could actually optimize the variable out of the code;
             though it would be slower.  */
 
@@ -450,7 +450,6 @@ else { s += "!BLOOIE!"; }
         mantissa = llInsertString(mantissa, 1, llGetSubString(".0", 0, !position));
 
         //  Adjust exponent from having added the decimal place
-// HERE IS WHERE WE CAN TRIM TRAILING DECIMALS BEFORE THE EXPONENT
         if ((exponent += ~-target) != 0) {
             mantissa += "e" + (string) exponent;
         }
@@ -524,9 +523,6 @@ else { s += "!BLOOIE!"; }
 
         dataserver(key query, string result) {
             if (query == simdata) {
-/*
-                testLogMessage(TRUE, "regrate," + csvEnc(result));
-*/
                 testLogMessage(TRUE, [ "regrate", result ]);
                 llMessageLinked(LINK_THIS, LM_TE_PASS, testStatus, whoDat);
                 simdata = NULL_KEY;
@@ -594,7 +590,6 @@ else { s += "!BLOOIE!"; }
                 //  Add failed query to the cache to avoid subsequent attempts
                 llSetTimerEvent(poCacheTimer);
             } else {
-//tawk("Expired parcel owner cache.");
                 parcelOwnerCache = [ ];
                 llSetTimerEvent(0);
             }

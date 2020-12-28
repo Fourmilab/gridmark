@@ -5,7 +5,7 @@
             test example iterations
 
         This is the example test from the User Guide.  You'll need
-        to set iterations to around 1000000 to get a run time or
+        to set iterations to around 1000000 to get a run time of
         about six seconds in an idle simulation.
 
     */

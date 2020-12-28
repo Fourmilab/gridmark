@@ -39,7 +39,7 @@
 
     /*  tawk  --  Send a message to the interacting user in chat.
                   The recipient of the message is defined as
-                  follows.  If an agent is on the pilot's seat,
+                  follows.  If an agent has provoked the message,
                   that avatar receives the message.  Otherwise,
                   the message goes to the owner of the object.
                   In either case, if the message is being sent to
@@ -221,7 +221,7 @@
                     whenever the script started keeping its own
                     time, whatever that may be.  Now llGetUnixTime()
                     doesn't provide precision better than a second, but
-                    the only way around that would be to use timestanps
+                    the only way around that would be to use timestamps
                     which, being strings, would probably be so costly
                     to process we'd lose comparable precision anyway.  */
 
@@ -232,12 +232,9 @@
                 if (offset > 0) {
                     pauseExpiry += offset;
                     while ((pauseExpiry - st) > interval) {
-//tawk("Adjust pauseExpiry from " + (string) pauseExpiry + " to " + (string) (pauseExpiry - interval));
                         pauseExpiry -= interval;
                     }
                 }
-//tawk("Interval: " + (string) interval + " sec, offset: " +
-//(string) offset + ", waiting " + (string) (pauseExpiry - st));
             } else {
                 return FALSE;               // It's not one of our "Script"s
             }
