@@ -16,6 +16,10 @@
     integer echo = TRUE;            // Echo chat and script commands ?
     integer trace = FALSE;          // Trace operation
     float glow = 0.25;              // Glow while running tests ?
+    vector moveTarget = <-1, -1, -1>;   // Target of current Moveto
+    float moveDistL;                // Move progress tracker
+    integer moveStuck;              // Move stuck counter
+    integer moveLookAt;             // Counter to stop look at
     string helpFileName = "Fourmilab Gridmark User Guide";  // Help file
 
     //  Log destination settings
@@ -362,6 +366,52 @@
 
         } else if (abbrP(command, "he")) {
             llGiveInventory(id, helpFileName);  // Give requester the User Guide notecard
+
+        //  Moveto                  Move to location in region
+
+        } else if (abbrP(command, "mo")) {
+            if (argn > 1) {
+                vector moveBase = ZERO_VECTOR;
+                if (llGetSubString(sparam, 0, 0) == "+") {
+                    moveBase = llGetPos();
+                    sparam = llGetSubString(sparam, 1, -1);
+                }
+                moveTarget = ((vector) sparam) + moveBase;
+                if (llVecDist(moveTarget, llGetPos()) >= 65) {
+                    tawk("Cannot move more than 65 metres at once.");
+                    return FALSE;
+                }
+                float speed = 1;
+                if (argn > 2) {
+                    speed = (float) llList2String(args, 2);
+                }
+                if (moveTarget.x >= 0) {
+                    if (moveLookAt > 0) {
+                        moveLookAt = 0;
+                        llStopLookAt();
+                    }
+                    llStopMoveToTarget();
+                }
+                moveDistL = REGION_SIZE;
+                moveStuck = 0;
+                llLookAt(moveTarget / llGetRootRotation(), 3, 1);
+                moveLookAt = 3;
+                llMoveToTarget(moveTarget, speed);
+                llSetTimerEvent(0.25);
+                if (fromScript) {
+                    scriptSuspend = TRUE;           // Suspend script until we arrive
+                }
+            } else {
+                if (moveTarget.x >= 0) {
+                    if (moveLookAt > 0) {
+                        moveLookAt = 0;
+                        llStopLookAt();
+                    }
+                    llStopMoveToTarget();
+                    llSetTimerEvent(0);
+                    moveTarget = <-1, -1, -1>;
+                }
+            }
 
         //  Script                      Script commands (handled by Script Processor)
 
@@ -787,6 +837,8 @@
             }
         }
 
+        //  Handle HTTP response from log update transmission
+
         http_response(key query, integer status, list data, string body) {
             if (query == httpKey) {
                 if (status == 200) {
@@ -797,6 +849,48 @@
                     }
                 } else {
                     tawk("HTTP log update failed: status " + (string) status + ".");
+                }
+            }
+        }
+
+        //  The timer is used to monitor the move toward a target
+
+        timer() {
+            if (moveTarget.x >= 0) {
+                if (moveLookAt > 0) {
+                    moveLookAt--;
+                    if (moveLookAt <= 0) {
+                        llStopLookAt();
+                    }
+                }
+                vector mtxy = moveTarget;
+                vector cpxy = llGetPos();
+                mtxy.z = cpxy.z = 0;
+                float dist = llVecDist(mtxy, cpxy);
+                integer stuck = FALSE;
+                if (moveDistL <= dist) {
+                    moveStuck++;
+                    if (moveStuck > 5) {
+                        stuck = TRUE;
+                    }
+                }
+                moveDistL = dist;
+                if ((dist < 0.25) || stuck) {
+                    if (trace) {
+                        if (stuck) {
+                            tawk("Stuck.  Distance: " + (string) dist);
+                        } else {
+                            tawk("Arrived at target.  Distance: " + (string) dist);
+                        }
+                    }
+                    if (moveLookAt > 0) {
+                        moveLookAt = 0;
+                        llStopLookAt();
+                    }
+                    llStopMoveToTarget();
+                    llSetTimerEvent(0);
+                    moveTarget = <-1, -1, -1>;
+                    scriptResume();
                 }
             }
         }
