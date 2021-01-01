@@ -1,0 +1,415 @@
+54.218.22.241,2020-12-24T13:59:50,"fourmilab",1.0,Gm,1,time,"Fourmilab",2020-12-24T13:59:50.421124Z,1608818390
+52.39.161.185,2020-12-24T14:00:02,"fourmilab",1.0,Gm,1,info,Fourmilab,regenv,44,enabled,51556,Fourmilab,19319215,1,0,"Estate / Full Region",024,1607719831,1098559,"Second Life Server",2020-12-09.553685,simhost-00f6b2d287ed76980.agni.secondlife.io,20000,1,10,20,100
+34.220.211.184,2020-12-24T14:00:02,"fourmilab",1.0,Gm,1,info,Fourmilab,region,Fourmilab,"<945,1211,0>",simhost-00f6b2d287ed76980.agni.secondlife.io,4.500604e1,1.0,1048576,1,"<6.50754356,2.94619965,0.0>"
+54.244.11.255,2020-12-24T14:00:02,"fourmilab",1.0,Gm,1,info,Fourmilab,regrate,MATURE
+34.219.224.4,2020-12-24T14:00:02,"fourmilab",1.0,Gm,1,info,Fourmilab,parcel,"Fourmilab Island",,afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",65536,10685,20000,1040188779
+34.219.151.186,2020-12-24T14:00:12,"fourmilab",1.0,Gm,1,compute,"Fourmilab",task,float,ips,120628,iter,1180000,time,9.782173
+54.188.3.218,2020-12-24T14:00:21,"fourmilab",1.0,Gm,1,compute,"Fourmilab",task,list,ips,4703,iter,42230,time,8.980203
+34.214.14.246,2020-12-24T14:00:32,"fourmilab",1.0,Gm,1,compute,"Fourmilab",task,prim,ips,355,iter,3600,time,10.133810
+34.219.224.4,2020-12-24T14:00:42,"fourmilab",1.0,Gm,1,compute,"Fourmilab",task,string,ips,7918,iter,82000,time,10.356580
+54.200.177.59,2020-12-24T14:00:52,"fourmilab",1.0,Gm,1,compute,"Fourmilab",task,texture,ips,322,iter,3150,time,9.780857
+34.219.74.99,2020-12-24T14:01:04,"fourmilab",1.0,Gm,1,message,"Fourmilab",type,link,messages,1000,length,128,bytes,128000,time,11.118810,"msg/sec",89.937640,"bytes/sec",11512.020000
+34.221.215.85,2020-12-24T14:01:15,"fourmilab",1.0,Gm,1,message,"Fourmilab",type,region,messages,1000,length,128,bytes,128000,time,11.113780,"msg/sec",89.978370,"bytes/sec",11517.230000
+54.186.72.108,2020-12-24T14:01:27,"fourmilab",1.0,Gm,1,message,"Fourmilab",type,regionto,messages,1000,length,128,bytes,128000,time,11.112440,"msg/sec",89.989230,"bytes/sec",11518.620000
+35.160.241.146,2020-12-24T14:01:27,"fourmilab",1.0,Gm,1,rezscript,"Fourmilab",test,1,ntests,6,delay,0.034798
+34.219.151.186,2020-12-24T14:01:28,"fourmilab",1.0,Gm,1,rezscript,"Fourmilab",test,2,ntests,6,delay,0.047470
+34.219.13.2,2020-12-24T14:01:30,"fourmilab",1.0,Gm,1,rezscript,"Fourmilab",test,3,ntests,6,delay,0.022291
+52.88.186.155,2020-12-24T14:01:31,"fourmilab",1.0,Gm,1,rezscript,"Fourmilab",test,4,ntests,6,delay,0.023628
+34.211.102.204,2020-12-24T14:01:32,"fourmilab",1.0,Gm,1,rezscript,"Fourmilab",test,5,ntests,6,delay,0.027634
+34.212.88.127,2020-12-24T14:01:33,"fourmilab",1.0,Gm,1,rezscript,"Fourmilab",test,6,ntests,6,delay,0.026985
+54.188.89.213,2020-12-24T14:01:47,"fourmilab",1.0,Gm,1,teleport,"Sandbox Pristina","<128.00000, 128.00000, 27.00000>","Fourmilab","<80.70819, 157.88540, 750.90120>"
+34.219.13.2,2020-12-24T14:01:48,"fourmilab",1.0,Gm,1,time,"Sandbox Pristina",2020-12-24T14:01:48.554392Z,1608818508
+54.214.60.157,2020-12-24T14:02:00,"fourmilab",1.0,Gm,1,info,"Sandbox Pristina",region,"Sandbox Pristina","<1193,918,0>",simhost-0e2e1d81652369c93.agni.secondlife.io,4.499872e1,9.99190568e-1,5242944,2,"<-2.03993058,3.18427062,0.0>"
+52.88.186.155,2020-12-24T14:02:00,"fourmilab",1.0,Gm,1,info,"Sandbox Pristina",regenv,44,enabled,39727,"Premium Sandboxes",46398352,1,0,"Estate / Full Region",024,1607731306,1087202,"Second Life Server",2020-12-09.553685,simhost-0e2e1d81652369c93.agni.secondlife.io,20000,1,10,20,100
+54.188.3.218,2020-12-24T14:02:00,"fourmilab",1.0,Gm,1,info,"Sandbox Pristina",regrate,PG
+54.188.3.218,2020-12-24T14:02:01,"fourmilab",1.0,Gm,1,info,"Sandbox Pristina",parcel,"Sandbox - cleans every 4 hours. No combat, no selling!","Save your work! Only NO COPY items will return to inventory. Simple scripts only.",3d6181b0-6a4b-97ef-18d8-722652995cf1,A,"Governor Linden",61440,0,18750,1042284619
+54.188.92.48,2020-12-24T14:02:10,"fourmilab",1.0,Gm,1,compute,"Sandbox Pristina",task,float,ips,148730,iter,1180000,time,7.933851
+54.244.11.255,2020-12-24T14:02:17,"fourmilab",1.0,Gm,1,compute,"Sandbox Pristina",task,list,ips,5742,iter,42230,time,7.355212
+52.32.166.109,2020-12-24T14:02:26,"fourmilab",1.0,Gm,1,compute,"Sandbox Pristina",task,prim,ips,412,iter,3600,time,8.733766
+52.11.159.132,2020-12-24T14:02:37,"fourmilab",1.0,Gm,1,compute,"Sandbox Pristina",task,string,ips,7852,iter,82000,time,10.443820
+52.39.161.185,2020-12-24T14:02:45,"fourmilab",1.0,Gm,1,compute,"Sandbox Pristina",task,texture,ips,394,iter,3150,time,8.000708
+52.40.229.197,2020-12-24T14:02:57,"fourmilab",1.0,Gm,1,message,"Sandbox Pristina",type,link,messages,1000,length,128,bytes,128000,time,11.156020,"msg/sec",89.637720,"bytes/sec",11473.630000
+54.203.16.199,2020-12-24T14:03:08,"fourmilab",1.0,Gm,1,message,"Sandbox Pristina",type,region,messages,1000,length,128,bytes,128000,time,11.134730,"msg/sec",89.809100,"bytes/sec",11495.570000
+54.214.60.157,2020-12-24T14:03:20,"fourmilab",1.0,Gm,1,message,"Sandbox Pristina",type,regionto,messages,1000,length,128,bytes,128000,time,11.110920,"msg/sec",90.001510,"bytes/sec",11520.190000
+52.39.161.185,2020-12-24T14:03:20,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Pristina",test,1,ntests,6,delay,0.156160
+54.203.237.24,2020-12-24T14:03:22,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Pristina",test,2,ntests,6,delay,0.026136
+54.188.89.213,2020-12-24T14:03:23,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Pristina",test,3,ntests,6,delay,0.028105
+35.160.241.146,2020-12-24T14:03:24,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Pristina",test,4,ntests,6,delay,0.025406
+34.212.88.127,2020-12-24T14:03:25,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Pristina",test,5,ntests,6,delay,0.026138
+52.40.229.197,2020-12-24T14:03:27,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Pristina",test,6,ntests,6,delay,0.025703
+34.221.42.135,2020-12-24T14:04:05,"fourmilab",1.0,Gm,1,teleport,"Sandbox Astutula","<176.00000, 148.00000, 27.00000>","Sandbox Pristina","<128.00000, 128.00000, 27.25872>"
+54.186.72.108,2020-12-24T14:04:06,"fourmilab",1.0,Gm,1,time,"Fourmilab",2020-12-24T14:04:05.953385Z,1608818645
+52.43.118.202,2020-12-24T14:04:17,"fourmilab",1.0,Gm,1,info,Fourmilab,region,Fourmilab,"<945,1211,0>",simhost-00f6b2d287ed76980.agni.secondlife.io,4.50619354e1,9.92881059e-1,1048576,1,"<7.17081356,7.07237601e-1,0.0>"
+54.202.28.116,2020-12-24T14:04:17,"fourmilab",1.0,Gm,1,info,Fourmilab,regenv,44,enabled,51556,Fourmilab,19327432,1,0,"Estate / Full Region",024,1607719831,1098815,"Second Life Server",2020-12-09.553685,simhost-00f6b2d287ed76980.agni.secondlife.io,20000,1,10,20,100
+34.211.102.204,2020-12-24T14:04:17,"fourmilab",1.0,Gm,1,info,Fourmilab,regrate,MATURE
+34.220.211.184,2020-12-24T14:05:49,"fourmilab",1.0,Gm,1,time,"Fourmilab",2020-12-24T14:05:49.648635Z,1608818749
+52.88.132.126,2020-12-24T14:06:35,"fourmilab",1.0,Gm,1,time,"Fourmilab",2020-12-24T14:06:35.547767Z,1608818795
+54.212.236.208,2020-12-24T14:06:45,"fourmilab",1.0,Gm,1,teleport,"Sandbox Exemplar","<170.00000, 180.00000, 27.00000>","Fourmilab","<89.84380, 153.34400, 750.89480>"
+52.88.132.126,2020-12-24T14:06:47,"fourmilab",1.0,Gm,1,time,"Sandbox Exemplar",2020-12-24T14:06:46.930139Z,1608818806
+54.203.237.24,2020-12-24T14:06:59,"fourmilab",1.0,Gm,1,info,"Sandbox Exemplar",region,"Sandbox Exemplar","<1192,917,0>",simhost-077563b8b6bcaac63.agni.secondlife.io,4.496879e1,1.0,5242880,2,"<-1.7501204,-3.19432544,0.0>"
+35.160.241.146,2020-12-24T14:06:59,"fourmilab",1.0,Gm,1,info,"Sandbox Exemplar",regenv,44,enabled,39727,"Premium Sandboxes",49859648,1,0,"Estate / Full Region",024,1607623724,1195083,"Second Life Server",2020-12-09.553685,simhost-077563b8b6bcaac63.agni.secondlife.io,20000,1,10,20,100
+54.188.92.48,2020-12-24T14:06:59,"fourmilab",1.0,Gm,1,info,"Sandbox Exemplar",regrate,PG
+35.160.241.146,2020-12-24T14:06:59,"fourmilab",1.0,Gm,1,info,"Sandbox Exemplar",parcel,"Sandbox - cleans every 4 hours. No combat, no selling!","Save your work! only NO COPY items will return to inventory. Simple scripts only.",3d6181b0-6a4b-97ef-18d8-722652995cf1,A,"Governor Linden",61440,1,18750,1042317387
+54.203.16.199,2020-12-24T14:07:09,"fourmilab",1.0,Gm,1,compute,"Sandbox Exemplar",task,float,ips,136837,iter,1180000,time,8.623416
+54.188.89.213,2020-12-24T14:07:16,"fourmilab",1.0,Gm,1,compute,"Sandbox Exemplar",task,list,ips,5572,iter,42230,time,7.578672
+54.203.237.24,2020-12-24T14:07:24,"fourmilab",1.0,Gm,1,compute,"Sandbox Exemplar",task,prim,ips,476,iter,3600,time,7.555830
+34.219.224.4,2020-12-24T14:07:34,"fourmilab",1.0,Gm,1,compute,"Sandbox Exemplar",task,string,ips,8407,iter,82000,time,9.753489
+35.160.241.146,2020-12-24T14:07:42,"fourmilab",1.0,Gm,1,compute,"Sandbox Exemplar",task,texture,ips,400,iter,3150,time,7.867159
+54.218.22.241,2020-12-24T14:07:54,"fourmilab",1.0,Gm,1,message,"Sandbox Exemplar",type,link,messages,1000,length,128,bytes,128000,time,11.156990,"msg/sec",89.629880,"bytes/sec",11472.620000
+54.203.237.24,2020-12-24T14:08:05,"fourmilab",1.0,Gm,1,message,"Sandbox Exemplar",type,region,messages,1000,length,128,bytes,128000,time,11.134870,"msg/sec",89.808000,"bytes/sec",11495.420000
+52.12.206.41,2020-12-24T14:08:17,"fourmilab",1.0,Gm,1,message,"Sandbox Exemplar",type,regionto,messages,1000,length,128,bytes,128000,time,11.111520,"msg/sec",89.996650,"bytes/sec",11519.570000
+52.11.159.132,2020-12-24T14:08:20,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Exemplar",test,1,ntests,6,delay,2.110876
+54.203.16.199,2020-12-24T14:08:23,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Exemplar",test,2,ntests,6,delay,2.022102
+34.219.119.244,2020-12-24T14:08:26,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Exemplar",test,3,ntests,6,delay,2.022804
+34.219.224.4,2020-12-24T14:08:29,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Exemplar",test,4,ntests,6,delay,2.023727
+54.214.60.157,2020-12-24T14:08:32,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Exemplar",test,5,ntests,6,delay,2.022619
+54.188.92.48,2020-12-24T14:08:35,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Exemplar",test,6,ntests,6,delay,2.022320
+52.88.186.155,2020-12-24T14:08:43,"fourmilab",1.0,Gm,1,teleport,"Sandbox Verenda","<76.00000, 169.00000, 27.00000>","Sandbox Exemplar","<170.00000, 180.00000, 27.25910>"
+54.244.11.255,2020-12-24T14:08:44,"fourmilab",1.0,Gm,1,time,"Sandbox Verenda",2020-12-24T14:08:44.549515Z,1608818924
+52.12.206.41,2020-12-24T14:08:56,"fourmilab",1.0,Gm,1,info,"Sandbox Verenda",region,"Sandbox Verenda","<1193,917,0>",simhost-0a0aee9c1a33c4672.agni.secondlife.io,4.49498023e1,1.0,5242944,2,"<4.75264191e-2,1.2053889e-1,0.0>"
+52.13.113.31,2020-12-24T14:08:56,"fourmilab",1.0,Gm,1,info,"Sandbox Verenda",regenv,44,enabled,39727,"Premium Sandboxes",50196774,1,0,"Estate / Full Region",024,1607628463,1190461,"Second Life Server",2020-12-09.553685,simhost-0a0aee9c1a33c4672.agni.secondlife.io,20000,1,10,20,100
+52.43.118.202,2020-12-24T14:08:57,"fourmilab",1.0,Gm,1,info,"Sandbox Verenda",regrate,PG
+34.212.88.127,2020-12-24T14:08:58,"fourmilab",1.0,Gm,1,info,"Sandbox Verenda",parcel,"Sandbox - cleans every 4 hours. No combat, no selling!","Save your work! Only NO COPY items will return to inventory. Simple scripts only.",3d6181b0-6a4b-97ef-18d8-722652995cf1,A,"Governor Linden",61440,9,18750,1042317387
+34.223.226.192,2020-12-24T14:09:09,"fourmilab",1.0,Gm,1,compute,"Sandbox Verenda",task,float,ips,114178,iter,1180000,time,10.334710
+52.43.118.202,2020-12-24T14:09:18,"fourmilab",1.0,Gm,1,compute,"Sandbox Verenda",task,list,ips,4533,iter,42230,time,9.315707
+54.203.237.24,2020-12-24T14:09:29,"fourmilab",1.0,Gm,1,compute,"Sandbox Verenda",task,prim,ips,331,iter,3600,time,10.873000
+54.187.253.115,2020-12-24T14:09:43,"fourmilab",1.0,Gm,1,compute,"Sandbox Verenda",task,string,ips,6045,iter,82000,time,13.565840
+34.221.215.85,2020-12-24T14:09:53,"fourmilab",1.0,Gm,1,compute,"Sandbox Verenda",task,texture,ips,332,iter,3150,time,9.489488
+34.221.12.215,2020-12-24T14:10:05,"fourmilab",1.0,Gm,1,message,"Sandbox Verenda",type,link,messages,1000,length,128,bytes,128000,time,11.157560,"msg/sec",89.625360,"bytes/sec",11472.050000
+54.212.97.128,2020-12-24T14:10:16,"fourmilab",1.0,Gm,1,message,"Sandbox Verenda",type,region,messages,1000,length,128,bytes,128000,time,11.136770,"msg/sec",89.792610,"bytes/sec",11493.450000
+34.219.74.99,2020-12-24T14:10:27,"fourmilab",1.0,Gm,1,message,"Sandbox Verenda",type,regionto,messages,1000,length,128,bytes,128000,time,11.111810,"msg/sec",89.994320,"bytes/sec",11519.270000
+34.220.211.184,2020-12-24T14:10:30,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Verenda",test,1,ntests,6,delay,2.090078
+34.219.13.2,2020-12-24T14:10:33,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Verenda",test,2,ntests,6,delay,2.023031
+34.219.74.99,2020-12-24T14:10:36,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Verenda",test,3,ntests,6,delay,2.023567
+34.211.102.204,2020-12-24T14:10:39,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Verenda",test,4,ntests,6,delay,2.022205
+54.244.11.255,2020-12-24T14:10:42,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Verenda",test,5,ntests,6,delay,2.022064
+54.187.253.115,2020-12-24T14:10:45,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Verenda",test,6,ntests,6,delay,2.023026
+34.219.74.99,2020-12-24T14:10:52,"fourmilab",1.0,Gm,1,teleport,"Sandbox Formonsa","<88.00000, 150.00000, 27.00000>","Sandbox Verenda","<76.00000, 169.00000, 27.24812>"
+54.191.213.110,2020-12-24T14:10:53,"fourmilab",1.0,Gm,1,time,"Sandbox Formonsa",2020-12-24T14:10:53.224593Z,1608819053
+34.219.13.2,2020-12-24T14:11:05,"fourmilab",1.0,Gm,1,info,"Sandbox Formonsa",region,"Sandbox Formonsa","<1195,917,0>",simhost-0bb3aed8d16d86178.agni.secondlife.io,4.502653e1,9.98239099e-1,5242880,3,"<-9.75607633e-1,-1.3985275,0.0>"
+52.32.166.109,2020-12-24T14:11:05,"fourmilab",1.0,Gm,1,info,"Sandbox Formonsa",regenv,44,enabled,39727,"Premium Sandboxes",43981137,1,0,"Estate / Full Region",024,1607725137,1093916,"Second Life Server",2020-12-09.553685,simhost-0bb3aed8d16d86178.agni.secondlife.io,20000,1,10,20,100
+34.213.221.118,2020-12-24T14:11:05,"fourmilab",1.0,Gm,1,info,"Sandbox Formonsa",regrate,PG
+54.188.89.213,2020-12-24T14:11:07,"fourmilab",1.0,Gm,1,info,"Sandbox Formonsa",parcel,"Sandbox - cleans every 4 hours. No combat, no selling!","Save your work! only NO COPY items will return to inventory. Simple scripts only.",3d6181b0-6a4b-97ef-18d8-722652995cf1,A,"Governor Linden",61440,0,18750,908099659
+52.40.229.197,2020-12-24T14:11:18,"fourmilab",1.0,Gm,1,compute,"Sandbox Formonsa",task,float,ips,113207,iter,1180000,time,10.423370
+34.220.211.184,2020-12-24T14:11:27,"fourmilab",1.0,Gm,1,compute,"Sandbox Formonsa",task,list,ips,4506,iter,42230,time,9.372633
+54.191.213.110,2020-12-24T14:11:37,"fourmilab",1.0,Gm,1,compute,"Sandbox Formonsa",task,prim,ips,372,iter,3600,time,9.689594
+54.202.28.116,2020-12-24T14:11:49,"fourmilab",1.0,Gm,1,compute,"Sandbox Formonsa",task,string,ips,6788,iter,82000,time,12.080740
+34.219.119.244,2020-12-24T14:11:59,"fourmilab",1.0,Gm,1,compute,"Sandbox Formonsa",task,texture,ips,342,iter,3150,time,9.200532
+34.219.224.4,2020-12-24T14:12:11,"fourmilab",1.0,Gm,1,message,"Sandbox Formonsa",type,link,messages,1000,length,128,bytes,128000,time,11.156270,"msg/sec",89.635700,"bytes/sec",11473.370000
+34.212.88.127,2020-12-24T14:12:22,"fourmilab",1.0,Gm,1,message,"Sandbox Formonsa",type,region,messages,1000,length,128,bytes,128000,time,11.134060,"msg/sec",89.814470,"bytes/sec",11496.250000
+34.219.119.244,2020-12-24T14:12:33,"fourmilab",1.0,Gm,1,message,"Sandbox Formonsa",type,regionto,messages,1000,length,128,bytes,128000,time,11.112350,"msg/sec",89.989990,"bytes/sec",11518.720000
+52.32.166.109,2020-12-24T14:12:34,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Formonsa",test,1,ntests,6,delay,0.134853
+54.202.28.116,2020-12-24T14:12:35,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Formonsa",test,2,ntests,6,delay,0.026398
+54.202.28.116,2020-12-24T14:12:37,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Formonsa",test,3,ntests,6,delay,0.027912
+52.32.166.109,2020-12-24T14:12:38,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Formonsa",test,4,ntests,6,delay,0.027889
+52.40.229.197,2020-12-24T14:12:39,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Formonsa",test,5,ntests,6,delay,0.026306
+54.212.236.208,2020-12-24T14:12:40,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Formonsa",test,6,ntests,6,delay,0.025799
+34.221.42.135,2020-12-24T14:14:40,"fourmilab",1.0,Gm,1,teleport,"Sandbox Artifex","<87.00000, 116.00000, 27.00000>","Sandbox Amoena","<87.20098, 153.41600, 27.27233>"
+34.219.74.99,2020-12-24T14:14:41,"fourmilab",1.0,Gm,1,time,"Sandbox Artifex",2020-12-24T14:14:41.287245Z,1608819281
+34.211.102.204,2020-12-24T14:14:53,"fourmilab",1.0,Gm,1,info,"Sandbox Artifex",region,"Sandbox Artifex","<1196,918,0>",simhost-03efdf8b1d043ec69.agni.secondlife.io,4.500022e1,9.97453331e-1,5242944,3,"<2.26492333,-1.70038437,0.0>"
+54.202.28.116,2020-12-24T14:14:53,"fourmilab",1.0,Gm,1,info,"Sandbox Artifex",regenv,44,enabled,39727,"Premium Sandboxes",44668994,1,0,"Estate / Full Region",024,1607729039,1090242,"Second Life Server",2020-12-09.553685,simhost-03efdf8b1d043ec69.agni.secondlife.io,20000,1,10,20,100
+34.219.13.2,2020-12-24T14:14:53,"fourmilab",1.0,Gm,1,info,"Sandbox Artifex",regrate,PG
+52.43.118.202,2020-12-24T14:14:54,"fourmilab",1.0,Gm,1,info,"Sandbox Artifex",parcel,"Sandbox - cleans every 4 hours. No combat, no selling!","Save your work! Only NO COPY items will return to inventory. Simple scripts only.",3d6181b0-6a4b-97ef-18d8-722652995cf1,A,"Governor Linden",61440,12,18750,908066891
+54.203.16.199,2020-12-24T14:15:05,"fourmilab",1.0,Gm,1,compute,"Sandbox Artifex",task,float,ips,107035,iter,1180000,time,11.024400
+54.214.60.157,2020-12-24T14:15:16,"fourmilab",1.0,Gm,1,compute,"Sandbox Artifex",task,list,ips,4217,iter,42230,time,10.013860
+34.219.224.4,2020-12-24T14:15:27,"fourmilab",1.0,Gm,1,compute,"Sandbox Artifex",task,prim,ips,329,iter,3600,time,10.957160
+54.203.16.199,2020-12-24T14:15:40,"fourmilab",1.0,Gm,1,compute,"Sandbox Artifex",task,string,ips,6278,iter,82000,time,13.062190
+34.219.119.244,2020-12-24T14:15:50,"fourmilab",1.0,Gm,1,compute,"Sandbox Artifex",task,texture,ips,321,iter,3150,time,9.800787
+54.188.89.213,2020-12-24T14:16:02,"fourmilab",1.0,Gm,1,message,"Sandbox Artifex",type,link,messages,1000,length,128,bytes,128000,time,11.156040,"msg/sec",89.637570,"bytes/sec",11473.610000
+34.214.14.246,2020-12-24T14:16:13,"fourmilab",1.0,Gm,1,message,"Sandbox Artifex",type,region,messages,1000,length,128,bytes,128000,time,11.134420,"msg/sec",89.811570,"bytes/sec",11495.880000
+34.221.12.215,2020-12-24T14:16:25,"fourmilab",1.0,Gm,1,message,"Sandbox Artifex",type,regionto,messages,1000,length,128,bytes,128000,time,11.112050,"msg/sec",89.992410,"bytes/sec",11519.030000
+52.11.159.132,2020-12-24T14:16:27,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Artifex",test,1,ntests,6,delay,2.068329
+54.203.237.24,2020-12-24T14:16:30,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Artifex",test,2,ntests,6,delay,2.022009
+34.219.74.99,2020-12-24T14:16:33,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Artifex",test,3,ntests,6,delay,2.021242
+54.187.253.115,2020-12-24T14:16:36,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Artifex",test,4,ntests,6,delay,2.045258
+34.219.151.186,2020-12-24T14:16:40,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Artifex",test,5,ntests,6,delay,2.021023
+34.223.226.192,2020-12-24T14:16:43,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Artifex",test,6,ntests,6,delay,2.024132
+34.211.102.204,2020-12-24T14:18:37,"fourmilab",1.0,Gm,1,teleport,"London City Brittany","<182.00000, 67.00000, 20.00000>","Sandbox Mirificatio","<143.00000, 118.00000, 28.83116>"
+34.219.151.186,2020-12-24T14:18:38,"fourmilab",1.0,Gm,1,time,"London City Brittany",2020-12-24T14:18:38.535102Z,1608819518
+54.212.236.208,2020-12-24T14:18:50,"fourmilab",1.0,Gm,1,info,"London City Brittany",region,"London City Brittany","<850,894,0>",simhost-09f78ac1389d96466.agni.secondlife.io,4.502285e1,9.98164355e-1,139460672,4,"<5.644611,-2.75769293e-1,0.0>"
+34.219.13.2,2020-12-24T14:18:50,"fourmilab",1.0,Gm,1,info,"London City Brittany",regenv,10,disabled,51361,"London City Brittany",8506828,4,0,"Estate / Homestead",229,1608630391,189127,"Second Life Server",2020-12-09.553685,simhost-09f78ac1389d96466.agni.secondlife.io,5000,1,10,20,100
+54.188.3.218,2020-12-24T14:18:50,"fourmilab",1.0,Gm,1,info,"London City Brittany",regrate,PG
+52.11.159.132,2020-12-24T14:18:51,"fourmilab",1.0,Gm,1,info,"London City Brittany",parcel,"London City Sandbox","Sandbox with 30 minute return.  Don't take the piss, play nice!",1f4ccec6-e6c1-b367-8ad5-c767be189255,G,"London City Brittany",65536,3676,5000,908100682
+54.188.3.218,2020-12-24T14:18:59,"fourmilab",1.0,Gm,1,compute,"London City Brittany",task,float,ips,159387,iter,1180000,time,7.403356
+34.221.215.85,2020-12-24T14:19:06,"fourmilab",1.0,Gm,1,compute,"London City Brittany",task,list,ips,6146,iter,42230,time,6.870849
+54.218.22.241,2020-12-24T14:19:13,"fourmilab",1.0,Gm,1,compute,"London City Brittany",task,prim,ips,498,iter,3600,time,7.224586
+34.213.221.118,2020-12-24T14:19:24,"fourmilab",1.0,Gm,1,compute,"London City Brittany",task,string,ips,7935,iter,82000,time,10.333980
+34.219.151.186,2020-12-24T14:19:32,"fourmilab",1.0,Gm,1,compute,"London City Brittany",task,texture,ips,400,iter,3150,time,7.865668
+34.219.224.4,2020-12-24T14:19:45,"fourmilab",1.0,Gm,1,message,"London City Brittany",type,link,messages,1000,length,128,bytes,128000,time,11.957900,"msg/sec",83.626710,"bytes/sec",10704.220000
+34.213.221.118,2020-12-24T14:19:57,"fourmilab",1.0,Gm,1,message,"London City Brittany",type,region,messages,1000,length,128,bytes,128000,time,12.294090,"msg/sec",81.339890,"bytes/sec",10411.510000
+34.221.12.215,2020-12-24T14:20:09,"fourmilab",1.0,Gm,1,message,"London City Brittany",type,regionto,messages,1000,length,128,bytes,128000,time,12.002080,"msg/sec",83.318870,"bytes/sec",10664.820000
+34.211.102.204,2020-12-24T14:20:10,"fourmilab",1.0,Gm,1,rezscript,"London City Brittany",test,1,ntests,6,delay,0.134942
+54.202.28.116,2020-12-24T14:20:12,"fourmilab",1.0,Gm,1,rezscript,"London City Brittany",test,2,ntests,6,delay,0.041769
+34.220.211.184,2020-12-24T14:20:13,"fourmilab",1.0,Gm,1,rezscript,"London City Brittany",test,3,ntests,6,delay,0.026747
+34.219.74.99,2020-12-24T14:20:14,"fourmilab",1.0,Gm,1,rezscript,"London City Brittany",test,4,ntests,6,delay,0.042029
+34.223.226.192,2020-12-24T14:20:15,"fourmilab",1.0,Gm,1,rezscript,"London City Brittany",test,5,ntests,6,delay,0.023685
+34.219.13.2,2020-12-24T14:20:16,"fourmilab",1.0,Gm,1,rezscript,"London City Brittany",test,6,ntests,6,delay,0.044676
+34.212.88.127,2020-12-24T14:22:51,"fourmilab",1.0,Gm,1,teleport,"Mauve","<87.00000, 67.00000, 33.00000>","Debug1","<120.00000, 120.00000, 22.87618>"
+54.188.89.213,2020-12-24T14:23:31,"fourmilab",1.0,Gm,1,time,"Mauve",2020-12-24T14:23:30.970957Z,1608819810
+34.223.226.192,2020-12-24T14:23:43,"fourmilab",1.0,Gm,1,info,Mauve,region,Mauve,"<999,1007,0>",simhost-0b684bc50818ffecf.agni.secondlife.io,4.504735e1,9.9900186e-1,1114112,13,"<-1.56814694e-1,-2.06458616,0.0>"
+34.212.88.127,2020-12-24T14:23:43,"fourmilab",1.0,Gm,1,info,Mauve,regenv,55,enabled,1,mainland,48344936,1,0,"Mainland / Full Region",023,1607727281,1092530,"Second Life Server",2020-12-09.553685,simhost-0b684bc50818ffecf.agni.secondlife.io,22500,1,10,20,100
+34.219.119.244,2020-12-24T14:23:43,"fourmilab",1.0,Gm,1,info,Mauve,regrate,PG
+34.221.12.215,2020-12-24T14:23:43,"fourmilab",1.0,Gm,1,info,Mauve,parcel,"PUBLIC SANDBOX - All Welcome! (PG) No weapons. No Selling","SL Orientation, Building Classes, Help for Newbies, Free Stuff. Come to Learn and Build - Public Sandbox moderated by PSG (Public Sandbox Group)",779c87b7-89cd-cba1-858f-673adb2b7b37,G,"Public Sandbox Group",14176,647,4866,908100683
+54.188.3.218,2020-12-24T14:23:55,"fourmilab",1.0,Gm,1,compute,"Mauve",task,float,ips,105048,iter,1180000,time,11.232940
+54.203.16.199,2020-12-24T14:24:33,"fourmilab",1.0,Gm,1,compute,"Mauve",task,list,ips,1126,iter,42230,time,37.511990
+54.244.11.255,2020-12-24T14:24:45,"fourmilab",1.0,Gm,1,compute,"Mauve",task,prim,ips,304,iter,3600,time,11.838650
+52.11.159.132,2020-12-24T14:25:00,"fourmilab",1.0,Gm,1,compute,"Mauve",task,string,ips,5443,iter,82000,time,15.065670
+54.188.3.218,2020-12-24T14:25:11,"fourmilab",1.0,Gm,1,compute,"Mauve",task,texture,ips,307,iter,3150,time,10.272240
+35.160.241.146,2020-12-24T14:25:23,"fourmilab",1.0,Gm,1,message,"Mauve",type,link,messages,1000,length,128,bytes,128000,time,11.201590,"msg/sec",89.273000,"bytes/sec",11426.940000
+54.202.28.116,2020-12-24T14:25:34,"fourmilab",1.0,Gm,1,message,"Mauve",type,region,messages,1000,length,128,bytes,128000,time,11.195350,"msg/sec",89.322820,"bytes/sec",11433.320000
+34.221.12.215,2020-12-24T14:25:46,"fourmilab",1.0,Gm,1,message,"Mauve",type,regionto,messages,1000,length,128,bytes,128000,time,11.549490,"msg/sec",86.583910,"bytes/sec",11082.740000
+34.219.151.186,2020-12-24T14:25:48,"fourmilab",1.0,Gm,1,rezscript,"Mauve",test,1,ntests,6,delay,2.040241
+54.188.92.48,2020-12-24T14:25:51,"fourmilab",1.0,Gm,1,rezscript,"Mauve",test,2,ntests,6,delay,2.031616
+54.212.97.128,2020-12-24T14:25:54,"fourmilab",1.0,Gm,1,rezscript,"Mauve",test,3,ntests,6,delay,2.035984
+54.187.253.115,2020-12-24T14:25:57,"fourmilab",1.0,Gm,1,rezscript,"Mauve",test,4,ntests,6,delay,2.029846
+54.200.177.59,2020-12-24T14:26:00,"fourmilab",1.0,Gm,1,rezscript,"Mauve",test,5,ntests,6,delay,2.025852
+54.191.213.110,2020-12-24T14:26:04,"fourmilab",1.0,Gm,1,rezscript,"Mauve",test,6,ntests,6,delay,2.039067
+54.203.237.24,2020-12-24T14:26:11,"fourmilab",1.0,Gm,1,teleport,"Devolin Mal","<172.00000, 181.00000, 51.00000>","Mauve","<96.39449, 77.99723, 33.35315>"
+34.223.226.192,2020-12-24T14:26:13,"fourmilab",1.0,Gm,1,time,"Devolin Mal",2020-12-24T14:26:12.914250Z,1608819972
+54.218.22.241,2020-12-24T14:26:25,"fourmilab",1.0,Gm,1,info,"Devolin Mal",region,"Devolin Mal","<1130,1053,0>",simhost-06380c5dce4e2d44a.agni.secondlife.io,4.501514e1,9.92410898e-1,1114112,3,"<-1.32426366e-1,5.5702424e-1,0.0>"
+35.160.241.146,2020-12-24T14:26:25,"fourmilab",1.0,Gm,1,info,"Devolin Mal",regenv,44,enabled,1,mainland,53425158,1,0,"Mainland / Full Region",023,1607627132,1192841,"Second Life Server",2020-12-09.553685,simhost-06380c5dce4e2d44a.agni.secondlife.io,22500,1,10,20,100
+52.32.166.109,2020-12-24T14:26:25,"fourmilab",1.0,Gm,1,info,"Devolin Mal",regrate,MATURE
+34.221.12.215,2020-12-24T14:26:26,"fourmilab",1.0,Gm,1,info,"Devolin Mal",parcel,"Heart Of The Blake Sea Airfield, & Marina(51 & 502high)Airport ","airport,pilot,hangar,rent, marina,dock,mooring,Boat slip,gacha,\nrunway,race,rental,sailing,flying,ww2,boat,home, boathouse,blake sea,public\n,fire ATC, gtfo house beach,hangar,hangout,friends \n 2nd runway 502m airport  skydive airports\n ",e843bb4d-1da2-49e0-7052-e0fed85ff502,G,"Heart of the Blake Sea",30272,8731,10393,1040188747
+52.39.161.185,2020-12-24T14:26:43,"fourmilab",1.0,Gm,1,compute,"Devolin Mal",task,float,ips,72773,iter,1180000,time,16.214890
+54.212.236.208,2020-12-24T14:26:54,"fourmilab",1.0,Gm,1,compute,"Devolin Mal",task,list,ips,3829,iter,42230,time,11.028370
+54.212.236.208,2020-12-24T14:27:09,"fourmilab",1.0,Gm,1,compute,"Devolin Mal",task,prim,ips,248,iter,3600,time,14.523400
+54.188.92.48,2020-12-24T14:27:24,"fourmilab",1.0,Gm,1,compute,"Devolin Mal",task,string,ips,5360,iter,82000,time,15.299850
+34.219.151.186,2020-12-24T14:27:37,"fourmilab",1.0,Gm,1,compute,"Devolin Mal",task,texture,ips,257,iter,3150,time,12.275900
+54.188.92.48,2020-12-24T14:27:56,"fourmilab",1.0,Gm,1,message,"Devolin Mal",type,link,messages,1000,length,128,bytes,128000,time,18.159420,"msg/sec",55.067840,"bytes/sec",7048.684000
+52.39.161.185,2020-12-24T14:28:14,"fourmilab",1.0,Gm,1,message,"Devolin Mal",type,region,messages,1000,length,128,bytes,128000,time,17.916970,"msg/sec",55.813010,"bytes/sec",7144.066000
+34.219.74.99,2020-12-24T14:28:33,"fourmilab",1.0,Gm,1,message,"Devolin Mal",type,regionto,messages,1000,length,128,bytes,128000,time,18.202520,"msg/sec",54.937450,"bytes/sec",7031.993000
+52.12.206.41,2020-12-24T14:28:36,"fourmilab",1.0,Gm,1,rezscript,"Devolin Mal",test,1,ntests,6,delay,2.068207
+52.88.132.126,2020-12-24T14:28:39,"fourmilab",1.0,Gm,1,rezscript,"Devolin Mal",test,2,ntests,6,delay,2.033688
+54.202.28.116,2020-12-24T14:28:42,"fourmilab",1.0,Gm,1,rezscript,"Devolin Mal",test,3,ntests,6,delay,2.023491
+52.11.159.132,2020-12-24T14:28:45,"fourmilab",1.0,Gm,1,rezscript,"Devolin Mal",test,4,ntests,6,delay,2.036957
+34.220.211.184,2020-12-24T14:28:48,"fourmilab",1.0,Gm,1,rezscript,"Devolin Mal",test,5,ntests,6,delay,2.034008
+54.186.72.108,2020-12-24T14:28:51,"fourmilab",1.0,Gm,1,rezscript,"Devolin Mal",test,6,ntests,6,delay,2.027027
+54.200.177.59,2020-12-24T14:28:58,"fourmilab",1.0,Gm,1,teleport,"Limia","<158.00000, 106.00000, 26.00000>","Devolin Mal","<172.00000, 181.00000, 51.30982>"
+34.219.119.244,2020-12-24T14:28:59,"fourmilab",1.0,Gm,1,time,"Limia",2020-12-24T14:28:59.576682Z,1608820139
+34.220.211.184,2020-12-24T14:29:11,"fourmilab",1.0,Gm,1,info,Limia,region,Limia,"<1194,918,0>",simhost-0a885b7ec3f92d50a.agni.secondlife.io,4.49905929e1,9.9973005e-1,1048576,1,"<-2.39274168,2.87663936e-1,0.0>"
+54.186.72.108,2020-12-24T14:29:11,"fourmilab",1.0,Gm,1,info,Limia,regenv,25,enabled,39727,"Premium Sandboxes",31178551,4,0,"Estate / Homestead",229,1608030923,789216,"Second Life Server",2020-12-09.553685,simhost-0a885b7ec3f92d50a.agni.secondlife.io,5000,1,10,20,100
+34.219.119.244,2020-12-24T14:29:11,"fourmilab",1.0,Gm,1,info,Limia,regrate,PG
+34.219.151.186,2020-12-24T14:29:12,"fourmilab",1.0,Gm,1,info,Limia,parcel,"Vehicle Rez Zone - Runway","Protected Land, Not For Sale",4a18e287-db5b-0551-2500-087da6e89efb,G,"Linden Department of Public Works",1824,2,139,908066891
+34.212.88.127,2020-12-24T14:29:20,"fourmilab",1.0,Gm,1,compute,"Limia",task,float,ips,160403,iter,1180000,time,7.356483
+52.12.206.41,2020-12-24T14:29:27,"fourmilab",1.0,Gm,1,compute,"Limia",task,list,ips,6051,iter,42230,time,6.978520
+52.12.206.41,2020-12-24T14:29:35,"fourmilab",1.0,Gm,1,compute,"Limia",task,prim,ips,455,iter,3600,time,7.911861
+34.213.221.118,2020-12-24T14:29:45,"fourmilab",1.0,Gm,1,compute,"Limia",task,string,ips,8145,iter,82000,time,10.067200
+54.212.236.208,2020-12-24T14:29:54,"fourmilab",1.0,Gm,1,compute,"Limia",task,texture,ips,396,iter,3150,time,7.955926
+34.212.88.127,2020-12-24T14:30:05,"fourmilab",1.0,Gm,1,message,"Limia",type,link,messages,1000,length,128,bytes,128000,time,11.156860,"msg/sec",89.630950,"bytes/sec",11472.760000
+34.220.211.184,2020-12-24T14:30:17,"fourmilab",1.0,Gm,1,message,"Limia",type,region,messages,1000,length,128,bytes,128000,time,11.134700,"msg/sec",89.809350,"bytes/sec",11495.600000
+34.221.12.215,2020-12-24T14:30:28,"fourmilab",1.0,Gm,1,message,"Limia",type,regionto,messages,1000,length,128,bytes,128000,time,11.112090,"msg/sec",89.992080,"bytes/sec",11518.990000
+52.12.206.41,2020-12-24T14:30:29,"fourmilab",1.0,Gm,1,rezscript,"Limia",test,1,ntests,6,delay,0.133291
+54.200.177.59,2020-12-24T14:30:30,"fourmilab",1.0,Gm,1,rezscript,"Limia",test,2,ntests,6,delay,0.046923
+54.214.60.157,2020-12-24T14:30:31,"fourmilab",1.0,Gm,1,rezscript,"Limia",test,3,ntests,6,delay,0.025175
+52.13.113.31,2020-12-24T14:30:32,"fourmilab",1.0,Gm,1,rezscript,"Limia",test,4,ntests,6,delay,0.024746
+54.187.253.115,2020-12-24T14:30:34,"fourmilab",1.0,Gm,1,rezscript,"Limia",test,5,ntests,6,delay,0.025265
+34.214.14.246,2020-12-24T14:30:35,"fourmilab",1.0,Gm,1,rezscript,"Limia",test,6,ntests,6,delay,0.027157
+34.219.224.4,2020-12-24T14:32:16,"fourmilab",1.0,Gm,1,teleport,"Arowana","<152.00000, 157.00000, 25.00000>","Limia","<158.00000, 106.00000, 26.45220>"
+52.39.161.185,2020-12-24T14:32:18,"fourmilab",1.0,Gm,1,time,"Arowana",2020-12-24T14:32:17.886596Z,1608820337
+54.218.22.241,2020-12-24T14:32:30,"fourmilab",1.0,Gm,1,info,Arowana,region,Arowana,"<1194,917,0>",simhost-0caaa18be605a3a51.agni.secondlife.io,4.49975242e1,1.0,1048576,1,"<7.95036852e-1,1.14075469,0.0>"
+54.214.60.157,2020-12-24T14:32:30,"fourmilab",1.0,Gm,1,info,Arowana,regenv,25,enabled,39727,"Premium Sandboxes",30750700,4,0,"Estate / Homestead",229,1608031918,788420,"Second Life Server",2020-12-09.553685,simhost-0caaa18be605a3a51.agni.secondlife.io,5000,1,10,20,100
+34.221.12.215,2020-12-24T14:32:30,"fourmilab",1.0,Gm,1,info,Arowana,regrate,PG
+34.219.74.99,2020-12-24T14:32:30,"fourmilab",1.0,Gm,1,info,Arowana,parcel,"Boat Rez Zone","Protected Land, Not for Sale",4a18e287-db5b-0551-2500-087da6e89efb,G,"Linden Department of Public Works",63488,436,4843,1042284619
+34.223.226.192,2020-12-24T14:32:38,"fourmilab",1.0,Gm,1,compute,"Arowana",task,float,ips,163883,iter,1180000,time,7.200241
+54.203.16.199,2020-12-24T14:32:45,"fourmilab",1.0,Gm,1,compute,"Arowana",task,list,ips,6288,iter,42230,time,6.716464
+54.191.213.110,2020-12-24T14:32:52,"fourmilab",1.0,Gm,1,compute,"Arowana",task,prim,ips,491,iter,3600,time,7.334523
+34.223.226.192,2020-12-24T14:33:01,"fourmilab",1.0,Gm,1,compute,"Arowana",task,string,ips,9709,iter,82000,time,8.445539
+54.188.89.213,2020-12-24T14:33:09,"fourmilab",1.0,Gm,1,compute,"Arowana",task,texture,ips,423,iter,3150,time,7.444190
+34.211.102.204,2020-12-24T14:33:21,"fourmilab",1.0,Gm,1,message,"Arowana",type,link,messages,1000,length,128,bytes,128000,time,11.179090,"msg/sec",89.452720,"bytes/sec",11449.950000
+52.40.229.197,2020-12-24T14:33:32,"fourmilab",1.0,Gm,1,message,"Arowana",type,region,messages,1000,length,128,bytes,128000,time,11.133830,"msg/sec",89.816320,"bytes/sec",11496.490000
+52.88.132.126,2020-12-24T14:33:43,"fourmilab",1.0,Gm,1,message,"Arowana",type,regionto,messages,1000,length,128,bytes,128000,time,11.111700,"msg/sec",89.995210,"bytes/sec",11519.390000
+34.223.226.192,2020-12-24T14:33:44,"fourmilab",1.0,Gm,1,rezscript,"Arowana",test,1,ntests,6,delay,0.133503
+54.200.177.59,2020-12-24T14:33:45,"fourmilab",1.0,Gm,1,rezscript,"Arowana",test,2,ntests,6,delay,0.023804
+34.223.226.192,2020-12-24T14:33:46,"fourmilab",1.0,Gm,1,rezscript,"Arowana",test,3,ntests,6,delay,0.025009
+54.203.16.199,2020-12-24T14:33:48,"fourmilab",1.0,Gm,1,rezscript,"Arowana",test,4,ntests,6,delay,0.025108
+34.219.13.2,2020-12-24T14:33:49,"fourmilab",1.0,Gm,1,rezscript,"Arowana",test,5,ntests,6,delay,0.024975
+52.32.166.109,2020-12-24T14:33:50,"fourmilab",1.0,Gm,1,rezscript,"Arowana",test,6,ntests,6,delay,0.026276
+52.24.74.197,2020-12-24T14:33:58,"fourmilab",1.0,Gm,1,teleport,"Orville","<117.00000, 105.00000, 25.00000>","Arowana","<152.00120, 156.99990, 24.53515>"
+34.221.42.135,2020-12-24T14:33:59,"fourmilab",1.0,Gm,1,time,"Orville",2020-12-24T14:33:59.696146Z,1608820439
+54.188.89.213,2020-12-24T14:34:11,"fourmilab",1.0,Gm,1,info,Orville,region,Orville,"<1194,916,0>",simhost-08e02b4241d100db0.agni.secondlife.io,4.498273e1,0.99967,5308416,1,"<-2.10405254,1.530659,0.0>"
+54.212.97.128,2020-12-24T14:34:11,"fourmilab",1.0,Gm,1,info,Orville,regenv,44,enabled,39727,"Premium Sandboxes",34913637,1,0,"Estate / Full Region",024,1607730445,1089995,"Second Life Server",2020-12-09.553685,simhost-08e02b4241d100db0.agni.secondlife.io,20000,1,10,20,100
+54.188.89.213,2020-12-24T14:34:12,"fourmilab",1.0,Gm,1,info,Orville,regrate,PG
+54.203.237.24,2020-12-24T14:34:12,"fourmilab",1.0,Gm,1,info,Orville,parcel,"Orville Airport and Rez Zone","Protected land, not for sale. Objects are returned after 20 minutes.",4a18e287-db5b-0551-2500-087da6e89efb,G,"Linden Department of Public Works",65536,5346,20000,1042284619
+34.221.12.215,2020-12-24T14:34:20,"fourmilab",1.0,Gm,1,compute,"Orville",task,float,ips,146671,iter,1180000,time,8.045228
+54.187.253.115,2020-12-24T14:34:28,"fourmilab",1.0,Gm,1,compute,"Orville",task,list,ips,5518,iter,42230,time,7.653069
+54.218.22.241,2020-12-24T14:34:38,"fourmilab",1.0,Gm,1,compute,"Orville",task,prim,ips,396,iter,3600,time,9.089202
+54.188.89.213,2020-12-24T14:34:49,"fourmilab",1.0,Gm,1,compute,"Orville",task,string,ips,7701,iter,82000,time,10.647650
+34.221.215.85,2020-12-24T14:34:58,"fourmilab",1.0,Gm,1,compute,"Orville",task,texture,ips,358,iter,3150,time,8.801321
+54.203.237.24,2020-12-24T14:35:09,"fourmilab",1.0,Gm,1,message,"Orville",type,link,messages,1000,length,128,bytes,128000,time,11.156300,"msg/sec",89.635440,"bytes/sec",11473.340000
+54.187.253.115,2020-12-24T14:35:21,"fourmilab",1.0,Gm,1,message,"Orville",type,region,messages,1000,length,128,bytes,128000,time,11.133890,"msg/sec",89.815830,"bytes/sec",11496.430000
+52.12.206.41,2020-12-24T14:35:32,"fourmilab",1.0,Gm,1,message,"Orville",type,regionto,messages,1000,length,128,bytes,128000,time,11.112240,"msg/sec",89.990840,"bytes/sec",11518.830000
+52.11.159.132,2020-12-24T14:35:33,"fourmilab",1.0,Gm,1,rezscript,"Orville",test,1,ntests,6,delay,0.133606
+54.203.16.199,2020-12-24T14:35:34,"fourmilab",1.0,Gm,1,rezscript,"Orville",test,2,ntests,6,delay,0.024761
+54.202.28.116,2020-12-24T14:35:35,"fourmilab",1.0,Gm,1,rezscript,"Orville",test,3,ntests,6,delay,0.025768
+54.191.213.110,2020-12-24T14:35:36,"fourmilab",1.0,Gm,1,rezscript,"Orville",test,4,ntests,6,delay,0.026661
+54.203.237.24,2020-12-24T14:35:38,"fourmilab",1.0,Gm,1,rezscript,"Orville",test,5,ntests,6,delay,0.027168
+52.43.118.202,2020-12-24T14:35:39,"fourmilab",1.0,Gm,1,rezscript,"Orville",test,6,ntests,6,delay,0.026432
+34.219.151.186,2020-12-24T14:35:46,"fourmilab",1.0,Gm,1,teleport,"Woodbine","<114.00000, 114.00000, 36.00000>","Orville","<112.00900, 73.76200, 25.14567>"
+54.212.236.208,2020-12-24T14:35:47,"fourmilab",1.0,Gm,1,time,"Woodbine",2020-12-24T14:35:47.327311Z,1608820547
+34.213.221.118,2020-12-24T14:35:59,"fourmilab",1.0,Gm,1,info,Woodbine,region,Woodbine,"<1020,910,0>",simhost-053aafef280d4b102.agni.secondlife.io,4.50296669e1,0.999826,1114112,1,"<-5.36748409e-1,5.83642125e-1,0.0>"
+34.219.224.4,2020-12-24T14:35:59,"fourmilab",1.0,Gm,1,info,Woodbine,regenv,25,enabled,1,mainland,17310328,4,0,"Mainland / Homestead",129,1608435341,385206,"Second Life Server",2020-12-09.553685,simhost-053aafef280d4b102.agni.secondlife.io,5000,1,10,20,100
+34.219.224.4,2020-12-24T14:35:59,"fourmilab",1.0,Gm,1,info,Woodbine,regrate,MATURE
+34.219.151.186,2020-12-24T14:35:59,"fourmilab",1.0,Gm,1,info,Woodbine,parcel,"USS Reprisal rez zone","Protected Land, Not for sale. Autoreturn should be 10 minutes.\n     Click on the crane for a free sailor outfit!\n     Have fun on the USS Reprisal, an Independence-class aircraft carrier, launched in 1943.",4a18e287-db5b-0551-2500-087da6e89efb,G,"Linden Department of Public Works",8912,929,679,1042284619
+34.221.12.215,2020-12-24T14:36:07,"fourmilab",1.0,Gm,1,compute,"Woodbine",task,float,ips,175791,iter,1180000,time,6.712514
+52.13.113.31,2020-12-24T14:36:14,"fourmilab",1.0,Gm,1,compute,"Woodbine",task,list,ips,6210,iter,42230,time,6.800560
+52.43.118.202,2020-12-24T14:36:21,"fourmilab",1.0,Gm,1,compute,"Woodbine",task,prim,ips,507,iter,3600,time,7.095090
+34.221.42.135,2020-12-24T14:36:32,"fourmilab",1.0,Gm,1,compute,"Woodbine",task,string,ips,7745,iter,82000,time,10.587660
+54.203.237.24,2020-12-24T14:36:40,"fourmilab",1.0,Gm,1,compute,"Woodbine",task,texture,ips,414,iter,3150,time,7.601039
+54.188.3.218,2020-12-24T14:36:51,"fourmilab",1.0,Gm,1,message,"Woodbine",type,link,messages,1000,length,128,bytes,128000,time,11.157020,"msg/sec",89.629660,"bytes/sec",11472.600000
+34.212.88.127,2020-12-24T14:37:03,"fourmilab",1.0,Gm,1,message,"Woodbine",type,region,messages,1000,length,128,bytes,128000,time,11.134510,"msg/sec",89.810870,"bytes/sec",11495.790000
+54.188.3.218,2020-12-24T14:37:14,"fourmilab",1.0,Gm,1,message,"Woodbine",type,regionto,messages,1000,length,128,bytes,128000,time,11.110850,"msg/sec",90.002090,"bytes/sec",11520.270000
+54.203.16.199,2020-12-24T14:37:15,"fourmilab",1.0,Gm,1,rezscript,"Woodbine",test,1,ntests,6,delay,0.133528
+52.88.132.126,2020-12-24T14:37:16,"fourmilab",1.0,Gm,1,rezscript,"Woodbine",test,2,ntests,6,delay,0.043287
+52.43.118.202,2020-12-24T14:37:17,"fourmilab",1.0,Gm,1,rezscript,"Woodbine",test,3,ntests,6,delay,0.043856
+34.211.102.204,2020-12-24T14:37:19,"fourmilab",1.0,Gm,1,rezscript,"Woodbine",test,4,ntests,6,delay,0.043633
+54.191.213.110,2020-12-24T14:37:20,"fourmilab",1.0,Gm,1,rezscript,"Woodbine",test,5,ntests,6,delay,0.044825
+54.203.16.199,2020-12-24T14:37:21,"fourmilab",1.0,Gm,1,rezscript,"Woodbine",test,6,ntests,6,delay,0.044188
+54.200.177.59,2020-12-24T14:37:28,"fourmilab",1.0,Gm,1,teleport,"Lapara","<79.00000, 241.00000, 345.00000>","Woodbine","<114.39790, 114.44890, 35.94795>"
+54.214.60.157,2020-12-24T14:37:29,"fourmilab",1.0,Gm,1,time,"Lapara",2020-12-24T14:37:29.673258Z,1608820649
+52.88.186.155,2020-12-24T14:37:41,"fourmilab",1.0,Gm,1,info,Lapara,region,Lapara,"<1001,1030,0>",simhost-0e36f6c591adaa116.agni.secondlife.io,4.43342437e1,9.46812152e-1,1114112,2,"<-5.17468154e-1,-3.41346621,0.0>"
+34.219.74.99,2020-12-24T14:37:41,"fourmilab",1.0,Gm,1,info,Lapara,regenv,44,enabled,1,mainland,53395640,1,0,"Mainland / Full Region",023,1607627146,1193504,"Second Life Server",2020-12-09.553685,simhost-0e36f6c591adaa116.agni.secondlife.io,22500,1,10,20,100
+54.188.3.218,2020-12-24T14:37:42,"fourmilab",1.0,Gm,1,info,Lapara,regrate,MATURE
+34.214.14.246,2020-12-24T14:37:42,"fourmilab",1.0,Gm,1,info,Lapara,parcel,"=SLLR= Lapara Airport","243mx36m Runway 09/27\nGreat Watar Fall\nTerra Skydiving Spot\nAs the ground in the airport, the mainland is the highest point.\nPeople within 2 weeks of age, disabled access",1ddcaa95-6003-a5ea-2e4c-a0970c0a4954,G,"HOME 00",6288,2114,2158,1042285675
+52.88.186.155,2020-12-24T14:37:53,"fourmilab",1.0,Gm,1,compute,"Lapara",task,float,ips,111881,iter,1180000,time,10.546920
+34.214.14.246,2020-12-24T14:38:04,"fourmilab",1.0,Gm,1,compute,"Lapara",task,list,ips,3932,iter,42230,time,10.738870
+34.220.211.184,2020-12-24T14:38:18,"fourmilab",1.0,Gm,1,compute,"Lapara",task,prim,ips,257,iter,3600,time,13.993220
+54.187.253.115,2020-12-24T14:38:35,"fourmilab",1.0,Gm,1,compute,"Lapara",task,string,ips,4932,iter,82000,time,16.626020
+54.202.28.116,2020-12-24T14:38:48,"fourmilab",1.0,Gm,1,compute,"Lapara",task,texture,ips,248,iter,3150,time,12.679560
+34.212.88.127,2020-12-24T14:39:03,"fourmilab",1.0,Gm,1,message,"Lapara",type,link,messages,1000,length,128,bytes,128000,time,13.743740,"msg/sec",72.760420,"bytes/sec",9313.334000
+34.219.119.244,2020-12-24T14:39:17,"fourmilab",1.0,Gm,1,message,"Lapara",type,region,messages,1000,length,128,bytes,128000,time,13.695150,"msg/sec",73.018550,"bytes/sec",9346.375000
+34.221.215.85,2020-12-24T14:39:31,"fourmilab",1.0,Gm,1,message,"Lapara",type,regionto,messages,1000,length,128,bytes,128000,time,13.991710,"msg/sec",71.470890,"bytes/sec",9148.274000
+54.218.22.241,2020-12-24T14:39:32,"fourmilab",1.0,Gm,1,rezscript,"Lapara",test,1,ntests,6,delay,0.100819
+54.244.11.255,2020-12-24T14:39:33,"fourmilab",1.0,Gm,1,rezscript,"Lapara",test,2,ntests,6,delay,0.040920
+34.223.226.192,2020-12-24T14:39:35,"fourmilab",1.0,Gm,1,rezscript,"Lapara",test,3,ntests,6,delay,0.035301
+34.219.151.186,2020-12-24T14:39:36,"fourmilab",1.0,Gm,1,rezscript,"Lapara",test,4,ntests,6,delay,0.046322
+54.212.97.128,2020-12-24T14:39:37,"fourmilab",1.0,Gm,1,rezscript,"Lapara",test,5,ntests,6,delay,0.028553
+52.11.159.132,2020-12-24T14:39:38,"fourmilab",1.0,Gm,1,rezscript,"Lapara",test,6,ntests,6,delay,0.031937
+54.188.3.218,2020-12-24T14:39:47,"fourmilab",1.0,Gm,1,teleport,"London City","<85.00000, 223.00000, 24.00000>","Lapara","<79.09410, 241.26000, 344.51760>"
+54.214.60.157,2020-12-24T14:39:49,"fourmilab",1.0,Gm,1,time,"London City",2020-12-24T14:39:48.886373Z,1608820788
+54.188.92.48,2020-12-24T14:40:01,"fourmilab",1.0,Gm,1,info,"London City",region,"London City","<851,895,0>",simhost-081a81026b0b5dde6.agni.secondlife.io,4.46905479e1,9.98134374e-1,139460608,51,"<4.048596,6.73809349e-2,0.0>"
+54.202.28.116,2020-12-24T14:40:01,"fourmilab",1.0,Gm,1,info,"London City",regenv,110,disabled,38857,"London City",8437836,1,0,"Estate / Full Region",024,1608630278,190511,"Second Life Server",2020-12-09.553685,simhost-081a81026b0b5dde6.agni.secondlife.io,20000,1.125,10,20,100
+52.43.118.202,2020-12-24T14:40:02,"fourmilab",1.0,Gm,1,info,"London City",regrate,MATURE
+52.32.166.109,2020-12-24T14:40:02,"fourmilab",1.0,Gm,1,info,"London City",parcel,"LONDON CITY - Soho & Regent's Park  https://londoncitysl.com ","New User official community gateway Help Freebie Megastore Freebies Free clothes hangout Money Win voice chat shopping stores Soho Gay Pride club clubs English Pub Friends love Dance Adboards Adboard UK clothing LGBT LGBTQ trans Live Singing Thanksgiving",d991745a-e59f-8193-83b0-cbfedda07797,G,"London City Rez",35376,7806,12144,908100619
+54.203.16.199,2020-12-24T14:40:25,"fourmilab",1.0,Gm,1,compute,"London City",task,float,ips,52707,iter,1180000,time,22.388070
+34.220.211.184,2020-12-24T14:40:52,"fourmilab",1.0,Gm,1,compute,"London City",task,list,ips,1592,iter,42230,time,26.530750
+35.160.241.146,2020-12-24T14:41:14,"fourmilab",1.0,Gm,1,compute,"London City",task,prim,ips,170,iter,3600,time,21.187700
+54.244.11.255,2020-12-24T14:41:44,"fourmilab",1.0,Gm,1,compute,"London City",task,string,ips,2812,iter,82000,time,29.165490
+52.39.161.185,2020-12-24T14:42:04,"fourmilab",1.0,Gm,1,compute,"London City",task,texture,ips,163,iter,3150,time,19.294240
+54.214.60.157,2020-12-24T14:42:26,"fourmilab",1.0,Gm,1,message,"London City",type,link,messages,1000,length,128,bytes,128000,time,21.601940,"msg/sec",46.292130,"bytes/sec",5925.393000
+34.219.119.244,2020-12-24T14:42:47,"fourmilab",1.0,Gm,1,message,"London City",type,region,messages,1000,length,128,bytes,128000,time,20.834040,"msg/sec",47.998360,"bytes/sec",6143.791000
+34.223.226.192,2020-12-24T14:43:14,"fourmilab",1.0,Gm,1,message,"London City",type,regionto,messages,1000,length,128,bytes,128000,time,26.259950,"msg/sec",38.080800,"bytes/sec",4874.343000
+34.220.211.184,2020-12-24T14:43:22,"fourmilab",1.0,Gm,1,teleport,"Caledon Oxbridge","<92.00000, 200.00000, 27.00000>","London City","<85.00000, 223.00000, 23.23072>"
+54.244.11.255,2020-12-24T14:43:25,"fourmilab",1.0,Gm,1,time,"Caledon Oxbridge",2020-12-24T14:43:25.095803Z,1608821005
+52.32.166.109,2020-12-24T14:43:38,"fourmilab",1.0,Gm,1,info,"Caledon Oxbridge",region,"Caledon Oxbridge","<904,1021,0>",simhost-0d364e18086109f6d.agni.secondlife.io,4.50150756e1,0.998012,5242880,4,"<-3.80665349,1.75314068,0.0>"
+54.188.89.213,2020-12-24T14:43:38,"fourmilab",1.0,Gm,1,info,"Caledon Oxbridge",regenv,25,disabled,16205,CaledonOxbridge,8172727,4,0,"Estate / Homestead",229,1608626242,194763,"Second Life Server",2020-12-09.553685,simhost-0d364e18086109f6d.agni.secondlife.io,5000,8,10,20,100
+54.212.97.128,2020-12-24T14:43:38,"fourmilab",1.0,Gm,1,info,"Caledon Oxbridge",regrate,PG
+34.219.151.186,2020-12-24T14:43:39,"fourmilab",1.0,Gm,1,info,"Caledon Oxbridge",parcel,"Caledon Oxbridge Gateway - New Resident Help","Help. Lessons. Tutorials. Assistance. Helpers. New. Support. People Helping People. Free Clothes. Building Area. Mentors. Guide. Guides. New Residents. Learning. Learn. Fun. Activities. The Independent State of Caledon Community Gateway.",c3610f3d-1752-56a8-f675-58fae94fe94f,G,"Caledon Oxbridge University",57248,2940,5000,505447499
+52.40.229.197,2020-12-24T14:43:59,"fourmilab",1.0,Gm,1,compute,"Caledon Oxbridge",task,float,ips,63964,iter,1180000,time,18.447990
+54.212.97.128,2020-12-24T14:44:17,"fourmilab",1.0,Gm,1,compute,"Caledon Oxbridge",task,list,ips,2352,iter,42230,time,17.956820
+52.88.132.126,2020-12-24T14:44:37,"fourmilab",1.0,Gm,1,compute,"Caledon Oxbridge",task,prim,ips,190,iter,3600,time,18.913140
+52.40.229.197,2020-12-24T14:45:02,"fourmilab",1.0,Gm,1,compute,"Caledon Oxbridge",task,string,ips,3340,iter,82000,time,24.553910
+34.220.211.184,2020-12-24T14:45:22,"fourmilab",1.0,Gm,1,compute,"Caledon Oxbridge",task,texture,ips,157,iter,3150,time,20.044550
+54.212.97.128,2020-12-24T14:45:55,"fourmilab",1.0,Gm,1,message,"Caledon Oxbridge",type,link,messages,1000,length,128,bytes,128000,time,31.580910,"msg/sec",31.664700,"bytes/sec",4053.082000
+34.219.119.244,2020-12-24T14:46:26,"fourmilab",1.0,Gm,1,message,"Caledon Oxbridge",type,region,messages,1000,length,128,bytes,128000,time,30.513470,"msg/sec",32.772410,"bytes/sec",4194.869000
+52.24.74.197,2020-12-24T14:46:59,"fourmilab",1.0,Gm,1,message,"Caledon Oxbridge",type,regionto,messages,1000,length,128,bytes,128000,time,32.032270,"msg/sec",31.218520,"bytes/sec",3995.970000
+52.13.113.31,2020-12-24T14:47:01,"fourmilab",1.0,Gm,1,rezscript,"Caledon Oxbridge",test,1,ntests,6,delay,0.176244
+52.12.206.41,2020-12-24T14:47:02,"fourmilab",1.0,Gm,1,rezscript,"Caledon Oxbridge",test,2,ntests,6,delay,0.063268
+52.88.186.155,2020-12-24T14:47:04,"fourmilab",1.0,Gm,1,rezscript,"Caledon Oxbridge",test,3,ntests,6,delay,0.065398
+54.191.213.110,2020-12-24T14:47:05,"fourmilab",1.0,Gm,1,rezscript,"Caledon Oxbridge",test,4,ntests,6,delay,0.065896
+54.188.89.213,2020-12-24T14:47:06,"fourmilab",1.0,Gm,1,rezscript,"Caledon Oxbridge",test,5,ntests,6,delay,0.065118
+52.11.159.132,2020-12-24T14:47:08,"fourmilab",1.0,Gm,1,rezscript,"Caledon Oxbridge",test,6,ntests,6,delay,0.045017
+52.88.186.155,2020-12-24T14:47:16,"fourmilab",1.0,Gm,1,teleport,"Babbage Palisade","<149.00000, 72.00000, 106.00000>","Caledon Oxbridge","<92.64755, 202.35630, 27.06083>"
+52.32.166.109,2020-12-24T14:47:18,"fourmilab",1.0,Gm,1,time,"Babbage Palisade",2020-12-24T14:47:17.930053Z,1608821237
+54.244.11.255,2020-12-24T14:47:30,"fourmilab",1.0,Gm,1,info,"Babbage Palisade",region,"Babbage Palisade","<631,1006,0>",simhost-00061fb3b238acb5a.agni.secondlife.io,4.47766532e1,1.0,1048640,1,"<-2.50840395e-1,2.63159847,0.0>"
+34.223.226.192,2020-12-24T14:47:30,"fourmilab",1.0,Gm,1,info,"Babbage Palisade",regenv,77,enabled,2466,"New Babbage",48943593,1,0,"Estate / Full Region",024,1607727459,1093779,"Second Life Server",2020-12-09.553685,simhost-00061fb3b238acb5a.agni.secondlife.io,20000,2,10,20,100
+34.219.119.244,2020-12-24T14:47:30,"fourmilab",1.0,Gm,1,info,"Babbage Palisade",regrate,MATURE
+54.218.22.241,2020-12-24T14:47:31,"fourmilab",1.0,Gm,1,info,"Babbage Palisade",parcel,"Babbage Palisades",,1595b633-857f-8053-1246-f07fe86ccab0,G,"Engineers of New Babbage",39616,1833,20000,1040188491
+52.11.159.132,2020-12-24T14:47:51,"fourmilab",1.0,Gm,1,compute,"Babbage Palisade",task,float,ips,60244,iter,1180000,time,19.587110
+34.219.119.244,2020-12-24T14:48:11,"fourmilab",1.0,Gm,1,compute,"Babbage Palisade",task,list,ips,2161,iter,42230,time,19.542410
+54.212.236.208,2020-12-24T14:48:30,"fourmilab",1.0,Gm,1,compute,"Babbage Palisade",task,prim,ips,194,iter,3600,time,18.576570
+52.12.206.41,2020-12-24T14:48:53,"fourmilab",1.0,Gm,1,compute,"Babbage Palisade",task,string,ips,3602,iter,82000,time,22.767710
+54.203.237.24,2020-12-24T14:49:12,"fourmilab",1.0,Gm,1,compute,"Babbage Palisade",task,texture,ips,171,iter,3150,time,18.389440
+34.219.74.99,2020-12-24T14:49:35,"fourmilab",1.0,Gm,1,message,"Babbage Palisade",type,link,messages,1000,length,128,bytes,128000,time,21.892420,"msg/sec",45.677900,"bytes/sec",5846.771000
+54.186.72.108,2020-12-24T14:49:56,"fourmilab",1.0,Gm,1,message,"Babbage Palisade",type,region,messages,1000,length,128,bytes,128000,time,20.498940,"msg/sec",48.783000,"bytes/sec",6244.224000
+34.221.42.135,2020-12-24T14:50:16,"fourmilab",1.0,Gm,1,message,"Babbage Palisade",type,regionto,messages,1000,length,128,bytes,128000,time,20.201320,"msg/sec",49.501710,"bytes/sec",6336.219000
+52.32.166.109,2020-12-24T14:50:17,"fourmilab",1.0,Gm,1,rezscript,"Babbage Palisade",test,1,ntests,6,delay,0.156740
+54.212.236.208,2020-12-24T14:50:19,"fourmilab",1.0,Gm,1,rezscript,"Babbage Palisade",test,2,ntests,6,delay,0.029606
+52.12.206.41,2020-12-24T14:50:20,"fourmilab",1.0,Gm,1,rezscript,"Babbage Palisade",test,3,ntests,6,delay,0.024536
+52.11.159.132,2020-12-24T14:50:21,"fourmilab",1.0,Gm,1,rezscript,"Babbage Palisade",test,4,ntests,6,delay,0.064306
+52.88.186.155,2020-12-24T14:50:23,"fourmilab",1.0,Gm,1,rezscript,"Babbage Palisade",test,5,ntests,6,delay,0.021545
+34.211.102.204,2020-12-24T14:50:24,"fourmilab",1.0,Gm,1,rezscript,"Babbage Palisade",test,6,ntests,6,delay,0.047075
+34.219.74.99,2020-12-24T14:52:42,"fourmilab",1.0,Gm,1,teleport,"Combat (sandbox) Rausch","<172.00000, 163.00000, 21.00000>","Maryport","<242.00000, 147.00000, 54.23417>"
+54.203.237.24,2020-12-24T14:52:43,"fourmilab",1.0,Gm,1,time,"Combat (sandbox) Rausch",2020-12-24T14:52:43.076252Z,1608821563
+54.187.253.115,2020-12-24T14:52:55,"fourmilab",1.0,Gm,1,info,"Combat (sandbox) Rausch",region,"Combat (sandbox) Rausch","<1001,978,0>",simhost-03ad6113f0b101dcd.agni.secondlife.io,4.499818e1,1.0,1048896,2,"<7.11297214e-1,2.36772847,0.0>"
+34.219.13.2,2020-12-24T14:52:55,"fourmilab",1.0,Gm,1,info,"Combat (sandbox) Rausch",regenv,44,enabled,1,mainland,5988686,1,0,"Mainland / Full Region",023,1608639681,181882,"Second Life Server",2020-12-09.553685,simhost-03ad6113f0b101dcd.agni.secondlife.io,22500,1,10,20,100
+54.244.11.255,2020-12-24T14:52:55,"fourmilab",1.0,Gm,1,info,"Combat (sandbox) Rausch",regrate,MATURE
+54.202.28.116,2020-12-24T14:52:56,"fourmilab",1.0,Gm,1,info,"Combat (sandbox) Rausch",parcel,"Sandbox wipe 15 min intervals. NO WARNING. Save your work! NO C","Save your work! only NO COPY items will return to inventory",3d6181b0-6a4b-97ef-18d8-722652995cf1,A,"Governor Linden",64992,1,22313,1040187499
+54.187.253.115,2020-12-24T14:53:06,"fourmilab",1.0,Gm,1,compute,"Combat (sandbox) Rausch",task,float,ips,115679,iter,1180000,time,10.200680
+34.223.226.192,2020-12-24T14:53:16,"fourmilab",1.0,Gm,1,compute,"Combat (sandbox) Rausch",task,list,ips,4646,iter,42230,time,9.089414
+54.203.16.199,2020-12-24T14:53:26,"fourmilab",1.0,Gm,1,compute,"Combat (sandbox) Rausch",task,prim,ips,362,iter,3600,time,9.956079
+34.223.226.192,2020-12-24T14:53:38,"fourmilab",1.0,Gm,1,compute,"Combat (sandbox) Rausch",task,string,ips,7235,iter,82000,time,11.333890
+34.219.13.2,2020-12-24T14:53:48,"fourmilab",1.0,Gm,1,compute,"Combat (sandbox) Rausch",task,texture,ips,323,iter,3150,time,9.756087
+34.213.221.118,2020-12-24T14:53:59,"fourmilab",1.0,Gm,1,message,"Combat (sandbox) Rausch",type,link,messages,1000,length,128,bytes,128000,time,11.178250,"msg/sec",89.459420,"bytes/sec",11450.810000
+52.24.74.197,2020-12-24T14:54:11,"fourmilab",1.0,Gm,1,message,"Combat (sandbox) Rausch",type,region,messages,1000,length,128,bytes,128000,time,11.134020,"msg/sec",89.814820,"bytes/sec",11496.300000
+34.213.221.118,2020-12-24T14:54:22,"fourmilab",1.0,Gm,1,message,"Combat (sandbox) Rausch",type,regionto,messages,1000,length,128,bytes,128000,time,11.111570,"msg/sec",89.996250,"bytes/sec",11519.520000
+52.32.166.109,2020-12-24T14:54:23,"fourmilab",1.0,Gm,1,rezscript,"Combat (sandbox) Rausch",test,1,ntests,6,delay,0.111153
+35.160.241.146,2020-12-24T14:54:24,"fourmilab",1.0,Gm,1,rezscript,"Combat (sandbox) Rausch",test,2,ntests,6,delay,0.026775
+52.11.159.132,2020-12-24T14:54:25,"fourmilab",1.0,Gm,1,rezscript,"Combat (sandbox) Rausch",test,3,ntests,6,delay,0.026325
+34.211.102.204,2020-12-24T14:54:27,"fourmilab",1.0,Gm,1,rezscript,"Combat (sandbox) Rausch",test,4,ntests,6,delay,0.026449
+34.219.13.2,2020-12-24T14:54:28,"fourmilab",1.0,Gm,1,rezscript,"Combat (sandbox) Rausch",test,5,ntests,6,delay,0.026033
+54.212.236.208,2020-12-24T14:54:29,"fourmilab",1.0,Gm,1,rezscript,"Combat (sandbox) Rausch",test,6,ntests,6,delay,0.027666
+34.219.119.244,2020-12-24T14:54:36,"fourmilab",1.0,Gm,1,teleport,"Langdale","<34.00000, 31.00000, 35.00000>","Combat (sandbox) Rausch","<171.99890, 163.01840, 21.44144>"
+34.214.14.246,2020-12-24T14:54:37,"fourmilab",1.0,Gm,1,time,"Langdale",2020-12-24T14:54:37.632178Z,1608821677
+54.214.60.157,2020-12-24T14:54:49,"fourmilab",1.0,Gm,1,info,Langdale,region,Langdale,"<1029,1008,0>",simhost-00a52c555151017df.agni.secondlife.io,4.486298e1,9.97886538e-1,1114112,1,"<-1.4602034,-3.25955033,0.0>"
+54.202.28.116,2020-12-24T14:54:49,"fourmilab",1.0,Gm,1,info,Langdale,regenv,44,enabled,1,mainland,48942177,1,0,"Mainland / Full Region",023,1607727101,1094577,"Second Life Server",2020-12-09.553685,simhost-00a52c555151017df.agni.secondlife.io,22500,1,10,20,100
+34.219.224.4,2020-12-24T14:54:49,"fourmilab",1.0,Gm,1,info,Langdale,regrate,MATURE
+34.219.151.186,2020-12-24T14:54:50,"fourmilab",1.0,Gm,1,info,Langdale,parcel,"Langdale Seaside","Lovely little village by the sea in traditional Northern English style, close to the sea and the Linden Road and Waterway. Rentals from 20 L$/week.",d299415d-3d1f-1504-c1f0-acd9319de532,G,"OPQ Estates",12272,2324,4213,1042284619
+52.39.161.185,2020-12-24T14:54:59,"fourmilab",1.0,Gm,1,compute,"Langdale",task,float,ips,142805,iter,1180000,time,8.263003
+34.211.102.204,2020-12-24T14:55:08,"fourmilab",1.0,Gm,1,compute,"Langdale",task,list,ips,4864,iter,42230,time,8.681442
+34.223.226.192,2020-12-24T14:55:17,"fourmilab",1.0,Gm,1,compute,"Langdale",task,prim,ips,391,iter,3600,time,9.217177
+34.212.88.127,2020-12-24T14:55:31,"fourmilab",1.0,Gm,1,compute,"Langdale",task,string,ips,6241,iter,82000,time,13.138170
+34.212.88.127,2020-12-24T14:55:40,"fourmilab",1.0,Gm,1,compute,"Langdale",task,texture,ips,334,iter,3150,time,9.441114
+34.219.119.244,2020-12-24T14:55:56,"fourmilab",1.0,Gm,1,message,"Langdale",type,link,messages,1000,length,128,bytes,128000,time,14.902600,"msg/sec",67.102390,"bytes/sec",8589.105000
+34.219.151.186,2020-12-24T14:56:11,"fourmilab",1.0,Gm,1,message,"Langdale",type,region,messages,1000,length,128,bytes,128000,time,14.651690,"msg/sec",68.251500,"bytes/sec",8736.192000
+34.213.221.118,2020-12-24T14:56:26,"fourmilab",1.0,Gm,1,message,"Langdale",type,regionto,messages,1000,length,128,bytes,128000,time,14.297230,"msg/sec",69.943600,"bytes/sec",8952.781000
+52.88.186.155,2020-12-24T14:56:28,"fourmilab",1.0,Gm,1,rezscript,"Langdale",test,1,ntests,6,delay,2.059299
+52.43.118.202,2020-12-24T14:56:32,"fourmilab",1.0,Gm,1,rezscript,"Langdale",test,2,ntests,6,delay,2.023993
+34.219.151.186,2020-12-24T14:56:35,"fourmilab",1.0,Gm,1,rezscript,"Langdale",test,3,ntests,6,delay,2.032001
+54.203.237.24,2020-12-24T14:56:38,"fourmilab",1.0,Gm,1,rezscript,"Langdale",test,4,ntests,6,delay,2.025307
+54.203.16.199,2020-12-24T14:56:41,"fourmilab",1.0,Gm,1,rezscript,"Langdale",test,5,ntests,6,delay,2.026314
+52.88.186.155,2020-12-24T14:56:44,"fourmilab",1.0,Gm,1,rezscript,"Langdale",test,6,ntests,6,delay,2.047085
+54.187.253.115,2020-12-24T14:56:51,"fourmilab",1.0,Gm,1,teleport,"Sandbox Bricker","<128.00000, 128.00000, 27.00000>","Langdale","<34.00000, 31.00000, 34.82622>"
+54.244.11.255,2020-12-24T14:56:53,"fourmilab",1.0,Gm,1,time,"Sandbox Bricker",2020-12-24T14:56:52.843675Z,1608821812
+52.88.186.155,2020-12-24T14:57:04,"fourmilab",1.0,Gm,1,info,"Sandbox Bricker",region,"Sandbox Bricker","<1800,1201,0>",simhost-049df2df49cc46681.agni.secondlife.io,4.501521e1,9.96997058e-1,5242880,7,"<6.11086905e-1,-9.85530793e-1,0.0>"
+34.211.102.204,2020-12-24T14:57:05,"fourmilab",1.0,Gm,1,info,"Sandbox Bricker",regenv,44,enabled,39727,"Premium Sandboxes",49034225,1,0,"Estate / Full Region",024,1607727230,1094583,"Second Life Server",2020-12-09.553685,simhost-049df2df49cc46681.agni.secondlife.io,20000,1,10,20,100
+34.220.211.184,2020-12-24T14:57:05,"fourmilab",1.0,Gm,1,info,"Sandbox Bricker",regrate,ADULT
+34.221.12.215,2020-12-24T14:57:06,"fourmilab",1.0,Gm,1,info,"Sandbox Bricker",parcel,"Premium Sandbox - cleans every 4 hours. No combat, no selling!","Save your work! only NO COPY items will return to inventory. Simple scripts only.",3d6181b0-6a4b-97ef-18d8-722652995cf1,A,"Governor Linden",61440,98,18750,908099659
+52.32.166.109,2020-12-24T14:57:16,"fourmilab",1.0,Gm,1,compute,"Sandbox Bricker",task,float,ips,113362,iter,1180000,time,10.409100
+54.212.97.128,2020-12-24T14:57:27,"fourmilab",1.0,Gm,1,compute,"Sandbox Bricker",task,list,ips,4056,iter,42230,time,10.410920
+54.212.97.128,2020-12-24T14:57:38,"fourmilab",1.0,Gm,1,compute,"Sandbox Bricker",task,prim,ips,342,iter,3600,time,10.512050
+34.219.151.186,2020-12-24T14:57:52,"fourmilab",1.0,Gm,1,compute,"Sandbox Bricker",task,string,ips,6003,iter,82000,time,13.660040
+54.188.92.48,2020-12-24T14:58:01,"fourmilab",1.0,Gm,1,compute,"Sandbox Bricker",task,texture,ips,337,iter,3150,time,9.356599
+34.219.224.4,2020-12-24T14:58:13,"fourmilab",1.0,Gm,1,message,"Sandbox Bricker",type,link,messages,1000,length,128,bytes,128000,time,11.240850,"msg/sec",88.961260,"bytes/sec",11387.040000
+54.188.89.213,2020-12-24T14:58:25,"fourmilab",1.0,Gm,1,message,"Sandbox Bricker",type,region,messages,1000,length,128,bytes,128000,time,11.133660,"msg/sec",89.817690,"bytes/sec",11496.660000
+34.221.215.85,2020-12-24T14:58:36,"fourmilab",1.0,Gm,1,message,"Sandbox Bricker",type,regionto,messages,1000,length,128,bytes,128000,time,11.551690,"msg/sec",86.567450,"bytes/sec",11080.630000
+52.88.186.155,2020-12-24T14:58:39,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Bricker",test,1,ntests,6,delay,2.090790
+52.88.186.155,2020-12-24T14:58:42,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Bricker",test,2,ntests,6,delay,2.021317
+54.212.97.128,2020-12-24T14:58:45,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Bricker",test,3,ntests,6,delay,2.020363
+34.219.74.99,2020-12-24T14:58:48,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Bricker",test,4,ntests,6,delay,2.019039
+35.160.241.146,2020-12-24T14:58:51,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Bricker",test,5,ntests,6,delay,2.021378
+52.12.206.41,2020-12-24T14:58:54,"fourmilab",1.0,Gm,1,rezscript,"Sandbox Bricker",test,6,ntests,6,delay,2.022411
+54.188.3.218,2020-12-24T14:59:02,"fourmilab",1.0,Gm,1,teleport,"Esperia","<236.00000, 159.00000, 4086.00000>","Sandbox Bricker","<128.23090, 118.78080, 27.27198>"
+34.221.12.215,2020-12-24T14:59:06,"fourmilab",1.0,Gm,1,time,"Esperia",2020-12-24T14:59:05.642668Z,1608821945
+52.40.229.197,2020-12-24T14:59:19,"fourmilab",1.0,Gm,1,info,Esperia,region,Esperia,"<851,1197,0>",simhost-006bb123446bb5e70.agni.secondlife.io,4.504468e1,9.82494652e-1,1048640,18,"<2.484379,1.57300531,0.0>"
+34.211.102.204,2020-12-24T14:59:19,"fourmilab",1.0,Gm,1,info,Esperia,regenv,70,enabled,48942,Esperia,3825965,1,0,"Estate / Full Region 30k",624,1608735924,86022,"Second Life Server",2020-12-09.553685,simhost-006bb123446bb5e70.agni.secondlife.io,30000,1,10,20,100
+52.32.166.109,2020-12-24T14:59:19,"fourmilab",1.0,Gm,1,info,Esperia,regrate,ADULT
+52.40.229.197,2020-12-24T14:59:21,"fourmilab",1.0,Gm,1,info,Esperia,parcel,"Cocoon - Cyberpunk Roleplay (Cocooncorp.enjin.com)","The year is 2490\nscifi city dice blade runner android cyborg robot urban space future 2077 neo japan combat noir cyber \n/*Windlight\nSky@3400-4100:""Ambient Dark""\nSky@2400-2900:""Nacon's Ghost""\nSky@840-1577:""Ambient Dark\nSky@280-400:""Nacon's Ghost""*/",81bb52a7-b554-4024-adf0-911f2d8b628d,A,"AmaiOkami Resident",62320,26263,28527,905970698
+52.40.229.197,2020-12-24T14:59:45,"fourmilab",1.0,Gm,1,compute,"Esperia",task,float,ips,51371,iter,1180000,time,22.970170
+52.39.161.185,2020-12-24T15:00:10,"fourmilab",1.0,Gm,1,compute,"Esperia",task,list,ips,1778,iter,42230,time,23.746930
+52.40.229.197,2020-12-24T15:00:33,"fourmilab",1.0,Gm,1,compute,"Esperia",task,prim,ips,160,iter,3600,time,22.503270
+34.214.14.246,2020-12-24T15:01:05,"fourmilab",1.0,Gm,1,compute,"Esperia",task,string,ips,2614,iter,82000,time,31.364960
+54.244.11.255,2020-12-24T15:01:27,"fourmilab",1.0,Gm,1,compute,"Esperia",task,texture,ips,145,iter,3150,time,21.727430
+52.43.118.202,2020-12-24T15:01:58,"fourmilab",1.0,Gm,1,message,"Esperia",type,link,messages,1000,length,128,bytes,128000,time,30.505890,"msg/sec",32.780560,"bytes/sec",4195.911000
+54.212.236.208,2020-12-24T15:02:30,"fourmilab",1.0,Gm,1,message,"Esperia",type,region,messages,1000,length,128,bytes,128000,time,30.719450,"msg/sec",32.552660,"bytes/sec",4166.741000
+52.12.206.41,2020-12-24T15:03:01,"fourmilab",1.0,Gm,1,message,"Esperia",type,regionto,messages,1000,length,128,bytes,128000,time,31.006430,"msg/sec",32.251380,"bytes/sec",4128.177000
+54.218.22.241,2020-12-24T15:05:54,"fourmilab",1.0,Gm,1,time,"Fourmilab",2020-12-24T15:05:54.747514Z,1608822354

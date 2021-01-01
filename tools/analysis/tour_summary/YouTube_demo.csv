@@ -1,0 +1,121 @@
+52.43.118.202,2020-12-28T21:55:18,"fourmilab",1.0,Gm,1,time,"Fourmilab",2020-12-28T21:55:18.362329Z,1609192518
+34.221.215.85,2020-12-28T21:55:30,"fourmilab",1.0,Gm,1,info,Fourmilab,region,Fourmilab,"<945,1211,0>",simhost-00f6b2d287ed76980.agni.secondlife.io,4.50009765e1,1.0,1048576,1,"<8.972569,-3.34054756,0.0>"
+34.219.224.4,2020-12-28T21:55:30,"fourmilab",1.0,Gm,1,info,Fourmilab,regenv,44,enabled,51556,Fourmilab,28288204,1,0,"Estate / Full Region",024,1607719831,1472687,"Second Life Server",2020-12-09.553685,simhost-00f6b2d287ed76980.agni.secondlife.io,20000,1,10,20,100
+34.219.74.99,2020-12-28T21:55:30,"fourmilab",1.0,Gm,1,info,Fourmilab,regrate,MATURE
+52.12.206.41,2020-12-28T21:55:30,"fourmilab",1.0,Gm,1,info,Fourmilab,parcel,"Fourmilab Island",,afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",65536,10685,20000,1040188779
+54.188.89.213,2020-12-28T21:55:40,"fourmilab",1.0,Gm,1,compute,"Fourmilab",task,float,ips,125321,iter,1180000,time,9.415829
+34.214.14.246,2020-12-28T21:55:50,"fourmilab",1.0,Gm,1,compute,"Fourmilab",task,list,ips,4298,iter,42230,time,9.824906
+54.188.89.213,2020-12-28T21:56:01,"fourmilab",1.0,Gm,1,compute,"Fourmilab",task,prim,ips,327,iter,3600,time,11.023790
+54.188.92.48,2020-12-28T21:56:13,"fourmilab",1.0,Gm,1,compute,"Fourmilab",task,string,ips,7083,iter,82000,time,11.576960
+52.11.159.132,2020-12-28T21:56:23,"fourmilab",1.0,Gm,1,compute,"Fourmilab",task,texture,ips,321,iter,3150,time,9.802979
+54.188.3.218,2020-12-28T21:56:34,"fourmilab",1.0,Gm,1,message,"Fourmilab",type,link,messages,1000,length,128,bytes,128000,time,11.136520,"msg/sec",89.794650,"bytes/sec",11493.720000
+34.221.12.215,2020-12-28T21:56:46,"fourmilab",1.0,Gm,1,message,"Fourmilab",type,region,messages,1000,length,128,bytes,128000,time,11.134120,"msg/sec",89.814040,"bytes/sec",11496.200000
+34.221.215.85,2020-12-28T21:56:57,"fourmilab",1.0,Gm,1,message,"Fourmilab",type,regionto,messages,1000,length,128,bytes,128000,time,11.115240,"msg/sec",89.966570,"bytes/sec",11515.720000
+54.188.89.213,2020-12-28T21:56:58,"fourmilab",1.0,Gm,1,rezscript,"Fourmilab",test,1,ntests,6,delay,0.015579
+34.219.13.2,2020-12-28T21:56:59,"fourmilab",1.0,Gm,1,rezscript,"Fourmilab",test,2,ntests,6,delay,0.021748
+34.219.119.244,2020-12-28T21:57:00,"fourmilab",1.0,Gm,1,rezscript,"Fourmilab",test,3,ntests,6,delay,0.019757
+34.211.102.204,2020-12-28T21:57:01,"fourmilab",1.0,Gm,1,rezscript,"Fourmilab",test,4,ntests,6,delay,0.018739
+34.221.12.215,2020-12-28T21:57:03,"fourmilab",1.0,Gm,1,rezscript,"Fourmilab",test,5,ntests,6,delay,0.029124
+34.219.119.244,2020-12-28T21:57:04,"fourmilab",1.0,Gm,1,rezscript,"Fourmilab",test,6,ntests,6,delay,0.027302
+54.186.72.108,2020-12-28T21:57:10,"fourmilab",1.0,Gm,1,teleport,"Meighen","<162.00000, 206.00000, 141.00000>","Fourmilab","<70.23853, 76.81179, 64.16940>"
+54.203.237.24,2020-12-28T21:57:11,"fourmilab",1.0,Gm,1,time,"Meighen",2020-12-28T21:57:11.068172Z,1609192631
+52.12.206.41,2020-12-28T21:57:22,"fourmilab",1.0,Gm,1,info,Meighen,region,Meighen,"<1025,981,0>",simhost-09b2f2836447e2f08.agni.secondlife.io,4.49781227e1,9.91743683e-1,1114112,2,"<1.57553982,-1.43822383,0.0>"
+34.221.42.135,2020-12-28T21:57:22,"fourmilab",1.0,Gm,1,info,Meighen,regenv,44,enabled,1,mainland,65371053,1,0,"Mainland / Full Region",023,1607734922,1457709,"Second Life Server",2020-12-09.553685,simhost-09b2f2836447e2f08.agni.secondlife.io,22500,1,10,20,100
+34.214.14.246,2020-12-28T21:57:22,"fourmilab",1.0,Gm,1,info,Meighen,regrate,PG
+54.212.97.128,2020-12-28T21:57:23,"fourmilab",1.0,Gm,1,info,Meighen,parcel,"SLWI Wolf Spirit International Airport  - Runway @140m",,740b41c7-c120-f4ff-3759-74da1faae46d,G,"Wolf Spirit International Airport",62208,10672,21357,1040188491
+54.187.253.115,2020-12-28T21:57:35,"fourmilab",1.0,Gm,1,compute,"Meighen",task,float,ips,101736,iter,1180000,time,11.598630
+52.43.118.202,2020-12-28T21:57:45,"fourmilab",1.0,Gm,1,compute,"Meighen",task,list,ips,4162,iter,42230,time,10.147130
+52.11.159.132,2020-12-28T21:57:57,"fourmilab",1.0,Gm,1,compute,"Meighen",task,prim,ips,315,iter,3600,time,11.438050
+54.212.236.208,2020-12-28T21:58:12,"fourmilab",1.0,Gm,1,compute,"Meighen",task,string,ips,5376,iter,82000,time,15.254210
+34.221.215.85,2020-12-28T21:58:23,"fourmilab",1.0,Gm,1,compute,"Meighen",task,texture,ips,306,iter,3150,time,10.279030
+34.214.14.246,2020-12-28T21:58:35,"fourmilab",1.0,Gm,1,message,"Meighen",type,link,messages,1000,length,128,bytes,128000,time,11.529820,"msg/sec",86.731650,"bytes/sec",11101.650000
+34.219.151.186,2020-12-28T21:58:47,"fourmilab",1.0,Gm,1,message,"Meighen",type,region,messages,1000,length,128,bytes,128000,time,11.391440,"msg/sec",87.785190,"bytes/sec",11236.500000
+34.219.74.99,2020-12-28T21:58:58,"fourmilab",1.0,Gm,1,message,"Meighen",type,regionto,messages,1000,length,128,bytes,128000,time,11.438680,"msg/sec",87.422700,"bytes/sec",11190.110000
+34.219.151.186,2020-12-28T21:58:59,"fourmilab",1.0,Gm,1,rezscript,"Meighen",test,1,ntests,6,delay,0.098183
+52.12.206.41,2020-12-28T21:59:00,"fourmilab",1.0,Gm,1,rezscript,"Meighen",test,2,ntests,6,delay,0.030549
+52.24.74.197,2020-12-28T21:59:01,"fourmilab",1.0,Gm,1,rezscript,"Meighen",test,3,ntests,6,delay,0.050765
+34.219.151.186,2020-12-28T21:59:02,"fourmilab",1.0,Gm,1,rezscript,"Meighen",test,4,ntests,6,delay,0.024217
+34.213.221.118,2020-12-28T21:59:04,"fourmilab",1.0,Gm,1,rezscript,"Meighen",test,5,ntests,6,delay,0.024365
+54.203.16.199,2020-12-28T21:59:05,"fourmilab",1.0,Gm,1,rezscript,"Meighen",test,6,ntests,6,delay,0.039495
+34.219.224.4,2020-12-28T21:59:11,"fourmilab",1.0,Gm,1,teleport,"Babbage Palisade","<175.00000, 64.00000, 106.00000>","Meighen","<162.00000, 206.00000, 141.20690>"
+54.218.22.241,2020-12-28T21:59:12,"fourmilab",1.0,Gm,1,time,"Babbage Palisade",2020-12-28T21:59:12.430520Z,1609192752
+54.191.213.110,2020-12-28T21:59:24,"fourmilab",1.0,Gm,1,info,"Babbage Palisade",region,"Babbage Palisade","<631,1006,0>",simhost-00061fb3b238acb5a.agni.secondlife.io,4.50627e1,9.89782333e-1,1048640,1,"<3.78486961e-1,-2.04164123,0.0>"
+34.221.12.215,2020-12-28T21:59:24,"fourmilab",1.0,Gm,1,info,"Babbage Palisade",regenv,77,enabled,2466,"New Babbage",65536089,1,0,"Estate / Full Region",024,1607727459,1465293,"Second Life Server",2020-12-09.553685,simhost-00061fb3b238acb5a.agni.secondlife.io,20000,2,10,20,100
+34.223.226.192,2020-12-28T21:59:24,"fourmilab",1.0,Gm,1,info,"Babbage Palisade",regrate,MATURE
+54.212.97.128,2020-12-28T21:59:25,"fourmilab",1.0,Gm,1,info,"Babbage Palisade",parcel,"Pearse'd & Cut - Victorian Menswear - New Babbage","A range of quality Victorian mens clothing, including military uniforms, kilts, hats, shoes jackets and a small range of complimenting outfits for the ladies as well.",8a81117c-9b17-425d-8ed0-f46c618003f1,A,"Edward Pearse",4096,1804,2500,1042285643
+34.221.12.215,2020-12-28T21:59:45,"fourmilab",1.0,Gm,1,compute,"Babbage Palisade",task,float,ips,60815,iter,1180000,time,19.403260
+54.212.236.208,2020-12-28T22:00:05,"fourmilab",1.0,Gm,1,compute,"Babbage Palisade",task,list,ips,2136,iter,42230,time,19.772710
+34.219.224.4,2020-12-28T22:00:24,"fourmilab",1.0,Gm,1,compute,"Babbage Palisade",task,prim,ips,199,iter,3600,time,18.045260
+54.203.16.199,2020-12-28T22:00:49,"fourmilab",1.0,Gm,1,compute,"Babbage Palisade",task,string,ips,3271,iter,82000,time,25.071330
+54.188.3.218,2020-12-28T22:01:08,"fourmilab",1.0,Gm,1,compute,"Babbage Palisade",task,texture,ips,166,iter,3150,time,18.936660
+34.221.42.135,2020-12-28T22:01:31,"fourmilab",1.0,Gm,1,message,"Babbage Palisade",type,link,messages,1000,length,128,bytes,128000,time,21.501450,"msg/sec",46.508490,"bytes/sec",5953.086000
+34.219.224.4,2020-12-28T22:01:52,"fourmilab",1.0,Gm,1,message,"Babbage Palisade",type,region,messages,1000,length,128,bytes,128000,time,21.259090,"msg/sec",47.038700,"bytes/sec",6020.954000
+34.219.119.244,2020-12-28T22:02:14,"fourmilab",1.0,Gm,1,message,"Babbage Palisade",type,regionto,messages,1000,length,128,bytes,128000,time,21.109600,"msg/sec",47.371820,"bytes/sec",6063.593000
+34.221.42.135,2020-12-28T22:02:15,"fourmilab",1.0,Gm,1,rezscript,"Babbage Palisade",test,1,ntests,6,delay,0.116111
+52.43.118.202,2020-12-28T22:02:16,"fourmilab",1.0,Gm,1,rezscript,"Babbage Palisade",test,2,ntests,6,delay,0.046092
+54.214.60.157,2020-12-28T22:02:17,"fourmilab",1.0,Gm,1,rezscript,"Babbage Palisade",test,3,ntests,6,delay,0.046696
+34.212.88.127,2020-12-28T22:02:19,"fourmilab",1.0,Gm,1,rezscript,"Babbage Palisade",test,4,ntests,6,delay,0.075933
+54.191.213.110,2020-12-28T22:02:20,"fourmilab",1.0,Gm,1,rezscript,"Babbage Palisade",test,5,ntests,6,delay,0.020712
+52.13.113.31,2020-12-28T22:02:21,"fourmilab",1.0,Gm,1,rezscript,"Babbage Palisade",test,6,ntests,6,delay,0.058138
+54.212.97.128,2020-12-28T22:02:28,"fourmilab",1.0,Gm,1,teleport,"Devolin Mal","<193.00000, 149.00000, 51.00000>","Babbage Palisade","<175.00000, 63.99988, 105.89380>"
+34.213.221.118,2020-12-28T22:02:29,"fourmilab",1.0,Gm,1,time,"Devolin Mal",2020-12-28T22:02:29.063937Z,1609192949
+52.24.74.197,2020-12-28T22:02:40,"fourmilab",1.0,Gm,1,info,"Devolin Mal",region,"Devolin Mal","<1130,1053,0>",simhost-06380c5dce4e2d44a.agni.secondlife.io,4.48432e1,0.658669,1114112,4,"<-0.417624,5.8473742e-1,0.0>"
+34.213.221.118,2020-12-28T22:02:41,"fourmilab",1.0,Gm,1,info,"Devolin Mal",regenv,44,enabled,1,mainland,70110244,1,0,"Mainland / Full Region",023,1607627132,1565817,"Second Life Server",2020-12-09.553685,simhost-06380c5dce4e2d44a.agni.secondlife.io,22500,1,10,20,100
+35.160.241.146,2020-12-28T22:02:41,"fourmilab",1.0,Gm,1,info,"Devolin Mal",regrate,MATURE
+54.218.22.241,2020-12-28T22:02:41,"fourmilab",1.0,Gm,1,info,"Devolin Mal",parcel,"Heart Of The Blake Sea Airfield, & Marina(51 & 502high)Airport ","airport,pilot,hangar,rent, marina,dock,mooring,Boat slip,gacha,\nrunway,race,rental,sailing,flying,ww2,boat,home, boathouse,blake sea,public\n,fire ATC, gtfo house beach,hangar,hangout,friends \n 2nd runway 502m airport  skydive airports\n ",e843bb4d-1da2-49e0-7052-e0fed85ff502,G,"Heart of the Blake Sea",30272,8629,10393,1040188747
+54.186.72.108,2020-12-28T22:03:00,"fourmilab",1.0,Gm,1,compute,"Devolin Mal",task,float,ips,66193,iter,1180000,time,17.826530
+54.203.237.24,2020-12-28T22:03:17,"fourmilab",1.0,Gm,1,compute,"Devolin Mal",task,list,ips,2488,iter,42230,time,16.971930
+54.203.237.24,2020-12-28T22:03:33,"fourmilab",1.0,Gm,1,compute,"Devolin Mal",task,prim,ips,225,iter,3600,time,16.016270
+54.212.97.128,2020-12-28T22:03:50,"fourmilab",1.0,Gm,1,compute,"Devolin Mal",task,string,ips,5100,iter,82000,time,16.078060
+54.188.3.218,2020-12-28T22:04:04,"fourmilab",1.0,Gm,1,compute,"Devolin Mal",task,texture,ips,227,iter,3150,time,13.905740
+52.88.132.126,2020-12-28T22:04:22,"fourmilab",1.0,Gm,1,message,"Devolin Mal",type,link,messages,1000,length,128,bytes,128000,time,16.777440,"msg/sec",59.603860,"bytes/sec",7629.294000
+52.24.74.197,2020-12-28T22:04:39,"fourmilab",1.0,Gm,1,message,"Devolin Mal",type,region,messages,1000,length,128,bytes,128000,time,16.972980,"msg/sec",58.917180,"bytes/sec",7541.399000
+54.244.11.255,2020-12-28T22:04:57,"fourmilab",1.0,Gm,1,message,"Devolin Mal",type,regionto,messages,1000,length,128,bytes,128000,time,17.462860,"msg/sec",57.264380,"bytes/sec",7329.841000
+54.200.177.59,2020-12-28T22:04:59,"fourmilab",1.0,Gm,1,rezscript,"Devolin Mal",test,1,ntests,6,delay,2.059017
+54.188.3.218,2020-12-28T22:05:02,"fourmilab",1.0,Gm,1,rezscript,"Devolin Mal",test,2,ntests,6,delay,2.036116
+54.188.92.48,2020-12-28T22:05:05,"fourmilab",1.0,Gm,1,rezscript,"Devolin Mal",test,3,ntests,6,delay,2.039647
+34.219.13.2,2020-12-28T22:05:08,"fourmilab",1.0,Gm,1,rezscript,"Devolin Mal",test,4,ntests,6,delay,2.042679
+54.200.177.59,2020-12-28T22:05:12,"fourmilab",1.0,Gm,1,rezscript,"Devolin Mal",test,5,ntests,6,delay,2.049086
+34.219.74.99,2020-12-28T22:05:15,"fourmilab",1.0,Gm,1,rezscript,"Devolin Mal",test,6,ntests,6,delay,2.019752
+54.187.253.115,2020-12-28T22:05:19,"fourmilab",1.0,Gm,1,teleport,"London City Brittany","<64.00000, 88.00000, 20.00000>","Devolin Mal","<193.00000, 149.00000, 51.42203>"
+54.214.60.157,2020-12-28T22:05:20,"fourmilab",1.0,Gm,1,time,"London City Brittany",2020-12-28T22:05:19.772682Z,1609193119
+34.221.12.215,2020-12-28T22:05:31,"fourmilab",1.0,Gm,1,info,"London City Brittany",region,"London City Brittany","<850,894,0>",simhost-032871f8741c3f9de.agni.secondlife.io,4.43568878e1,1.0,139460672,4,"<-1.011972,3.60089564,0.0>"
+34.219.13.2,2020-12-28T22:05:31,"fourmilab",1.0,Gm,1,info,"London City Brittany",regenv,10,disabled,51361,"London City Brittany",13566568,4,0,"Estate / Homestead",229,1608891312,301808,"Second Life Server",2020-12-09.553685,simhost-032871f8741c3f9de.agni.secondlife.io,5000,1,10,20,100
+34.219.224.4,2020-12-28T22:05:31,"fourmilab",1.0,Gm,1,info,"London City Brittany",regrate,PG
+34.219.119.244,2020-12-28T22:05:32,"fourmilab",1.0,Gm,1,info,"London City Brittany",parcel,"London City Sandbox","Sandbox with 30 minute return.  Don't take the piss, play nice!",1f4ccec6-e6c1-b367-8ad5-c767be189255,G,"London City Brittany",65536,3676,5000,908100682
+54.191.213.110,2020-12-28T22:05:39,"fourmilab",1.0,Gm,1,compute,"London City Brittany",task,float,ips,168000,iter,1180000,time,7.023830
+54.212.97.128,2020-12-28T22:05:47,"fourmilab",1.0,Gm,1,compute,"London City Brittany",task,list,ips,5727,iter,42230,time,7.373544
+52.11.159.132,2020-12-28T22:05:55,"fourmilab",1.0,Gm,1,compute,"London City Brittany",task,prim,ips,452,iter,3600,time,7.956251
+54.212.97.128,2020-12-28T22:06:06,"fourmilab",1.0,Gm,1,compute,"London City Brittany",task,string,ips,7648,iter,82000,time,10.722130
+34.213.221.118,2020-12-28T22:06:15,"fourmilab",1.0,Gm,1,compute,"London City Brittany",task,texture,ips,378,iter,3150,time,8.327114
+52.32.166.109,2020-12-28T22:06:27,"fourmilab",1.0,Gm,1,message,"London City Brittany",type,link,messages,1000,length,128,bytes,128000,time,11.978060,"msg/sec",83.485980,"bytes/sec",10686.210000
+34.219.13.2,2020-12-28T22:06:39,"fourmilab",1.0,Gm,1,message,"London City Brittany",type,region,messages,1000,length,128,bytes,128000,time,11.823070,"msg/sec",84.580410,"bytes/sec",10826.290000
+34.223.226.192,2020-12-28T22:06:51,"fourmilab",1.0,Gm,1,message,"London City Brittany",type,regionto,messages,1000,length,128,bytes,128000,time,12.016860,"msg/sec",83.216390,"bytes/sec",10651.700000
+54.188.89.213,2020-12-28T22:06:52,"fourmilab",1.0,Gm,1,rezscript,"London City Brittany",test,1,ntests,6,delay,0.065731
+34.219.224.4,2020-12-28T22:06:53,"fourmilab",1.0,Gm,1,rezscript,"London City Brittany",test,2,ntests,6,delay,0.045895
+34.221.12.215,2020-12-28T22:06:54,"fourmilab",1.0,Gm,1,rezscript,"London City Brittany",test,3,ntests,6,delay,0.043148
+34.223.226.192,2020-12-28T22:06:56,"fourmilab",1.0,Gm,1,rezscript,"London City Brittany",test,4,ntests,6,delay,0.044849
+34.221.12.215,2020-12-28T22:06:57,"fourmilab",1.0,Gm,1,rezscript,"London City Brittany",test,5,ntests,6,delay,0.045536
+54.188.3.218,2020-12-28T22:06:58,"fourmilab",1.0,Gm,1,rezscript,"London City Brittany",test,6,ntests,6,delay,0.066334
+34.214.14.246,2020-12-28T22:07:02,"fourmilab",1.0,Gm,1,teleport,"Caledon Oxbridge","<92.00000, 200.00000, 27.00000>","London City Brittany","<63.98571, 88.04647, 20.42746>"
+35.160.241.146,2020-12-28T22:07:04,"fourmilab",1.0,Gm,1,time,"Caledon Oxbridge",2020-12-28T22:07:03.896192Z,1609193223
+52.32.166.109,2020-12-28T22:07:16,"fourmilab",1.0,Gm,1,info,"Caledon Oxbridge",region,"Caledon Oxbridge","<904,1021,0>",simhost-0d364e18086109f6d.agni.secondlife.io,4.504149e1,9.95713412e-1,5242880,6,"<-3.34730222e-2,3.65258902e-1,0.0>"
+34.219.151.186,2020-12-28T22:07:16,"fourmilab",1.0,Gm,1,info,"Caledon Oxbridge",regenv,25,disabled,16205,CaledonOxbridge,24272264,4,0,"Estate / Homestead",229,1608626242,566982,"Second Life Server",2020-12-09.553685,simhost-0d364e18086109f6d.agni.secondlife.io,5000,8,10,20,100
+54.187.253.115,2020-12-28T22:07:16,"fourmilab",1.0,Gm,1,info,"Caledon Oxbridge",regrate,PG
+52.88.132.126,2020-12-28T22:07:17,"fourmilab",1.0,Gm,1,info,"Caledon Oxbridge",parcel,"Caledon Oxbridge Gateway - New Resident Help","Help. Lessons. Tutorials. Assistance. Helpers. New. Support. People Helping People. Free Clothes. Building Area. Mentors. Guide. Guides. New Residents. Learning. Learn. Fun. Activities. The Independent State of Caledon Community Gateway.",c3610f3d-1752-56a8-f675-58fae94fe94f,G,"Caledon Oxbridge University",57248,2932,5000,1042318411
+52.11.159.132,2020-12-28T22:07:39,"fourmilab",1.0,Gm,1,compute,"Caledon Oxbridge",task,float,ips,56911,iter,1180000,time,20.733980
+34.223.226.192,2020-12-28T22:07:58,"fourmilab",1.0,Gm,1,compute,"Caledon Oxbridge",task,list,ips,2259,iter,42230,time,18.697160
+52.39.161.185,2020-12-28T22:08:19,"fourmilab",1.0,Gm,1,compute,"Caledon Oxbridge",task,prim,ips,176,iter,3600,time,20.490810
+34.219.119.244,2020-12-28T22:08:48,"fourmilab",1.0,Gm,1,compute,"Caledon Oxbridge",task,string,ips,2929,iter,82000,time,27.996150
+34.214.14.246,2020-12-28T22:09:10,"fourmilab",1.0,Gm,1,compute,"Caledon Oxbridge",task,texture,ips,143,iter,3150,time,22.046710
+34.223.226.192,2020-12-28T22:09:45,"fourmilab",1.0,Gm,1,message,"Caledon Oxbridge",type,link,messages,1000,length,128,bytes,128000,time,33.469430,"msg/sec",29.878010,"bytes/sec",3824.385000
+52.88.132.126,2020-12-28T22:10:19,"fourmilab",1.0,Gm,1,message,"Caledon Oxbridge",type,region,messages,1000,length,128,bytes,128000,time,33.847980,"msg/sec",29.543860,"bytes/sec",3781.614000
+34.219.151.186,2020-12-28T22:10:52,"fourmilab",1.0,Gm,1,message,"Caledon Oxbridge",type,regionto,messages,1000,length,128,bytes,128000,time,32.203330,"msg/sec",31.052690,"bytes/sec",3974.744000
+35.160.241.146,2020-12-28T22:10:53,"fourmilab",1.0,Gm,1,rezscript,"Caledon Oxbridge",test,1,ntests,6,delay,0.089077
+52.43.118.202,2020-12-28T22:10:54,"fourmilab",1.0,Gm,1,rezscript,"Caledon Oxbridge",test,2,ntests,6,delay,0.088810
+34.214.14.246,2020-12-28T22:10:56,"fourmilab",1.0,Gm,1,rezscript,"Caledon Oxbridge",test,3,ntests,6,delay,0.067078
+34.223.226.192,2020-12-28T22:10:57,"fourmilab",1.0,Gm,1,rezscript,"Caledon Oxbridge",test,4,ntests,6,delay,0.123451
+34.212.88.127,2020-12-28T22:10:59,"fourmilab",1.0,Gm,1,rezscript,"Caledon Oxbridge",test,5,ntests,6,delay,0.066048
+34.220.211.184,2020-12-28T22:11:00,"fourmilab",1.0,Gm,1,rezscript,"Caledon Oxbridge",test,6,ntests,6,delay,0.044022
+34.221.215.85,2020-12-28T22:11:04,"fourmilab",1.0,Gm,1,teleport,"Fourmilab","<69.54960, 156.60800, 750.98350>","Caledon Oxbridge","<95.09035, 202.51610, 27.15308>"
+52.32.166.109,2020-12-28T22:11:05,"fourmilab",1.0,Gm,1,time,"Fourmilab",2020-12-28T22:11:04.709713Z,1609193464

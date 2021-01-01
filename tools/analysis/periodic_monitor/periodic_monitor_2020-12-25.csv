@@ -1,0 +1,1178 @@
+
+Gm,1,time,"Backhill",2020-12-25T13:30:01.405845Z,1608903001
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.496982e1,9.99370276e-1,5242944,0,"<1.30831384,2.91281986,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",52943233,1,0,"Linden Homes / Full Region",131,1607725350,1177651,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,109475,iter,1180000,time,10.778690
+Gm,1,compute,"Backhill",task,list,ips,4378,iter,42230,time,9.644883
+Gm,1,compute,"Backhill",task,prim,ips,638,iter,3600,time,5.643800
+Gm,1,compute,"Backhill",task,string,ips,6442,iter,82000,time,12.729600
+Gm,1,compute,"Backhill",task,texture,ips,309,iter,3150,time,10.178170
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.133240,"msg/sec",89.821120,"bytes/sec",11497.100000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.113430,"msg/sec",89.981250,"bytes/sec",11517.600000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.111620,"msg/sec",89.995840,"bytes/sec",11519.470000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.129372
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.028587
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.029736
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.018391
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.012802
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.013332
+
+Gm,1,time,"Backhill",2020-12-25T14:00:01.326366Z,1608904801
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.49894561e1,1.0,5242944,0,"<7.22525238e-1,3.25164794e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",53024144,1,0,"Linden Homes / Full Region",131,1607725350,1179451,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,112251,iter,1180000,time,10.512130
+Gm,1,compute,"Backhill",task,list,ips,4419,iter,42230,time,9.555703
+Gm,1,compute,"Backhill",task,prim,ips,736,iter,3600,time,4.890741
+Gm,1,compute,"Backhill",task,string,ips,6767,iter,82000,time,12.117810
+Gm,1,compute,"Backhill",task,texture,ips,317,iter,3150,time,9.932877
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.209590,"msg/sec",89.209340,"bytes/sec",11418.800000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.829710,"msg/sec",84.532960,"bytes/sec",10820.220000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.113100,"msg/sec",89.983890,"bytes/sec",11517.940000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.025173
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.037399
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.019047
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.026447
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.009651
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.021767
+
+Gm,1,time,"Backhill",2020-12-25T14:30:01.087945Z,1608906601
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.502096e1,9.95969295e-1,5242944,0,"<-3.74980878,-1.89411473,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",53105044,1,0,"Linden Homes / Full Region",131,1607725350,1181251,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,107037,iter,1180000,time,11.024270
+Gm,1,compute,"Backhill",task,list,ips,3808,iter,42230,time,11.089320
+Gm,1,compute,"Backhill",task,prim,ips,621,iter,3600,time,5.800322
+Gm,1,compute,"Backhill",task,string,ips,5958,iter,82000,time,13.763010
+Gm,1,compute,"Backhill",task,texture,ips,309,iter,3150,time,10.179790
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.113580,"msg/sec",89.979990,"bytes/sec",11517.440000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.112000,"msg/sec",89.992770,"bytes/sec",11519.080000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.111850,"msg/sec",89.994020,"bytes/sec",11519.230000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.013401
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.005260
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.022732
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.030884
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.027576
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.018333
+
+Gm,1,time,"Backhill",2020-12-25T15:00:00.923254Z,1608908400
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.502783e1,9.96388912e-1,5242944,0,"<2.35980868,1.30958437,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",53185997,1,0,"Linden Homes / Full Region",131,1607725350,1183051,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,113185,iter,1180000,time,10.425440
+Gm,1,compute,"Backhill",task,list,ips,4440,iter,42230,time,9.510801
+Gm,1,compute,"Backhill",task,prim,ips,628,iter,3600,time,5.734338
+Gm,1,compute,"Backhill",task,string,ips,5944,iter,82000,time,13.796560
+Gm,1,compute,"Backhill",task,texture,ips,302,iter,3150,time,10.422610
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.113620,"msg/sec",89.979710,"bytes/sec",11517.400000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.110660,"msg/sec",90.003680,"bytes/sec",11520.470000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.174900,"msg/sec",89.486280,"bytes/sec",11454.240000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.015141
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.026127
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.022327
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.036270
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.013561
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.037357
+
+Gm,1,time,"Backhill",2020-12-25T15:30:00.774307Z,1608910200
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.50232048e1,9.99103784e-1,5242944,0,"<-2.18317031,6.90202236e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",53266952,1,0,"Linden Homes / Full Region",131,1607725350,1184851,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,109030,iter,1180000,time,10.822730
+Gm,1,compute,"Backhill",task,list,ips,4149,iter,42230,time,10.177970
+Gm,1,compute,"Backhill",task,prim,ips,635,iter,3600,time,5.667894
+Gm,1,compute,"Backhill",task,string,ips,5873,iter,82000,time,13.962930
+Gm,1,compute,"Backhill",task,texture,ips,304,iter,3150,time,10.356330
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.134590,"msg/sec",89.810200,"bytes/sec",11495.710000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.112550,"msg/sec",89.988350,"bytes/sec",11518.510000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.112180,"msg/sec",89.991360,"bytes/sec",11518.890000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.034538
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.013805
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.026104
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.035572
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.016743
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.038261
+
+Gm,1,time,"Backhill",2020-12-25T16:00:01.529106Z,1608912001
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.508098e1,9.97868418e-1,5242944,1,"<2.40758776,-1.3303852,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",53347936,1,0,"Linden Homes / Full Region",131,1607725350,1186651,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,108794,iter,1180000,time,10.846170
+Gm,1,compute,"Backhill",task,list,ips,3996,iter,42230,time,10.567360
+Gm,1,compute,"Backhill",task,prim,ips,648,iter,3600,time,5.556150
+Gm,1,compute,"Backhill",task,string,ips,6245,iter,82000,time,13.131190
+Gm,1,compute,"Backhill",task,texture,ips,308,iter,3150,time,10.222830
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.133540,"msg/sec",89.818710,"bytes/sec",11496.790000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.112380,"msg/sec",89.989720,"bytes/sec",11518.680000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.111830,"msg/sec",89.994210,"bytes/sec",11519.260000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.033047
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.028313
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.025097
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.008087
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.026897
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.012562
+
+Gm,1,time,"Backhill",2020-12-25T16:30:01.700520Z,1608913801
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.504003e1,9.95743155e-1,5242944,0,"<4.45541679e-1,6.19272828e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",53428902,1,0,"Linden Homes / Full Region",131,1607725350,1188452,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,111297,iter,1180000,time,10.602250
+Gm,1,compute,"Backhill",task,list,ips,4349,iter,42230,time,9.710787
+Gm,1,compute,"Backhill",task,prim,ips,630,iter,3600,time,5.711265
+Gm,1,compute,"Backhill",task,string,ips,5874,iter,82000,time,13.960940
+Gm,1,compute,"Backhill",task,texture,ips,308,iter,3150,time,10.223190
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.133180,"msg/sec",89.821600,"bytes/sec",11497.170000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.113950,"msg/sec",89.977020,"bytes/sec",11517.060000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.112540,"msg/sec",89.988400,"bytes/sec",11518.520000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.020531
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.034737
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.029869
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.040638
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.019291
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.027180
+
+Gm,1,time,"Backhill",2020-12-25T17:00:00.927130Z,1608915600
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.499824e1,1.0,5242944,0,"<-1.01035207e-1,-1.355799,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",53509820,1,0,"Linden Homes / Full Region",131,1607725350,1190251,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,113948,iter,1180000,time,10.355570
+Gm,1,compute,"Backhill",task,list,ips,3831,iter,42230,time,11.023760
+Gm,1,compute,"Backhill",task,prim,ips,611,iter,3600,time,5.887547
+Gm,1,compute,"Backhill",task,string,ips,5859,iter,82000,time,13.994610
+Gm,1,compute,"Backhill",task,texture,ips,302,iter,3150,time,10.422680
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.167320,"msg/sec",89.546970,"bytes/sec",11462.010000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.139700,"msg/sec",89.769050,"bytes/sec",11490.440000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.135410,"msg/sec",89.803620,"bytes/sec",11494.860000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.024368
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.013847
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.021954
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.024555
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.029560
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.016895
+
+Gm,1,time,"Backhill",2020-12-25T17:30:01.652703Z,1608917401
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.49766426e1,1.0,5242944,0,"<-1.66088235,-5.69024324e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",53590809,1,0,"Linden Homes / Full Region",131,1607725350,1192052,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,110161,iter,1180000,time,10.711560
+Gm,1,compute,"Backhill",task,list,ips,4148,iter,42230,time,10.181260
+Gm,1,compute,"Backhill",task,prim,ips,642,iter,3600,time,5.607532
+Gm,1,compute,"Backhill",task,string,ips,5928,iter,82000,time,13.833390
+Gm,1,compute,"Backhill",task,texture,ips,315,iter,3150,time,10.006140
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.132650,"msg/sec",89.825840,"bytes/sec",11497.710000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.110580,"msg/sec",90.004320,"bytes/sec",11520.550000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.112590,"msg/sec",89.987990,"bytes/sec",11518.460000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.037216
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.036247
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.021809
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.015747
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.036083
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.031254
+
+Gm,1,time,"Backhill",2020-12-25T18:00:00.946191Z,1608919200
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.4955017e1,1.0,5242944,0,"<5.08800625e-1,-9.64605249e-4,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",53671731,1,0,"Linden Homes / Full Region",131,1607725350,1193851,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,107693,iter,1180000,time,10.957030
+Gm,1,compute,"Backhill",task,list,ips,4232,iter,42230,time,9.979700
+Gm,1,compute,"Backhill",task,prim,ips,661,iter,3600,time,5.446076
+Gm,1,compute,"Backhill",task,string,ips,6283,iter,82000,time,13.050660
+Gm,1,compute,"Backhill",task,texture,ips,311,iter,3150,time,10.137070
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.204060,"msg/sec",89.253370,"bytes/sec",11424.430000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.111380,"msg/sec",89.997790,"bytes/sec",11519.720000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.115660,"msg/sec",89.963200,"bytes/sec",11515.290000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.013733
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.030792
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.031631
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.018993
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.037830
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.026978
+
+Gm,1,time,"Backhill",2020-12-25T18:30:01.546631Z,1608921001
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.50553054e1,0.994261,5242944,0,"<6.33000135e-1,-3.38323116,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",53752707,1,0,"Linden Homes / Full Region",131,1607725350,1195651,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,109464,iter,1180000,time,10.779780
+Gm,1,compute,"Backhill",task,list,ips,4069,iter,42230,time,10.377780
+Gm,1,compute,"Backhill",task,prim,ips,653,iter,3600,time,5.511301
+Gm,1,compute,"Backhill",task,string,ips,6192,iter,82000,time,13.241910
+Gm,1,compute,"Backhill",task,texture,ips,306,iter,3150,time,10.289250
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.135990,"msg/sec",89.798960,"bytes/sec",11494.270000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.114220,"msg/sec",89.974800,"bytes/sec",11516.770000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.118220,"msg/sec",89.942440,"bytes/sec",11512.630000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.025784
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.031288
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.026752
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.019402
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.030712
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.025352
+
+Gm,1,time,"Backhill",2020-12-25T19:00:00.823054Z,1608922800
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.51028022e1,9.96204376e-1,5242944,0,"<-1.79209411,0.593547,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",53833624,1,0,"Linden Homes / Full Region",131,1607725350,1197451,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,107043,iter,1180000,time,11.023560
+Gm,1,compute,"Backhill",task,list,ips,4061,iter,42230,time,10.400120
+Gm,1,compute,"Backhill",task,prim,ips,658,iter,3600,time,5.470949
+Gm,1,compute,"Backhill",task,string,ips,6094,iter,82000,time,13.455810
+Gm,1,compute,"Backhill",task,texture,ips,305,iter,3150,time,10.335470
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.169750,"msg/sec",89.527520,"bytes/sec",11459.520000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.112120,"msg/sec",89.991810,"bytes/sec",11518.950000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.132950,"msg/sec",89.823430,"bytes/sec",11497.400000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.090546
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.026184
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.029736
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.036922
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.017433
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.008385
+
+Gm,1,time,"Backhill",2020-12-25T19:30:01.650004Z,1608924601
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.496272e1,9.99412357e-1,5242944,0,"<4.49230551e-1,1.22950339,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",53914583,1,0,"Linden Homes / Full Region",131,1607725350,1199251,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,109492,iter,1180000,time,10.777050
+Gm,1,compute,"Backhill",task,list,ips,4089,iter,42230,time,10.326560
+Gm,1,compute,"Backhill",task,prim,ips,624,iter,3600,time,5.764859
+Gm,1,compute,"Backhill",task,string,ips,5813,iter,82000,time,14.106000
+Gm,1,compute,"Backhill",task,texture,ips,305,iter,3150,time,10.320760
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.111520,"msg/sec",89.996660,"bytes/sec",11519.570000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.111800,"msg/sec",89.994430,"bytes/sec",11519.290000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.117180,"msg/sec",89.950850,"bytes/sec",11513.710000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.029224
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.015003
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.031769
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.019711
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.018509
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.011765
+
+Gm,1,time,"Backhill",2020-12-25T20:00:00.915802Z,1608926400
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.49952659e1,0.99717,5242944,0,"<-4.686391,3.43927502e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",53995504,1,0,"Linden Homes / Full Region",131,1607725350,1201051,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,114047,iter,1180000,time,10.346650
+Gm,1,compute,"Backhill",task,list,ips,4173,iter,42230,time,10.119370
+Gm,1,compute,"Backhill",task,prim,ips,632,iter,3600,time,5.692195
+Gm,1,compute,"Backhill",task,string,ips,6158,iter,82000,time,13.316050
+Gm,1,compute,"Backhill",task,texture,ips,308,iter,3150,time,10.224410
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.215450,"msg/sec",89.162680,"bytes/sec",11412.820000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.159040,"msg/sec",89.613460,"bytes/sec",11470.520000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.114400,"msg/sec",89.973330,"bytes/sec",11516.590000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.019833
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.023972
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.022591
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.012466
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.028568
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.018524
+
+Gm,1,time,"Backhill",2020-12-25T20:30:01.653748Z,1608928201
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.505284e1,9.94444906e-1,5242944,1,"<-3.893982,-1.82074332,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",54076417,1,0,"Linden Homes / Full Region",131,1607725350,1202852,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,107242,iter,1180000,time,11.003170
+Gm,1,compute,"Backhill",task,list,ips,3895,iter,42230,time,10.842600
+Gm,1,compute,"Backhill",task,prim,ips,652,iter,3600,time,5.525388
+Gm,1,compute,"Backhill",task,string,ips,6341,iter,82000,time,12.932710
+Gm,1,compute,"Backhill",task,texture,ips,306,iter,3150,time,10.301710
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.185750,"msg/sec",89.399430,"bytes/sec",11443.130000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.180160,"msg/sec",89.444170,"bytes/sec",11448.850000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.134260,"msg/sec",89.812890,"bytes/sec",11496.050000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.032825
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.031418
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.031883
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.032265
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.033859
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.031219
+
+Gm,1,time,"Backhill",2020-12-25T22:00:01.730876Z,1608933601
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.4868782e1,1.0,5242944,1,"<-1.10676479,-1.04684615,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",54319146,1,0,"Linden Homes / Full Region",131,1607725350,1208252,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,111241,iter,1180000,time,10.607580
+Gm,1,compute,"Backhill",task,list,ips,3828,iter,42230,time,11.031080
+Gm,1,compute,"Backhill",task,prim,ips,630,iter,3600,time,5.712153
+Gm,1,compute,"Backhill",task,string,ips,5847,iter,82000,time,14.025300
+Gm,1,compute,"Backhill",task,texture,ips,303,iter,3150,time,10.384500
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.262920,"msg/sec",88.786920,"bytes/sec",11364.730000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.161060,"msg/sec",89.597260,"bytes/sec",11468.450000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.161100,"msg/sec",89.596890,"bytes/sec",11468.400000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.039452
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.018883
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.016376
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.032795
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.015907
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.022079
+
+Gm,1,time,"Backhill",2020-12-25T22:30:01.725906Z,1608935401
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.328292e1,9.95422065e-1,5242944,1,"<-2.875315,4.232195,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",54400044,1,0,"Linden Homes / Full Region",131,1607725350,1210052,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,112250,iter,1180000,time,10.512210
+Gm,1,compute,"Backhill",task,list,ips,4253,iter,42230,time,9.929360
+Gm,1,compute,"Backhill",task,prim,ips,647,iter,3600,time,5.561555
+Gm,1,compute,"Backhill",task,string,ips,6148,iter,82000,time,13.338490
+Gm,1,compute,"Backhill",task,texture,ips,325,iter,3150,time,9.693677
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.113430,"msg/sec",89.981230,"bytes/sec",11517.600000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.185470,"msg/sec",89.401730,"bytes/sec",11443.420000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.113750,"msg/sec",89.978650,"bytes/sec",11517.270000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.029114
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.010937
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.022560
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.027416
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.011250
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.030472
+
+Gm,1,time,"Backhill",2020-12-25T23:00:00.846622Z,1608937200
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.499041e1,1.0,5242944,2,"<-1.03825473,-5.62561511e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",54480874,1,0,"Linden Homes / Full Region",131,1607725350,1211851,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,110118,iter,1180000,time,10.715810
+Gm,1,compute,"Backhill",task,list,ips,4333,iter,42230,time,9.746380
+Gm,1,compute,"Backhill",task,prim,ips,664,iter,3600,time,5.423727
+Gm,1,compute,"Backhill",task,string,ips,6633,iter,82000,time,12.361780
+Gm,1,compute,"Backhill",task,texture,ips,322,iter,3150,time,9.779567
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.131060,"msg/sec",89.838740,"bytes/sec",11499.360000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.143340,"msg/sec",89.739730,"bytes/sec",11486.690000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.113320,"msg/sec",89.982140,"bytes/sec",11517.710000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.027550
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.017590
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.063251
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.019947
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.029308
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.012432
+
+Gm,1,time,"Backhill",2020-12-25T23:30:00.879075Z,1608939000
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.49062232e1,9.93511259e-1,5242944,2,"<-3.67581307e-1,5.26087522e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",54561783,1,0,"Linden Homes / Full Region",131,1607725350,1213651,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,111682,iter,1180000,time,10.565700
+Gm,1,compute,"Backhill",task,list,ips,4307,iter,42230,time,9.804432
+Gm,1,compute,"Backhill",task,prim,ips,630,iter,3600,time,5.711540
+Gm,1,compute,"Backhill",task,string,ips,5666,iter,82000,time,14.472990
+Gm,1,compute,"Backhill",task,texture,ips,308,iter,3150,time,10.229200
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.208550,"msg/sec",89.217590,"bytes/sec",11419.850000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.510130,"msg/sec",86.879990,"bytes/sec",11120.640000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,12.839020,"msg/sec",77.887540,"bytes/sec",9969.605000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.006435
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.023872
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.023468
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.010349
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.014633
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.025108
+
+Gm,1,time,"Backhill",2020-12-26T00:00:00.827418Z,1608940800
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.50014419e1,1.0,5242944,2,"<9.78110849e-1,-2.90734827e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",54642622,1,0,"Linden Homes / Full Region",131,1607725350,1215451,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,107448,iter,1180000,time,10.982090
+Gm,1,compute,"Backhill",task,list,ips,4357,iter,42230,time,9.692828
+Gm,1,compute,"Backhill",task,prim,ips,640,iter,3600,time,5.625447
+Gm,1,compute,"Backhill",task,string,ips,6027,iter,82000,time,13.606070
+Gm,1,compute,"Backhill",task,texture,ips,312,iter,3150,time,10.110280
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.224690,"msg/sec",89.089350,"bytes/sec",11403.440000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.135900,"msg/sec",89.799660,"bytes/sec",11494.360000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.134780,"msg/sec",89.808670,"bytes/sec",11495.510000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.021072
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.033569
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.013569
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.033195
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.022099
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.032284
+
+Gm,1,time,"Backhill",2020-12-26T00:30:01.058983Z,1608942601
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.4929058e1,1.0,5242944,2,"<2.56386947,1.19442152,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",54723497,1,0,"Linden Homes / Full Region",131,1607725350,1217251,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,112208,iter,1180000,time,10.516180
+Gm,1,compute,"Backhill",task,list,ips,3916,iter,42230,time,10.784950
+Gm,1,compute,"Backhill",task,prim,ips,595,iter,3600,time,6.049343
+Gm,1,compute,"Backhill",task,string,ips,5572,iter,82000,time,14.716650
+Gm,1,compute,"Backhill",task,texture,ips,303,iter,3150,time,10.393120
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.206210,"msg/sec",89.236220,"bytes/sec",11422.240000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.162180,"msg/sec",89.588240,"bytes/sec",11467.290000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.136380,"msg/sec",89.795820,"bytes/sec",11493.870000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.013527
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.032928
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.012493
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.017891
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.010769
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.037209
+
+Gm,1,time,"Backhill",2020-12-26T01:00:00.789960Z,1608944400
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.492449e1,1.0,5242944,2,"<3.69856929,3.54911684e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",54804399,1,0,"Linden Homes / Full Region",131,1607725350,1219051,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,106506,iter,1180000,time,11.079240
+Gm,1,compute,"Backhill",task,list,ips,4258,iter,42230,time,9.917076
+Gm,1,compute,"Backhill",task,prim,ips,650,iter,3600,time,5.538284
+Gm,1,compute,"Backhill",task,string,ips,5772,iter,82000,time,14.206480
+Gm,1,compute,"Backhill",task,texture,ips,315,iter,3150,time,10.008980
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.183660,"msg/sec",89.416150,"bytes/sec",11445.270000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.138450,"msg/sec",89.779070,"bytes/sec",11491.720000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.138010,"msg/sec",89.782660,"bytes/sec",11492.180000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.073669
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.022129
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.038399
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.033909
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.019936
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.036301
+
+Gm,1,time,"Backhill",2020-12-26T01:30:01.592442Z,1608946201
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.50071754e1,1.0,5242944,2,"<5.506613,-2.155134,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",54885363,1,0,"Linden Homes / Full Region",131,1607725350,1220851,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,109910,iter,1180000,time,10.736030
+Gm,1,compute,"Backhill",task,list,ips,4325,iter,42230,time,9.765235
+Gm,1,compute,"Backhill",task,prim,ips,689,iter,3600,time,5.221498
+Gm,1,compute,"Backhill",task,string,ips,5750,iter,82000,time,14.261110
+Gm,1,compute,"Backhill",task,texture,ips,302,iter,3150,time,10.447500
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.160500,"msg/sec",89.601740,"bytes/sec",11469.020000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.136080,"msg/sec",89.798220,"bytes/sec",11494.170000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.135030,"msg/sec",89.806660,"bytes/sec",11495.250000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.010418
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.030170
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.012257
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.028820
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.024372
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.012711
+
+Gm,1,time,"Backhill",2020-12-26T02:00:01.034012Z,1608948001
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.49794654e1,1.0,5242944,2,"<2.81105279e-1,-9.18617427e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",54966267,1,0,"Linden Homes / Full Region",131,1607725350,1222651,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,111268,iter,1180000,time,10.604990
+Gm,1,compute,"Backhill",task,list,ips,4230,iter,42230,time,9.984076
+Gm,1,compute,"Backhill",task,prim,ips,653,iter,3600,time,5.510679
+Gm,1,compute,"Backhill",task,string,ips,5697,iter,82000,time,14.393160
+Gm,1,compute,"Backhill",task,texture,ips,321,iter,3150,time,9.825850
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.181890,"msg/sec",89.430340,"bytes/sec",11447.080000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.166750,"msg/sec",89.551540,"bytes/sec",11462.600000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.161300,"msg/sec",89.595280,"bytes/sec",11468.200000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.005116
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.021217
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.018456
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.027107
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.024113
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.014225
+
+Gm,1,time,"Backhill",2020-12-26T02:30:01.406863Z,1608949801
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.49881324e1,1.0,5242944,2,"<-1.62819433,1.63034415,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",55047211,1,0,"Linden Homes / Full Region",131,1607725350,1224451,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,116401,iter,1180000,time,10.137370
+Gm,1,compute,"Backhill",task,list,ips,4248,iter,42230,time,9.940365
+Gm,1,compute,"Backhill",task,prim,ips,640,iter,3600,time,5.624684
+Gm,1,compute,"Backhill",task,string,ips,5977,iter,82000,time,13.720320
+Gm,1,compute,"Backhill",task,texture,ips,309,iter,3150,time,10.208220
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.230980,"msg/sec",89.039410,"bytes/sec",11397.040000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.161690,"msg/sec",89.592190,"bytes/sec",11467.800000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.138310,"msg/sec",89.780220,"bytes/sec",11491.870000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.035976
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.032421
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.018513
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.015888
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.005783
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.028515
+
+Gm,1,time,"Backhill",2020-12-26T03:00:01.194804Z,1608951601
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.50324859e1,9.92366552e-1,5242944,2,"<-9.01514291e-1,1.55091357,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",55128116,1,0,"Linden Homes / Full Region",131,1607725350,1226251,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,106168,iter,1180000,time,11.114500
+Gm,1,compute,"Backhill",task,list,ips,3678,iter,42230,time,11.482010
+Gm,1,compute,"Backhill",task,prim,ips,613,iter,3600,time,5.869142
+Gm,1,compute,"Backhill",task,string,ips,5564,iter,82000,time,14.737540
+Gm,1,compute,"Backhill",task,texture,ips,304,iter,3150,time,10.362770
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.176040,"msg/sec",89.477130,"bytes/sec",11453.070000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.184680,"msg/sec",89.408040,"bytes/sec",11444.230000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.181870,"msg/sec",89.430490,"bytes/sec",11447.100000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.021263
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.025600
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.046249
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.024326
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.009853
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.016380
+
+Gm,1,time,"Backhill",2020-12-26T03:30:00.814760Z,1608953400
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.475454e1,9.88599419e-1,5242944,1,"<-3.05871,2.24338674,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",55208954,1,0,"Linden Homes / Full Region",131,1607725350,1228051,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,111757,iter,1180000,time,10.558640
+Gm,1,compute,"Backhill",task,list,ips,4419,iter,42230,time,9.556636
+Gm,1,compute,"Backhill",task,prim,ips,698,iter,3600,time,5.157934
+Gm,1,compute,"Backhill",task,string,ips,6284,iter,82000,time,13.048320
+Gm,1,compute,"Backhill",task,texture,ips,304,iter,3150,time,10.356510
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.136020,"msg/sec",89.798710,"bytes/sec",11494.240000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.173570,"msg/sec",89.496900,"bytes/sec",11455.600000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.111270,"msg/sec",89.998690,"bytes/sec",11519.830000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.021599
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.012131
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.038502
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.037300
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.026981
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.027142
+
+Gm,1,time,"Backhill",2020-12-26T04:00:01.656239Z,1608955201
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.49533958e1,1.0,5242944,1,"<-6.593137,-8.63240361e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",55289927,1,0,"Linden Homes / Full Region",131,1607725350,1229852,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,112968,iter,1180000,time,10.445400
+Gm,1,compute,"Backhill",task,list,ips,4612,iter,42230,time,9.155770
+Gm,1,compute,"Backhill",task,prim,ips,635,iter,3600,time,5.669378
+Gm,1,compute,"Backhill",task,string,ips,6164,iter,82000,time,13.303150
+Gm,1,compute,"Backhill",task,texture,ips,304,iter,3150,time,10.356470
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.209590,"msg/sec",89.209330,"bytes/sec",11418.790000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.115190,"msg/sec",89.967010,"bytes/sec",11515.780000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.120400,"msg/sec",89.924800,"bytes/sec",11510.370000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.015305
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.027477
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.015556
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.017845
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.024349
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.024750
+
+Gm,1,time,"Backhill",2020-12-26T04:30:01.654180Z,1608957001
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.413189e1,1.0,5242944,0,"<6.558402,-4.23410475e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",55370850,1,0,"Linden Homes / Full Region",131,1607725350,1231652,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,108549,iter,1180000,time,10.870630
+Gm,1,compute,"Backhill",task,list,ips,4195,iter,42230,time,10.067820
+Gm,1,compute,"Backhill",task,prim,ips,630,iter,3600,time,5.717477
+Gm,1,compute,"Backhill",task,string,ips,6080,iter,82000,time,13.486850
+Gm,1,compute,"Backhill",task,texture,ips,311,iter,3150,time,10.143480
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.119310,"msg/sec",89.933650,"bytes/sec",11511.510000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.187070,"msg/sec",89.388880,"bytes/sec",11441.780000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.114060,"msg/sec",89.976100,"bytes/sec",11516.940000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.022903
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.022556
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.012947
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.025951
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.026764
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.035198
+
+Gm,1,time,"Backhill",2020-12-26T05:00:00.971265Z,1608958800
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.49167137e1,1.0,5242944,0,"<-7.55916237e-1,4.86180126e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",55451774,1,0,"Linden Homes / Full Region",131,1607725350,1233451,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,114682,iter,1180000,time,10.289350
+Gm,1,compute,"Backhill",task,list,ips,4379,iter,42230,time,9.644628
+Gm,1,compute,"Backhill",task,prim,ips,651,iter,3600,time,5.533027
+Gm,1,compute,"Backhill",task,string,ips,6069,iter,82000,time,13.511000
+Gm,1,compute,"Backhill",task,texture,ips,313,iter,3150,time,10.067580
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.133860,"msg/sec",89.816150,"bytes/sec",11496.470000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.111900,"msg/sec",89.993640,"bytes/sec",11519.190000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.112000,"msg/sec",89.992830,"bytes/sec",11519.080000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.018452
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.014965
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.015007
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.038475
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.023666
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.018276
+
+Gm,1,time,"Backhill",2020-12-26T05:30:00.964597Z,1608960600
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.505483e1,9.96737599e-1,5242944,0,"<5.86484313e-1,9.10363912e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",55532729,1,0,"Linden Homes / Full Region",131,1607725350,1235251,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,108309,iter,1180000,time,10.894790
+Gm,1,compute,"Backhill",task,list,ips,3674,iter,42230,time,11.493540
+Gm,1,compute,"Backhill",task,prim,ips,635,iter,3600,time,5.668007
+Gm,1,compute,"Backhill",task,string,ips,5808,iter,82000,time,14.118870
+Gm,1,compute,"Backhill",task,texture,ips,313,iter,3150,time,10.068870
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.143970,"msg/sec",89.734600,"bytes/sec",11486.030000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.113850,"msg/sec",89.977830,"bytes/sec",11517.160000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.178770,"msg/sec",89.455260,"bytes/sec",11450.270000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.047672
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.019852
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.040672
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.021034
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.024750
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.015549
+
+Gm,1,time,"Backhill",2020-12-26T06:00:01.240276Z,1608962401
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.49682426e1,1.0,5242944,0,"<-3.01349401e-1,7.97811925e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",55613693,1,0,"Linden Homes / Full Region",131,1607725350,1237051,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,108305,iter,1180000,time,10.895120
+Gm,1,compute,"Backhill",task,list,ips,4203,iter,42230,time,10.046450
+Gm,1,compute,"Backhill",task,prim,ips,664,iter,3600,time,5.421659
+Gm,1,compute,"Backhill",task,string,ips,5822,iter,82000,time,14.084510
+Gm,1,compute,"Backhill",task,texture,ips,314,iter,3150,time,10.025020
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.155890,"msg/sec",89.638760,"bytes/sec",11473.760000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.111840,"msg/sec",89.994090,"bytes/sec",11519.240000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.114270,"msg/sec",89.974420,"bytes/sec",11516.730000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.047352
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.023956
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.024174
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.011471
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.034058
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.031368
+
+Gm,1,time,"Backhill",2020-12-26T06:30:01.660380Z,1608964201
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.49458732e1,1.0,5242944,0,"<1.45389783,1.87933754,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",55694664,1,0,"Linden Homes / Full Region",131,1607725350,1238852,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,114159,iter,1180000,time,10.336460
+Gm,1,compute,"Backhill",task,list,ips,4268,iter,42230,time,9.894944
+Gm,1,compute,"Backhill",task,prim,ips,616,iter,3600,time,5.846627
+Gm,1,compute,"Backhill",task,string,ips,5963,iter,82000,time,13.750930
+Gm,1,compute,"Backhill",task,texture,ips,306,iter,3150,time,10.296630
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.125040,"msg/sec",89.887330,"bytes/sec",11505.580000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.132850,"msg/sec",89.824230,"bytes/sec",11497.500000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.110500,"msg/sec",90.004940,"bytes/sec",11520.630000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.030102
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.018108
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.029724
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.016083
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.032059
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.031799
+
+Gm,1,time,"Backhill",2020-12-26T07:00:00.820657Z,1608966000
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.50300331e1,9.94810104e-1,5242944,0,"<2.66629552,-4.59105253e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",55775574,1,0,"Linden Homes / Full Region",131,1607725350,1240651,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,107924,iter,1180000,time,10.933600
+Gm,1,compute,"Backhill",task,list,ips,4399,iter,42230,time,9.600418
+Gm,1,compute,"Backhill",task,prim,ips,638,iter,3600,time,5.645518
+Gm,1,compute,"Backhill",task,string,ips,6014,iter,82000,time,13.634570
+Gm,1,compute,"Backhill",task,texture,ips,314,iter,3150,time,10.027010
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.133500,"msg/sec",89.818980,"bytes/sec",11496.830000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.113790,"msg/sec",89.978300,"bytes/sec",11517.220000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.112230,"msg/sec",89.990960,"bytes/sec",11518.840000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.083199
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.026257
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.013916
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.058300
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.029408
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.032127
+
+Gm,1,time,"Backhill",2020-12-26T07:30:01.704277Z,1608967801
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.503501e1,1.0,5242944,0,"<-5.4765892e-1,-2.0238322e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",55856563,1,0,"Linden Homes / Full Region",131,1607725350,1242452,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,107468,iter,1180000,time,10.979990
+Gm,1,compute,"Backhill",task,list,ips,4387,iter,42230,time,9.626498
+Gm,1,compute,"Backhill",task,prim,ips,656,iter,3600,time,5.489199
+Gm,1,compute,"Backhill",task,string,ips,6414,iter,82000,time,12.785440
+Gm,1,compute,"Backhill",task,texture,ips,322,iter,3150,time,9.787755
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.134230,"msg/sec",89.813130,"bytes/sec",11496.080000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.110160,"msg/sec",90.007680,"bytes/sec",11520.980000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.117690,"msg/sec",89.946720,"bytes/sec",11513.180000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.020145
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.020958
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.022221
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.010906
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.036797
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.023193
+
+Gm,1,time,"Backhill",2020-12-26T08:00:01.551359Z,1608969601
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.500373e1,1.0,5242944,0,"<-3.39473485,-5.16955912e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",55937511,1,0,"Linden Homes / Full Region",131,1607725350,1244251,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,109228,iter,1180000,time,10.803050
+Gm,1,compute,"Backhill",task,list,ips,3993,iter,42230,time,10.577130
+Gm,1,compute,"Backhill",task,prim,ips,653,iter,3600,time,5.511453
+Gm,1,compute,"Backhill",task,string,ips,5785,iter,82000,time,14.174960
+Gm,1,compute,"Backhill",task,texture,ips,318,iter,3150,time,9.901030
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.135130,"msg/sec",89.805860,"bytes/sec",11495.150000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.113950,"msg/sec",89.977000,"bytes/sec",11517.060000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.115410,"msg/sec",89.965190,"bytes/sec",11515.540000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.021427
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.026096
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.021305
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.018387
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.015926
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.019367
+
+Gm,1,time,"Backhill",2020-12-26T08:30:01.403841Z,1608971401
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.49928169e1,1.0,5242944,0,"<2.97927784,-3.61130774e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",56018457,1,0,"Linden Homes / Full Region",131,1607725350,1246051,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,110392,iter,1180000,time,10.689170
+Gm,1,compute,"Backhill",task,list,ips,4105,iter,42230,time,10.287580
+Gm,1,compute,"Backhill",task,prim,ips,653,iter,3600,time,5.511220
+Gm,1,compute,"Backhill",task,string,ips,6153,iter,82000,time,13.325780
+Gm,1,compute,"Backhill",task,texture,ips,313,iter,3150,time,10.068480
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.113360,"msg/sec",89.981790,"bytes/sec",11517.670000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.118590,"msg/sec",89.939450,"bytes/sec",11512.250000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.115380,"msg/sec",89.965420,"bytes/sec",11515.570000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.017529
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.027737
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.029648
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.015450
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.016319
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.052658
+
+Gm,1,time,"Backhill",2020-12-26T09:00:01.193825Z,1608973201
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.487316e1,1.0,5242944,0,"<-2.66822052,-8.56812894e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",56099402,1,0,"Linden Homes / Full Region",131,1607725350,1247851,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,108566,iter,1180000,time,10.868920
+Gm,1,compute,"Backhill",task,list,ips,4269,iter,42230,time,9.892722
+Gm,1,compute,"Backhill",task,prim,ips,672,iter,3600,time,5.355257
+Gm,1,compute,"Backhill",task,string,ips,6412,iter,82000,time,12.789100
+Gm,1,compute,"Backhill",task,texture,ips,311,iter,3150,time,10.132930
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.135630,"msg/sec",89.801860,"bytes/sec",11494.640000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.160460,"msg/sec",89.602010,"bytes/sec",11469.060000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.112430,"msg/sec",89.989340,"bytes/sec",11518.640000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.027534
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.015373
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.013718
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.026192
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.024700
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.022388
+
+Gm,1,time,"Backhill",2020-12-26T09:30:01.207847Z,1608975001
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.500485e1,9.98358726e-1,5242944,0,"<-2.40682959e-1,2.57809925,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",56180349,1,0,"Linden Homes / Full Region",131,1607725350,1249651,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,108592,iter,1180000,time,10.866350
+Gm,1,compute,"Backhill",task,list,ips,4368,iter,42230,time,9.667594
+Gm,1,compute,"Backhill",task,prim,ips,653,iter,3600,time,5.510088
+Gm,1,compute,"Backhill",task,string,ips,5744,iter,82000,time,14.275160
+Gm,1,compute,"Backhill",task,texture,ips,301,iter,3150,time,10.447950
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.135180,"msg/sec",89.805460,"bytes/sec",11495.100000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.133440,"msg/sec",89.819500,"bytes/sec",11496.900000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.111030,"msg/sec",90.000630,"bytes/sec",11520.080000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.036324
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.033134
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.023357
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.013805
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.019333
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.030727
+
+Gm,1,time,"Backhill",2020-12-26T10:00:00.967346Z,1608976800
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.49289932e1,1.0,5242944,0,"<1.94859147e-1,2.99818634,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",56261222,1,0,"Linden Homes / Full Region",131,1607725350,1251451,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,111532,iter,1180000,time,10.579890
+Gm,1,compute,"Backhill",task,list,ips,4548,iter,42230,time,9.285284
+Gm,1,compute,"Backhill",task,prim,ips,659,iter,3600,time,5.466777
+Gm,1,compute,"Backhill",task,string,ips,6292,iter,82000,time,13.033000
+Gm,1,compute,"Backhill",task,texture,ips,313,iter,3150,time,10.056300
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.112200,"msg/sec",89.991160,"bytes/sec",11518.870000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.111820,"msg/sec",89.994240,"bytes/sec",11519.260000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.111810,"msg/sec",89.994330,"bytes/sec",11519.270000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.022060
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.015907
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.041336
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.025036
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.026714
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.026646
+
+Gm,1,time,"Backhill",2020-12-26T10:30:01.414290Z,1608978601
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.49998741e1,9.95454788e-1,5242944,2,"<3.07805585,-4.71366584e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",56342133,1,0,"Linden Homes / Full Region",131,1607725350,1253251,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,108877,iter,1180000,time,10.837890
+Gm,1,compute,"Backhill",task,list,ips,3823,iter,42230,time,11.047200
+Gm,1,compute,"Backhill",task,prim,ips,635,iter,3600,time,5.667250
+Gm,1,compute,"Backhill",task,string,ips,5969,iter,82000,time,13.736500
+Gm,1,compute,"Backhill",task,texture,ips,305,iter,3150,time,10.336240
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.134030,"msg/sec",89.814770,"bytes/sec",11496.290000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.135440,"msg/sec",89.803390,"bytes/sec",11494.830000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.170470,"msg/sec",89.521730,"bytes/sec",11458.780000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.012608
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.028385
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.019341
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.020832
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.017181
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.020790
+
+Gm,1,time,"Backhill",2020-12-26T11:00:01.056761Z,1608980401
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.49537277e1,1.0,5242944,2,"<1.77370047,-2.8593645,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",56423069,1,0,"Linden Homes / Full Region",131,1607725350,1255051,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,106613,iter,1180000,time,11.068110
+Gm,1,compute,"Backhill",task,list,ips,4202,iter,42230,time,10.048990
+Gm,1,compute,"Backhill",task,prim,ips,635,iter,3600,time,5.666812
+Gm,1,compute,"Backhill",task,string,ips,5956,iter,82000,time,13.767500
+Gm,1,compute,"Backhill",task,texture,ips,305,iter,3150,time,10.315420
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.135590,"msg/sec",89.802190,"bytes/sec",11494.680000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.135270,"msg/sec",89.804730,"bytes/sec",11495.000000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.112750,"msg/sec",89.986750,"bytes/sec",11518.300000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.028351
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.023609
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.014175
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.016388
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.025253
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.016914
+
+Gm,1,time,"Backhill",2020-12-26T11:30:00.951286Z,1608982200
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.498685e1,1.0,5242944,0,"<-3.19467723e-1,1.032717,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",56503947,1,0,"Linden Homes / Full Region",131,1607725350,1256851,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,111314,iter,1180000,time,10.600610
+Gm,1,compute,"Backhill",task,list,ips,4223,iter,42230,time,10.000590
+Gm,1,compute,"Backhill",task,prim,ips,661,iter,3600,time,5.445453
+Gm,1,compute,"Backhill",task,string,ips,5924,iter,82000,time,13.840840
+Gm,1,compute,"Backhill",task,texture,ips,309,iter,3150,time,10.200850
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.142860,"msg/sec",89.743550,"bytes/sec",11487.170000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.110870,"msg/sec",90.001940,"bytes/sec",11520.250000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.113150,"msg/sec",89.983520,"bytes/sec",11517.890000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.025280
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.010033
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.024334
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.035816
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.024738
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.019886
+
+Gm,1,time,"Backhill",2020-12-26T12:30:01.113505Z,1608985801
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.50237e1,0.999736,5242944,0,"<-7.49313235e-1,4.10663932e-2,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",56665837,1,0,"Linden Homes / Full Region",131,1607725350,1260451,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,114197,iter,1180000,time,10.333070
+Gm,1,compute,"Backhill",task,list,ips,4099,iter,42230,time,10.303070
+Gm,1,compute,"Backhill",task,prim,ips,623,iter,3600,time,5.779122
+Gm,1,compute,"Backhill",task,string,ips,6513,iter,82000,time,12.590620
+Gm,1,compute,"Backhill",task,texture,ips,312,iter,3150,time,10.104980
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.131830,"msg/sec",89.832500,"bytes/sec",11498.560000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.112040,"msg/sec",89.992480,"bytes/sec",11519.040000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.111810,"msg/sec",89.994350,"bytes/sec",11519.280000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.031013
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.022301
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.032398
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.035973
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.023411
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.017250
+
+Gm,1,time,"Backhill",2020-12-26T13:00:01.225896Z,1608987601
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.49564857e1,1.0,5242944,0,"<-1.80505573e-1,-1.32485711,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",56746790,1,0,"Linden Homes / Full Region",131,1607725350,1262251,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,108792,iter,1180000,time,10.846370
+Gm,1,compute,"Backhill",task,list,ips,3847,iter,42230,time,10.978690
+Gm,1,compute,"Backhill",task,prim,ips,645,iter,3600,time,5.579643
+Gm,1,compute,"Backhill",task,string,ips,5820,iter,82000,time,14.089400
+Gm,1,compute,"Backhill",task,texture,ips,301,iter,3150,time,10.467150
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.134390,"msg/sec",89.811860,"bytes/sec",11495.920000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.110820,"msg/sec",90.002330,"bytes/sec",11520.300000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.194910,"msg/sec",89.326340,"bytes/sec",11433.770000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.075691
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.035000
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.015228
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.020847
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.021267
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.016899
+
+Gm,1,time,"Backhill",2020-12-26T13:30:01.318917Z,1608989401
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.50152359e1,9.99070882e-1,5242944,0,"<-1.01157993e-1,4.90561097e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",56827751,1,0,"Linden Homes / Full Region",131,1607725350,1264051,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,108580,iter,1180000,time,10.867610
+Gm,1,compute,"Backhill",task,list,ips,4233,iter,42230,time,9.977346
+Gm,1,compute,"Backhill",task,prim,ips,623,iter,3600,time,5.777206
+Gm,1,compute,"Backhill",task,string,ips,5986,iter,82000,time,13.699600
+Gm,1,compute,"Backhill",task,texture,ips,312,iter,3150,time,10.111440
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.134610,"msg/sec",89.810100,"bytes/sec",11495.690000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.113160,"msg/sec",89.983380,"bytes/sec",11517.870000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.110430,"msg/sec",90.005540,"bytes/sec",11520.710000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.051212
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.022316
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.014732
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.026764
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.016792
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.027214
+
+Gm,1,time,"Backhill",2020-12-26T14:00:01.584152Z,1608991201
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.49867134e1,9.97328102e-1,5242944,0,"<-2.99728661e-1,-3.822339,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",56908728,1,0,"Linden Homes / Full Region",131,1607725350,1265851,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,105992,iter,1180000,time,11.132940
+Gm,1,compute,"Backhill",task,list,ips,4065,iter,42230,time,10.388860
+Gm,1,compute,"Backhill",task,prim,ips,633,iter,3600,time,5.689407
+Gm,1,compute,"Backhill",task,string,ips,6342,iter,82000,time,12.929820
+Gm,1,compute,"Backhill",task,texture,ips,309,iter,3150,time,10.179180
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.139530,"msg/sec",89.770420,"bytes/sec",11490.610000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.114780,"msg/sec",89.970310,"bytes/sec",11516.200000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.137950,"msg/sec",89.783130,"bytes/sec",11492.240000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.035549
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.019276
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.024910
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.019722
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.031612
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.021351
+
+Gm,1,time,"Backhill",2020-12-26T14:30:00.884848Z,1608993000
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.49655647e1,1.0,5242944,0,"<3.59004521,-7.08551406e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",56989658,1,0,"Linden Homes / Full Region",131,1607725350,1267651,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,107493,iter,1180000,time,10.977470
+Gm,1,compute,"Backhill",task,list,ips,4167,iter,42230,time,10.133750
+Gm,1,compute,"Backhill",task,prim,ips,648,iter,3600,time,5.554687
+Gm,1,compute,"Backhill",task,string,ips,5931,iter,82000,time,13.825340
+Gm,1,compute,"Backhill",task,texture,ips,303,iter,3150,time,10.380050
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.197640,"msg/sec",89.304530,"bytes/sec",11430.980000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.136650,"msg/sec",89.793580,"bytes/sec",11493.580000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.112350,"msg/sec",89.989970,"bytes/sec",11518.720000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.013546
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.013870
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.019268
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.019619
+
+Gm,1,time,"Backhill",2020-12-26T15:00:00.885583Z,1608994800
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.50206222e1,1.0,5242944,1,"<-5.80691814e-1,6.52985692e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",57070602,1,0,"Linden Homes / Full Region",131,1607725350,1269451,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,109246,iter,1180000,time,10.801310
+Gm,1,compute,"Backhill",task,list,ips,4005,iter,42230,time,10.545120
+Gm,1,compute,"Backhill",task,prim,ips,643,iter,3600,time,5.601166
+Gm,1,compute,"Backhill",task,string,ips,6688,iter,82000,time,12.260870
+Gm,1,compute,"Backhill",task,texture,ips,324,iter,3150,time,9.735001
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.136300,"msg/sec",89.796420,"bytes/sec",11493.940000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.111940,"msg/sec",89.993320,"bytes/sec",11519.150000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.112240,"msg/sec",89.990880,"bytes/sec",11518.830000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.049274
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.012363
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.030159
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.032272
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.009556
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.028065
+
+Gm,1,time,"Backhill",2020-12-26T15:30:00.965109Z,1608996600
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.501727e1,9.96526062e-1,5242944,1,"<1.17238914,3.18680942e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",57151564,1,0,"Linden Homes / Full Region",131,1607725350,1271251,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,109037,iter,1180000,time,10.822040
+Gm,1,compute,"Backhill",task,list,ips,3984,iter,42230,time,10.599430
+Gm,1,compute,"Backhill",task,prim,ips,645,iter,3600,time,5.579664
+Gm,1,compute,"Backhill",task,string,ips,5583,iter,82000,time,14.687690
+Gm,1,compute,"Backhill",task,texture,ips,324,iter,3150,time,9.711123
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.112110,"msg/sec",89.991920,"bytes/sec",11518.970000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.113380,"msg/sec",89.981590,"bytes/sec",11517.640000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.112990,"msg/sec",89.984790,"bytes/sec",11518.050000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.035370
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.024151
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.017662
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.015556
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.042770
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.046303
+
+Gm,1,time,"Backhill",2020-12-26T16:00:01.393562Z,1608998401
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.49800262e1,0.998535,5242944,0,"<-1.56437134,9.71758365e-3,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",57232505,1,0,"Linden Homes / Full Region",131,1607725350,1273051,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,113140,iter,1180000,time,10.429560
+Gm,1,compute,"Backhill",task,list,ips,4286,iter,42230,time,9.853683
+Gm,1,compute,"Backhill",task,prim,ips,663,iter,3600,time,5.426024
+Gm,1,compute,"Backhill",task,string,ips,6119,iter,82000,time,13.399790
+Gm,1,compute,"Backhill",task,texture,ips,307,iter,3150,time,10.268950
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.134620,"msg/sec",89.809980,"bytes/sec",11495.680000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.111020,"msg/sec",90.000720,"bytes/sec",11520.090000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.195640,"msg/sec",89.320510,"bytes/sec",11433.030000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.040062
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.028351
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.023605
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.015945
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.025829
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.027634
+
+Gm,1,time,"Backhill",2020-12-26T16:30:00.820510Z,1609000200
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.501889e1,9.98582959e-1,5242944,0,"<1.05004143,-8.96871089e-3,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",57313387,1,0,"Linden Homes / Full Region",131,1607725350,1274851,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,107056,iter,1180000,time,11.022260
+Gm,1,compute,"Backhill",task,list,ips,4039,iter,42230,time,10.455900
+Gm,1,compute,"Backhill",task,prim,ips,643,iter,3600,time,5.600065
+Gm,1,compute,"Backhill",task,string,ips,6415,iter,82000,time,12.783260
+Gm,1,compute,"Backhill",task,texture,ips,316,iter,3150,time,9.957393
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.147970,"msg/sec",89.702410,"bytes/sec",11481.910000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.113270,"msg/sec",89.982500,"bytes/sec",11517.760000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.112490,"msg/sec",89.988850,"bytes/sec",11518.570000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.025940
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.020115
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.020012
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.007286
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.027969
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.023697
+
+Gm,1,time,"Backhill",2020-12-26T17:00:01.584985Z,1609002001
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.499945e1,9.97620642e-1,5242944,0,"<-1.19604229,-5.12916207e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",57394378,1,0,"Linden Homes / Full Region",131,1607725350,1276651,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,118524,iter,1180000,time,9.955810
+Gm,1,compute,"Backhill",task,list,ips,4248,iter,42230,time,9.940476
+Gm,1,compute,"Backhill",task,prim,ips,674,iter,3600,time,5.340334
+Gm,1,compute,"Backhill",task,string,ips,6048,iter,82000,time,13.558760
+Gm,1,compute,"Backhill",task,texture,ips,309,iter,3150,time,10.178340
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.202380,"msg/sec",89.266730,"bytes/sec",11426.140000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.113900,"msg/sec",89.977390,"bytes/sec",11517.110000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.136440,"msg/sec",89.795320,"bytes/sec",11493.800000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.034473
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.018444
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.026413
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.021393
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.035931
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.020706
+
+Gm,1,time,"Backhill",2020-12-26T17:30:01.520897Z,1609003801
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.5051e1,9.97244596e-1,5242944,0,"<3.06999891e-1,-1.27047562,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",57475326,1,0,"Linden Homes / Full Region",131,1607725350,1278451,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,124633,iter,1180000,time,9.467790
+Gm,1,compute,"Backhill",task,list,ips,4750,iter,42230,time,8.890224
+Gm,1,compute,"Backhill",task,prim,ips,673,iter,3600,time,5.351692
+Gm,1,compute,"Backhill",task,string,ips,6116,iter,82000,time,13.408490
+Gm,1,compute,"Backhill",task,texture,ips,307,iter,3150,time,10.245640
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.157100,"msg/sec",89.629060,"bytes/sec",11472.520000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.114670,"msg/sec",89.971150,"bytes/sec",11516.310000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.136750,"msg/sec",89.792800,"bytes/sec",11493.480000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.053516
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.028046
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.022758
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.019264
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.033569
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.020626
+
+Gm,1,time,"Backhill",2020-12-26T18:00:00.961004Z,1609005600
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.49930877e1,1.0,5242944,0,"<-2.646782,-8.24770778e-2,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",57556266,1,0,"Linden Homes / Full Region",131,1607725350,1280251,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,115178,iter,1180000,time,10.244990
+Gm,1,compute,"Backhill",task,list,ips,3942,iter,42230,time,10.711660
+Gm,1,compute,"Backhill",task,prim,ips,611,iter,3600,time,5.894009
+Gm,1,compute,"Backhill",task,string,ips,5898,iter,82000,time,13.902480
+Gm,1,compute,"Backhill",task,texture,ips,308,iter,3150,time,10.224860
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.134210,"msg/sec",89.813270,"bytes/sec",11496.100000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.135230,"msg/sec",89.805030,"bytes/sec",11495.040000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.165430,"msg/sec",89.562130,"bytes/sec",11463.950000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.015400
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.026619
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.022949
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.023312
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.022957
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.024700
+
+Gm,1,time,"Backhill",2020-12-26T18:30:01.037237Z,1609007401
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.501348e1,1.0,5242944,0,"<-1.00019907,-1.42645668,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",57637221,1,0,"Linden Homes / Full Region",131,1607725350,1282051,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,114926,iter,1180000,time,10.267450
+Gm,1,compute,"Backhill",task,list,ips,4872,iter,42230,time,8.668400
+Gm,1,compute,"Backhill",task,prim,ips,625,iter,3600,time,5.756431
+Gm,1,compute,"Backhill",task,string,ips,5806,iter,82000,time,14.123770
+Gm,1,compute,"Backhill",task,texture,ips,309,iter,3150,time,10.178860
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.134960,"msg/sec",89.807200,"bytes/sec",11495.320000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.111750,"msg/sec",89.994800,"bytes/sec",11519.330000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.111840,"msg/sec",89.994120,"bytes/sec",11519.250000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.021114
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.021912
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.021385
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.013012
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.008362
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.040169
+
+Gm,1,time,"Backhill",2020-12-26T19:00:00.972165Z,1609009200
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.49928474e1,0.999823,5242944,0,"<1.70886218e-2,-1.20174074,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",57718175,1,0,"Linden Homes / Full Region",131,1607725350,1283851,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,109468,iter,1180000,time,10.779400
+Gm,1,compute,"Backhill",task,list,ips,4334,iter,42230,time,9.744455
+Gm,1,compute,"Backhill",task,prim,ips,651,iter,3600,time,5.532865
+Gm,1,compute,"Backhill",task,string,ips,6074,iter,82000,time,13.499140
+Gm,1,compute,"Backhill",task,texture,ips,313,iter,3150,time,10.068260
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.112970,"msg/sec",89.984950,"bytes/sec",11518.070000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.111800,"msg/sec",89.994380,"bytes/sec",11519.280000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.110630,"msg/sec",90.003910,"bytes/sec",11520.500000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.085728
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.032722
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.017815
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.032063
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.010658
+
+Gm,1,time,"Backhill",2020-12-26T19:30:01.622618Z,1609011001
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.49897232e1,1.0,5242944,0,"<6.2215414,9.81866121e-1,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",57799141,1,0,"Linden Homes / Full Region",131,1607725350,1285651,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,113945,iter,1180000,time,10.355830
+Gm,1,compute,"Backhill",task,list,ips,4231,iter,42230,time,9.981840
+Gm,1,compute,"Backhill",task,prim,ips,625,iter,3600,time,5.756240
+Gm,1,compute,"Backhill",task,string,ips,5702,iter,82000,time,14.379680
+Gm,1,compute,"Backhill",task,texture,ips,313,iter,3150,time,10.070020
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.109870,"msg/sec",90.010070,"bytes/sec",11521.290000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.113210,"msg/sec",89.983020,"bytes/sec",11517.830000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.138290,"msg/sec",89.780400,"bytes/sec",11491.890000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.028366
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.041477
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.007622
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.023136
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.024765
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.006828
+
+Gm,1,time,"Backhill",2020-12-26T20:00:01.254052Z,1609012801
+Gm,1,info,Backhill,region,Backhill,"<1030,963,0>",simhost-02677cf46c61b6bd7.agni.secondlife.io,4.50022964e1,1.0,5242944,0,"<4.403531,-1.56703472,0.0>"
+Gm,1,info,Backhill,regenv,59,enabled,51561,"Linden Homes 2",57880065,1,0,"Linden Homes / Full Region",131,1607725350,1287451,"Second Life Server",2020-12-09.553685,simhost-02677cf46c61b6bd7.agni.secondlife.io,22500,1,10,20,100
+Gm,1,info,Backhill,regrate,MATURE
+Gm,1,info,Backhill,parcel,Fourmilab,"Linden Homes are provided to Premium Members. Upgrade today by clicking on the change membership link on secondlife.com.",afb35dd4-5669-4ff5-a55d-7e93f7f14ca2,A,"Fourmilab Resident",1024,333,351,916456523
+Gm,1,compute,"Backhill",task,float,ips,111407,iter,1180000,time,10.591770
+Gm,1,compute,"Backhill",task,list,ips,4194,iter,42230,time,10.069090
+Gm,1,compute,"Backhill",task,prim,ips,632,iter,3600,time,5.699604
+Gm,1,compute,"Backhill",task,string,ips,6560,iter,82000,time,12.500710
+Gm,1,compute,"Backhill",task,texture,ips,314,iter,3150,time,10.021940
+Gm,1,message,"Backhill",type,link,messages,1000,length,128,bytes,128000,time,11.111820,"msg/sec",89.994280,"bytes/sec",11519.270000
+Gm,1,message,"Backhill",type,region,messages,1000,length,128,bytes,128000,time,11.111880,"msg/sec",89.993770,"bytes/sec",11519.200000
+Gm,1,message,"Backhill",type,regionto,messages,1000,length,128,bytes,128000,time,11.133130,"msg/sec",89.822000,"bytes/sec",11497.220000
+Gm,1,rezscript,"Backhill",test,1,ntests,6,delay,2.024563
+Gm,1,rezscript,"Backhill",test,2,ntests,6,delay,2.034962
+Gm,1,rezscript,"Backhill",test,3,ntests,6,delay,2.018593
+Gm,1,rezscript,"Backhill",test,4,ntests,6,delay,2.013065
+Gm,1,rezscript,"Backhill",test,5,ntests,6,delay,2.039387
+Gm,1,rezscript,"Backhill",test,6,ntests,6,delay,2.017799
+
