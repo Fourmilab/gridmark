@@ -248,7 +248,7 @@ and Beam destinations may not be abbreviated.
                 command.  Otherwise, repeats, starting at the top of
                 the loop.
 
-            Script pause [ n/touch ]
+            Script pause [ n/touch/region ]
                 Pauses execution of the script for n seconds.  If the
                 argument is omitted, the script is paused for one
                 second.  If “touch” is specified, the script will be
@@ -257,7 +257,18 @@ and Beam destinations may not be abbreviated.
                 touched is handy in cases where, for example, a script
                 teleports to a parcel with a “landing zone” and
                 requests the user to walk to a sandbox or rez zone
-                before running a test.
+                before running a test.  If “region” is specified, the
+                script will be paused until the Gridmark object enters
+                a new region.  If a region change has occurred while
+                the script is running and a “Script pause region” is
+                subsequently executed, it will not pause the script.
+                You can use this to automatically run a series of tests
+                whenever you enter a new region, for example while
+                travelling in a vehicle:
+                    Script loop
+                        Script pause region
+                        Test info region
+                    Script end
 
             Script resume
                 Resumes a paused script, whether due to an unexpired
@@ -715,18 +726,18 @@ test” script supplied with Gridmark.
     Region                   Agents  FPS  Dila CPU Prims Parcel Region DaysUp
   Backhill                    0/59    45  1.00  1     333/351    22500  14.6  Linden Homes / Full Region
 
-A fourth program, “airborne_surveillance.pl”, processes data collected 
-periodically in multiple regions by a script and compares performance 
-over time for tests run in the regions.  Output can be either a table 
-or chart created by the Gnuplot program.  The “Airborne Reconnaissance” 
-script, included with Gridmark, demonstrates collection of data for 
-analysis by this program.  Here is an extract from a run sampling 
-performance at the busy London City region at half hour intervals 
-between 16:00 and 22:00 Universal Time, showing performance on the 
-compute:float and message:region tests, the number of agents (avatars) 
-present, and the time of the test.  You can see how at the peak of 
-avatars in the region between 19:00 and 20:30 the performance on both 
-tests fell dramatically compared to when the simulation was more 
+A fourth program, “airborne_surveillance.pl”, processes data collected
+periodically in multiple regions by a script and compares performance
+over time for tests run in the regions.  Output can be either a table
+or chart created by the Gnuplot program.  The “Airborne Reconnaissance”
+script, included with Gridmark, demonstrates collection of data for
+analysis by this program.  Here is an extract from a run sampling
+performance at the busy London City region at half hour intervals
+between 16:00 and 22:00 Universal Time, showing performance on the
+compute:float and message:region tests, the number of agents (avatars)
+present, and the time of the test.  You can see how at the peak of
+avatars in the region between 19:00 and 20:30 the performance on both
+tests fell dramatically compared to when the simulation was more
 lightly loaded.
                   London City
 

@@ -23,6 +23,8 @@
     integer ncBusy = FALSE;         // Are we reading a notecard ?
     float pauseExpiry = -1;         // Time [llGetTime()] when current pause expires
     integer pauseManual = FALSE;    // In manual pause ?
+    integer pauseRegion = FALSE;    // Pause until region change
+    integer regionChanged = 0;      // Count region changes
     list ncQueue = [ ];             // Stack of pending notecards to read
     list ncQline = [ ];             // Stack of pending notecard positions
     list ncLoops = [ ];             // Loop stack
@@ -156,7 +158,7 @@
                     ncLoops = llDeleteSubList(ncLoops, 0, 1);
                 }
 
-            //  Script pause [ n/touch ]    -- Wait n seconds, default 1, or for touch
+            //  Script pause [ n/touch/region ] -- Wait n seconds, default 1, or for touch or region change
 
             } else if (abbrP(command, "pa")) {
                 float howlong = 1;
@@ -166,12 +168,18 @@
 
                     if (abbrP(parg, "to")) {
                         pauseManual = TRUE;
+                    } else if (abbrP(parg, "re")) {
+                        if (regionChanged == 0) {
+                            pauseRegion = TRUE;
+                        } else {
+                            regionChanged = 0;
+                        }
                     } else {
                         howlong = (float) parg;
                     }
                 }
 
-                if (!pauseManual) {
+                if ((!pauseManual) && (!pauseRegion)) {
                     /*  Naively, you might ask why we don't just use llSleep()
                         here rather than going to all this trouble.  Well,
                         you see, even though each script is logically its own
@@ -263,6 +271,7 @@
             ncSource = ncname;
             ncLine = 0;
             ncBusy = TRUE;                  // Mark busy reading notecard
+            regionChanged = 0;
             llMessageLinked(LINK_THIS, LM_SP_READY, ncSource, id);
             ttawk("Begin script: " + ncSource);
         }
@@ -322,9 +331,10 @@
             //  Script resume               -- Resume after pause
 
             } else if (abbrP(sparam, "re")) {
-                if (ncBusy && ((pauseExpiry > 0) || pauseManual)) {
+                if (ncBusy && ((pauseExpiry > 0) || pauseManual || pauseRegion)) {
                     pauseExpiry = -1;
-                    pauseManual = FALSE;
+                    pauseManual = pauseRegion = FALSE;
+                    regionChanged = 0;
                     ncQuery = llGetNotecardLine(ncSource, ncLine);
                     ncLine++;
                 }
@@ -383,6 +393,8 @@
                 ncBusy = FALSE;                 // Mark no notecard being read
                 pauseExpiry = -1;               // Mark not paused
                 pauseManual = FALSE;            // Not in manual pause
+                pauseRegion = FALSE;            // Not in region pause
+                regionChanged = 0;              // No region change yet
                 llSetTimerEvent(0);             // Cancel pause timer, if running
                 ncQueue = [ ];                  // Queue of pending notecards
                 ncQline = [ ];                  // Clear queue of return line numbers
@@ -467,7 +479,7 @@
                                     event to fetch the next line from the script
                                     when the pause is complete.  */
                                 llSetTimerEvent(pauseExpiry - llGetTime());
-                            } else if (!pauseManual) {
+                            } else if ((!pauseManual) && (!pauseRegion)) {
                                 //  Fetch next line from script
                                 ncQuery = llGetNotecardLine(ncSource, ncLine);
                                 ncLine++;
@@ -515,6 +527,26 @@
                 pauseManual = FALSE;
                 ncQuery = llGetNotecardLine(ncSource, ncLine);
                 ncLine++;
+            }
+        }
+
+        //  If we're in a region pause, resume when region changes
+
+        changed(integer what) {
+            if (what & CHANGED_REGION) {
+                if (pauseRegion) {
+                    pauseRegion = FALSE;
+                    ncQuery = llGetNotecardLine(ncSource, ncLine);
+                    ncLine++;
+                    regionChanged = 0;
+                } else {
+                    /*  If we change regions while a script is running,
+                        set regionChanged so the next Pause region does
+                        not wait.  */
+                    if (ncBusy) {
+                        regionChanged++;
+                    }
+                }
             }
         }
     }
