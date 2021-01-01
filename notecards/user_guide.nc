@@ -715,6 +715,13 @@ test” script supplied with Gridmark.
     Region                   Agents  FPS  Dila CPU Prims Parcel Region DaysUp
   Backhill                    0/59    45  1.00  1     333/351    22500  14.6  Linden Homes / Full Region
 
+A fourth program, “airborne_surveillance.pl”, processes data collected
+periodically in multiple regions by a script and compares performance
+over time for the test run in the regions.  Output can be either a
+table or chart created by the Gnuplot utility program.  The “Airborne
+Reconnaissance” script, included with Gridmark, demonstrates collection
+of data for analysis by this program.
+
 Adding Your Own Tests
 
 If you're experienced in writing Linden Scripting Language programs,
