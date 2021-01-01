@@ -715,12 +715,36 @@ test” script supplied with Gridmark.
     Region                   Agents  FPS  Dila CPU Prims Parcel Region DaysUp
   Backhill                    0/59    45  1.00  1     333/351    22500  14.6  Linden Homes / Full Region
 
-A fourth program, “airborne_surveillance.pl”, processes data collected
-periodically in multiple regions by a script and compares performance
-over time for the test run in the regions.  Output can be either a
-table or chart created by the Gnuplot utility program.  The “Airborne
-Reconnaissance” script, included with Gridmark, demonstrates collection
-of data for analysis by this program.
+A fourth program, “airborne_surveillance.pl”, processes data collected 
+periodically in multiple regions by a script and compares performance 
+over time for tests run in the regions.  Output can be either a table 
+or chart created by the Gnuplot program.  The “Airborne Reconnaissance” 
+script, included with Gridmark, demonstrates collection of data for 
+analysis by this program.  Here is an extract from a run sampling 
+performance at the busy London City region at half hour intervals 
+between 16:00 and 22:00 Universal Time, showing performance on the 
+compute:float and message:region tests, the number of agents (avatars) 
+present, and the time of the test.  You can see how at the peak of 
+avatars in the region between 19:00 and 20:30 the performance on both 
+tests fell dramatically compared to when the simulation was more 
+lightly loaded.
+                  London City
+
+    compute: message:
+    float     region Agents     Time
+     77         69     48  2020-12-27 16:00
+     63         69     42  2020-12-27 16:30
+     79         62     44  2020-12-27 17:00
+     62         57     41  2020-12-27 17:30
+     36         43     53  2020-12-27 18:00
+     38         42     55  2020-12-27 18:30
+     27         15     63  2020-12-27 19:00
+     25         29     74  2020-12-27 19:30
+     31         31     71  2020-12-27 20:00
+     30         25     68  2020-12-27 20:30
+     69         50     46  2020-12-27 21:00
+     41         44     55  2020-12-27 21:30
+     46         56     51  2020-12-27 22:00
 
 Adding Your Own Tests
 
