@@ -1,0 +1,424 @@
+
+                            Fourmilab Gridmark
+
+                             Development Log
+
+2020 December 12
+
+Added a changed() event handler to detect completion of teleports.
+This resumes a script suspended when the teleport was begun and
+notified all tests of the teleport, including source and destination
+co-ordinates with a LM_TE_BEAM link message.
+
+Added a cache of region names and grid co-ordinates.  If a teleport
+region is in the cache, the llRequestSimulatorData() call is skipped
+when beaming.  The cache is automatically seeded with the region the
+avatar is in when the script is initialised.
+
+2020 December 13
+
+Integrated the Set mark command from the Rocket.  You can:
+    Set mark at Markname Destination
+    Set mark clear [ Markname ]
+    Set mark list
+You can then use a mark as a destination with:
+    mark://Markname
+Note that it is particularly handy to set:
+    Set mark at Here here://
+to remember the start of a teleport tour.
+
+Added a "compute" test with tasks of "float", "string", and
+"list", with iterations timed to run around one second.
+
+Added a log message to record teleports.  The message has a status
+of 1, test name of "teleport", and reports the new region and
+location and old region and location.
+
+Added logging of teleports performed manually by the user, as opposed
+to commanded via Beam.  Such teleports are identified by the source
+region being blank and the grid and region co-ordinates both zero.
+
+Added a "compute prim" test which rotates the attachment
+around its local Z axis, leaving it at the original orientation.
+
+2020 December 14
+
+Implemented the "messsage" test to measure packets per second and
+bandwidth of llMessageLinked(), llRegionSay(), and llRegionSayTo(). In
+the process, I learned about a curiosity of llRegionSayTo(): for a
+free-standing object, you can use it to send a message from one link in
+a link set to another in the same link set, specifying the UUID (key)
+of the destination object.  But if the link set is attached to an
+avatar, this doesn't work.  Instead, you must direct the
+llRegionSayTo() to the UUID of the avatar, not the object, and count on
+all attachments receiving it.  This leads to a bit of complexity in
+test_message.lsl and message_transponder.lsl, which need to figure out
+whether they are attached and direct messages accordingly.
+
+2020 December 15
+
+Added a LM_TE_STAT message to request tests report their status and
+support in all test scripts.  All we presently report is script memory
+usage.
+
+2020 December 16
+
+Integrated the following standard commands:
+    Set channel n
+    Set echo on/off
+    Set trace on/off
+
+Added a "texture" benchmark to the Compute test.  It repeatedly swaps
+textures on the main object.
+
+Completed the first draft of a User Guide and added a Help command to
+give it to the requester.
+
+Integrated the echo command, to allow scripts to send messages to those
+running them, and fixed a bug in inventoryName() where a blank argument
+would return the name of the command instead of a null string.
+
+2020 December 17
+
+Created local development Git repository in:
+    ~/w/SecondLife/Gridmark/git
+with:
+    git init
+
+Logged on to github.com.
+
+Created a new repository:
+    gridmark
+with access URLs:
+    HTTPS: https://github.com/Fourmilab/gridmark.git
+    SSH:   git@github.com:Fourmilab/gridmark.git
+
+Linked the local repository to the GitHub archive:
+    git remote add origin git@github.com:Fourmilab/gridmark.git
+
+Committed the *.md files in the repository root and the
+marketplace/images files to which they link.
+
+Confirmed that my local "git sync" command works with the remote
+repository.
+
+Commmitted a preliminary version of the User Guide notecard to test
+linking to it from the repository README.md file.
+
+The documents in the repository root now work properly.
+
+2020 December 18
+
+Performed an audit of all of the LSL scripts and made an initial commit
+to the Git repository.
+
+Committed the files for the Marketplace listing to the Git repository.
+
+Changed the object properties of the rezscript Bullet which is created
+by the rezscript test to Temporary and Phantom.  Temporary allows the
+object to evade Land Impact limits on the parcel at the cost of being
+automatically deleted on the next garbage collection.  This doesn't
+matter to us, since these objects llDie() right away before the garbage
+collector gets to them.  Phantom means we don't have to worry about
+them colliding with things when created or other objects colliding with
+them.
+
+Added a rezPermitted() function to the rezscript test which checks
+whether the user is permitted to rez objects on the current parcel (in
+any of the myriad ways that may be permitted).  If so, the test
+proceeds normally.  If the user is not permitted to rez objects, the
+test immediately fails with a log entry with a status of 0 and a
+message:
+    You are not permitted to create objects on this parcel
+avoiding an error message and timeout as before.  This allows the
+rezscript test to be included in standard test suites which can be run
+on parcels which may not permit object rez operations, with analysis
+programs able to determine this from the log and act accordingly.
+
+Oops!  The LM_TE_STAT test status request in the main script Status
+command got lost in shuffling versions of source code.  I restored it.
+
+Integrated RPOD mark-ups into the User Guide.
+
+2020 December 19
+
+Added the ability to pause a script until a manual resume signal with:
+    Script pause touch
+This pauses the active script until the object is touched, or the:
+    Script resume
+command is entered from chat.  You can also use Script resume to
+terminate a timed pause before the time expires.  This allows test
+scripts to, for example, after doing a Beam to a region which has a
+landing zone, ask the user to walk to a sandbox where tests can be run,
+touching the object to resume upon arrival.
+
+2020 December 20
+
+Added a "Time" command, which generates a log entry of the form:
+    1,"time","Fourmilab","2020-12-20T11:51:10.919598Z,1608465070"
+where the results field consists of CSV format date and time in both
+Second Life timestamp and llGetUnixTime() formats.  Note that it is
+possible the second may have changed between the two.
+
+The LM_TE_STAT handler was accidentally omitted from the “example”
+test.  I added it.
+
+2020 December 21
+
+Completely overhauled the way in which all tests report their status.
+All status reports now strictly conform to the standards for CSV
+files, and have the general form:
+    GM,stat,testname,"Region Name",results,...
+where stat is 1 for pass, 0 for fail, testname is the name of the test
+as specified by the name of the script that implements, "Region Name"
+is where the test was run, and the balance of the record is the results
+of the test in CSV format, defined according to the individual test.
+In the case of a test failure, the results will usually be a single
+string field giving the reason for the failure, but this is up to the
+individual test.
+
+The CSV is completely compliant with the standard, with all fields
+containing metacharacters quotes and embedded quotes escaped by
+doubling them.  Fields with leading and trailing spaces are quoted
+to avoid ambiguity in parser implementations.  The CSV is extended
+by escaping line feed and carriage return characters within fields
+as \r and \r, with \\ used to escape a backslash within a field.  This
+avoids the problems in parsing input which contains quoted fields
+with embedded end of line sequences, which requiring no extra
+processing for programs which do not need to examine these characters
+within fields.
+
+Most tests which generate results consisting of simple words and
+numbers generate their CSV results with simple string casting and
+concatenation code.  The "info" test, which outputs fields that may
+contain arbitrary Unicode strings, contains a fully-general CSV encoder
+which may be used in other tests with similar requirements.
+
+Added a "Set logchannel n" command which sets the channel to which
+log messages from tests are sent.  It set to the default (0 =
+PUBLIC_CHANNEL), then tawk() is used as before.  Otherwise, the
+log message is sent to the specified channel with llRegionSay().  A
+channel number of -1 suppresses local log output.
+
+Added a “Set IM on/off” command to control whether log messages from
+test (but not interactive output) are sent to the submitter via instant
+message.  This allows running periodic timed tests in remote locations
+from a script, the results of which are reported back to the owner
+wherever they may be, or queued if they are offline.
+
+Implemented a:
+    Script wait n [ unit ]
+script command (usable only within scripts), which waits until the
+start of the next interval of n units, where unit may be "second" (default),
+"minute", "hour", or "day", and n is a floating point value.  The
+following loop will show the time every half hour on the dot
+    Script loop
+        Script wait 0.5 hour
+        Time
+    Script end
+
+2020 December 22
+
+Made all of the modifications to tour_summary.pl to handle the new
+pure CSV format of log items.  This substanially cleaned up the
+code, ad we were able to eliminate special case parsers depending
+upon the test that generated the record.
+
+Added parsers for the "Test info", "time", and "teleport"
+records.  We now use the first time record seen to set the date
+and time for the test report header.
+
+Added a table with a summary of region and parcel information
+from the test info records.  The contents of this record will
+be adjusted based upon experiments to see what correlates with
+performance.  I've already been surprised to see a Homestead
+with lots of prims running some of the compute tests faster
+than a full region that's essentially empty.
+
+Fixed computation of figure merit for the rezscript test.
+Since this measures a delay, and delays are bad, umm..hum,
+we calculate the mean delay for each region as we're
+scanning the log records.  When done, we then compute
+the figure of merit as the inverse of the ratio of the
+region's delay to that of the reference region and display
+this as a percentage.  This fixes the wonky results we got
+from computing the inverse too early in the cycle.
+
+2020 December 23
+
+Consolidated all log-related settings under a "Set log"
+command family.  These now include "Set log channel n" to
+set the channel to which log messages within the region are
+sent (0 for public chat, -1 to suppress logging), "Set log
+IM on/off" to enable or disable logging via instant messages
+to the owner, and "Set log http UTL API_key" to enable logging
+to an external HTTP server with an optional API_key to
+grant access.
+
+Tested using the "Script pause touch" to perform a rezscript
+test in Mauve where it's necessary to walk from the teleport
+landing zone to the sandbox before running the test.  It worked
+fine.
+
+Implemented the first cut of a Gridmark HTTP server as a Perl
+CGI program.  It accepts log items in the form sent by the
+Gridmark script with "Set HTTP", including validation of API
+keys from a directory on the server in the same way HotBits
+does it.  In addition, it supports the following commands
+which may be entered as a URL (with the API key, if configured
+to require one).
+    status          Show size of log in lines and bytes
+    dump            Dump entire log file
+    extract         Selective extract from log file with the
+                    following filters:
+                        user=Second Life username
+                        start=YYYY-MM-DDThh:mm:ss Date and time started
+                        end=YYYY-MM-DDThh:mm:ss Date and time ended
+                        stat=n Test status (0 fail, 1 succeed)
+                        test=Test name
+                        region=Region in which test run
+                    Multiple filters are ANDed together.
+We still need a way to purge the log by date or, even better, via the
+same filters used by extract.
+
+2020 December 24
+
+After figuring out why Firestorm wasn't rendering glow mode, I added
+a "Set glow n" command which sets the intensity with which the anvil
+will glow while running a test.  The default is 0.25.  Setting the
+intensity to 0 disables the glow mechanism.
+
+Updated the Grand Tour Auto script to include the current list of sites
+to vist and modified it to run the standard test suite at each site.
+Ran the entire test, logging to the external HTTP server, and used it
+to revise and debug the rez_script_time.pl and tour_summary.pl analysis
+programs, which now handle logs copied from chat or exported by the
+HTTP server automatically.
+
+Implemented transmission of logs to the owner via E-mail.  The command
+“Set log Email collect on” causes all subsequent log items to be
+stored in a queue in the new Email script's local memory.  When the
+“Set log Email send” command is issued, log items in the queue will be
+sent via E-mail to the device's owner with llTargetedEmail().  Since
+the E-mail body sent by this function is limited to around 3600 bytes,
+we automatically break up the log items into multiple messages if
+required to stay under this limit (with a safety margin of 100 bytes).
+
+There are severe limits on llTargetedEmail().  Not only is the message
+length limited, every call puts the sending script to sleep for *twenty
+seconds*, causing it to cease to respond to its incoming message queue
+and thus risk it overflowing.  On top of this, there is a limit of 500
+messages per hour.  Consequently, sending log items via E-mail should
+be used only for applications such as a monitor device which reports
+infrequently to its owner from a script using “Script wait” or a
+similar facility, taking advantage of the ability of E-mail to report
+when the user is not in-world.If you attempt to use it to send bulk log
+reports from large tests, you'll almost certainly be disappointed: use
+Instant Messages or an external HTTP server for such applications.
+
+2020 December 25
+
+Wrote periodic_monitor.pl, a program to process logs produced by a
+Gridmark device running periodic tests in a fixed location.  These
+can be reported either by HTTP or E-mail, and are processed much like
+tour_summary.pl, but with time intervals replacing regions as the
+items reported.  At the moment, the figure of merit calculation is
+a hack, and will probably be replaced with the mean value of all
+the measurements rather than the first one collected.
+
+Ran the new periodic_test.nc on a static Gridmark in the houseboat
+with E-mail reporting.  It ran for 15 30 minute intervals and then
+got stuck with no indication of anything wrong.  I restarted it to
+see what would happen.  This may require more diagnosis to figure
+out.  In any case, it is verifying E-mail delivery of log items
+and providing a data set to test periodic_monitor.pl.
+
+After the restart, it resumed sending reports.  We'll see how it
+goes.
+
+2020 December 26
+
+The Gridmark monitor at the houseboat continued to run overnight
+without interruption.  I don't know what happened to interrupt
+it last time.
+
+Added the "purge" and "status" command-line operations to Gridmark.
+These can only be accessed from the command line, and require
+the user, running on the server, to have the appropriate
+permissions on the log file.
+
+2020 December 27
+
+Added the ability to specify an offset to the time a “Script wait”
+command runs:
+    Script wait [ n[unit] ] [ offset[unit] ]
+The unit ("s", "m", "h", or "d") is now a letter appended to the the
+interval, and you can specify an offset with its own unit.  For example,
+to run at 15 minutes after each hour, use:
+    Script wait 1h 15m
+
+Began development of the "Airborne surveillance" test suite, to run
+a series of tests periodically in a number of regions and analyse the
+performance over a period of time.
+
+2020 December 28
+
+Committed the current production of the Gridmark CGI Web server.
+
+2020 December 30
+
+Added a Moveto command, which uses llMoveToTarget() to move to the
+specified location:
+    Moveto [+]<x,y,z> speed
+If the vector is preceded by a plus sign, it is relative to the
+avatar's current position, otherwise it is an absolute position in the
+region.  The speed is the damping time in seconds for the move.  A
+timer monitors the move and stops it upon arrival at the destination
+or when the avatar is deemed to be stuck.  A script will be suspended
+while a move is in progress.  Moving too fast (small speed values)
+may make the avatar die--no idea why this happens.  The Moveto command
+is handy in scripts where you want to test in a parcel which has a
+"Landing zone", and you want to move to somewhere else (for example,
+a designated rez zone) to run your tests.
+
+2020 December 31
+
+Added a llLookAt() to the Moveto command to make the avatar point
+(more or less) at the destination point.
+
+Audited all of the sample scripts against their copies in the Git
+repository, fixed discrepancies, and committed to Git.
+
+The rez_script_time.pl analysis program didn't completely handle our
+general CSV, failing to recognise a test record ending a rezscript
+sequence if it didn't contain quotes around the fourth argument--fixed.
+This program would also divide by zero when trying to compute the mean
+uptime of fast and slow regions is none of a category were found; also
+fixed.  It also didn't know about the region type "Linden Homes / Full
+Region", which I added and coded as "LHR" for the table.  Since I
+haven't been able to find a definitive list of these region types, I
+added code to express any unknown type as "??" to avoid a reference to
+an uninitialised variable.
+
+Reorganised the tools/analysis directory, creating separate
+subdirectories for each program, including both the program and sample
+data to demonstrate it.  The airborne_surveillance directory contains a
+Makefile which runs the program, allows viewing the Gnuplot charts it
+generates, and cleaning up after itself.
+
+Committed the analysis programs and their test data to the Git
+repository.
+
+2021 January 1
+
+Added a "Script pause region" command which pauses the running script
+until a region changed event is received.  This allows, for example,
+running a series of tests whenever arriving in a new region while
+travelling on a vehicle or teleporting to a series of destinations.
+
+2021 January 2
+
+Latest updates to the User Guide integrated into the Gridmark model and
+Marketplace listing.
+
+Version 1.0 released to the Marketplace.
