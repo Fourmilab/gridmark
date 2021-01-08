@@ -12,11 +12,11 @@ Benchmark tests provided with Fourmilab Gridmark include:
     •  Delay between rezzing new object and script running in it
     •  A template for adding your own tests
 
-The results of tests are written to local chat in a simple comma-separated form which can be cut and pasted for analysis by other program.  Sample analysis programs written in Perl are included.
+The results of tests are written in a simple comma-separated form which can be cut and pasted from local chat, delivered by E-mail or instant message, or logged to an external HTTP server, for analysis by other programs.  Sample analysis programs written in Perl are included.
 
 Land Impact and Permissions
 
-Fourmilab Gridmark is an attachment you add to your avatar.  Avatar attachments do not count against land impact, nor do you need land in order to attach them from your inventory.  Hence, there are no land impact or permission issues in using this product.  You can also rez the object on land where you are permitted to do so (land you own or a public sandbox, for example): if you do so, it has a land impact of 2.  The benchmark for object rez to script start does require land on which you can create objects and has an additional land impact of 1 while the test is running.
+Fourmilab Gridmark is an attachment you add to your avatar.  Avatar attachments do not count against land impact, nor do you need land in order to attach them from your inventory.  Hence, there are no land impact or permission issues in using this product.  You can also rez the object on land where you are permitted to do so (land you own or a public sandbox, for example): if you do so, it has a land impact of 2.  The benchmark for object rez to script start does require land on which you can create objects and has an additional land impact of 2 while the test is running.
 
 Development Kit
 
